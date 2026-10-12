@@ -1,0 +1,2685 @@
+{
+ "version": "1.1",
+ "build": 1,
+ "launcher_min": 1,
+ "published": "2026-10-12 18:47",
+ "notes": "first release",
+ "files": {
+  "d2_auras.py": {
+   "sha256": "921648dc0f8b8d5d1bfa1293f5b6632b03c3f8f7d565bab9a286e7ffdd63df18",
+   "size": 124992
+  },
+  "d2_mem.py": {
+   "sha256": "b9ac558f9691800dd798f9e3b9cdd26db10764c91671ec2759c06ec65dca8f06",
+   "size": 18408
+  },
+  "digits.npy": {
+   "sha256": "596415d22de6925bf0956509b1178f3068910746529bcf223576e26a39ff3228",
+   "size": 15488
+  },
+  "icons/artifacts/Battle_Banner.png": {
+   "sha256": "a676f1b6d363207dfc55afe3b022e4a81af3525bbe4f7f8436af3404adc8d524",
+   "size": 14774
+  },
+  "icons/artifacts/Blaze_Bangle.png": {
+   "sha256": "91708b0a6bce47044ac13af78068c170cd6093d7fbcfdfaf72b237dc1fcc5f13",
+   "size": 26619
+  },
+  "icons/artifacts/Blight_Bangle.png": {
+   "sha256": "cb50ecb3cbd546b7b0fe7879e4d1b8b7c6462fb3d355cd971260f39aff423944",
+   "size": 25779
+  },
+  "icons/artifacts/Blizzard_Bangle.png": {
+   "sha256": "55a7ed54247bf586d50194b0d248c05f9d54030690264eee3a24740b718cc11d",
+   "size": 27169
+  },
+  "icons/artifacts/Cinder_Scepter.png": {
+   "sha256": "6ef179692bf75b2b4dd051eeb44bf5a85feb795338f6d6683a06e30134ecee5e",
+   "size": 18561
+  },
+  "icons/artifacts/Conductive_Quiver.png": {
+   "sha256": "b7417dcee3ae6d637e10e206423542d8b155b653327a29d0284a94cba6e6bf8e",
+   "size": 21626
+  },
+  "icons/artifacts/Corrupted_Beacon.png": {
+   "sha256": "a4b2b22a6f2b8990362dfe2c80cb401bc7e994e7e4ed2163d6b02c2803a32814",
+   "size": 29351
+  },
+  "icons/artifacts/Corrupted_Seeds.png": {
+   "sha256": "d3ced9c857752fb7e9c2b3112a476f09c78b75afcf0557dd913daa269a3db27c",
+   "size": 24982
+  },
+  "icons/artifacts/Creeper_Candle.png": {
+   "sha256": "e0451e7beaacb253bc1a51a169cfed23994e93d0fce4e31729cd9e164e868f74",
+   "size": 24038
+  },
+  "icons/artifacts/Death_Cap_Mushroom.png": {
+   "sha256": "161524403773e84f8f8fd77ebbf18571f55ee02a0ee8748d9e29b9a36f725292",
+   "size": 27794
+  },
+  "icons/artifacts/Echo_Ocarina.png": {
+   "sha256": "c728badaaa13a8677df1f033dd0857d846bd9547218b7092d55f23d67179509d",
+   "size": 28099
+  },
+  "icons/artifacts/Electric_Bangle.png": {
+   "sha256": "fa9b066b6104a5f44a6bfc7273d2668c13b43c07c640ff21015b16976d4b32e7",
+   "size": 27567
+  },
+  "icons/artifacts/Ender_Fog.png": {
+   "sha256": "c2eda023630291118713c3186e1b777f84b00d9ad983a4ae3875343a7a196d52",
+   "size": 17612
+  },
+  "icons/artifacts/Fighters_Flute.png": {
+   "sha256": "7123c48c88d79df5d35a6113e55d704bc069713ecb8ffdd6f8dfc9db5012b6f2",
+   "size": 22339
+  },
+  "icons/artifacts/Fighting_Fungus.png": {
+   "sha256": "fa829fe2e9966cf8fd4e543a094c8b12954959c4ac489265061a93da4b11ef64",
+   "size": 28750
+  },
+  "icons/artifacts/Firework_Arrow.png": {
+   "sha256": "32ac93c7d1f350a777ad790925b2087e1548f78ff3549cfc27682e025559f19d",
+   "size": 13705
+  },
+  "icons/artifacts/Flaming_Quiver.png": {
+   "sha256": "e0cc7fa7f07bf3a986247f712c6dec37b8196636f1b54a32aaebfe88621231b5",
+   "size": 19597
+  },
+  "icons/artifacts/Freezing_Quiver.png": {
+   "sha256": "352496bfce5ea509813b6218d200ca068a6f02de0ba8a171b5fe655f7aadd406",
+   "size": 21499
+  },
+  "icons/artifacts/Grindstone.png": {
+   "sha256": "1d3edd6e8fdbf696d10ee6a5c40d4e45245ed2c8ddbf084e5b011aa018d4fffb",
+   "size": 17740
+  },
+  "icons/artifacts/Honey_Dipper.png": {
+   "sha256": "ee3bd0f0b3bcedddd3f2f8801f873d42e562998c2c942ecf982a428bf84c3b4b",
+   "size": 24678
+  },
+  "icons/artifacts/Humbling_Horn.png": {
+   "sha256": "ebd4c8b703ee6ceb0985127bca25e8330d084ed3b028d56e04a074cc5c9a412c",
+   "size": 30052
+  },
+  "icons/artifacts/Lightning_Rod.png": {
+   "sha256": "82ae9fc093170721e1014f94e988165d3f9f2b4ff93712ae891be929cca57d2a",
+   "size": 20889
+  },
+  "icons/artifacts/Picnic_Basket.png": {
+   "sha256": "b0cacb99c2e70736547b8a65a2a92daf92eec9f231bf54edfeb4b95c0d0f01ae",
+   "size": 33246
+  },
+  "icons/artifacts/Pouch_of_Ember.png": {
+   "sha256": "fcb24238cbb8d5eab5a7cc3ab0cc27df36fa76bf8c73d4d69000ad547fee076b",
+   "size": 27122
+  },
+  "icons/artifacts/Pouch_of_Frost.png": {
+   "sha256": "644255526efd8b23f7212752b1f3d985acd8b56f4f0df4806033db323112aea9",
+   "size": 29261
+  },
+  "icons/artifacts/Pouch_of_Poison.png": {
+   "sha256": "43cf8150ada1b7e9b3ca0d79fc8679131a0f03ef6e73c505703d1c838449465b",
+   "size": 27375
+  },
+  "icons/artifacts/Pouch_of_Thunder.png": {
+   "sha256": "80b8d49f2c148f895d4fa4af1d90337514576fe5a9720454c64deb6511bff4ee",
+   "size": 27681
+  },
+  "icons/artifacts/Powershaker.png": {
+   "sha256": "dad4b0e2d94c9a67277833b394b47753f9c3eead433f3d0e723a667e5c7abd1c",
+   "size": 30265
+  },
+  "icons/artifacts/Redstone_Mine_Launcher.png": {
+   "sha256": "1df8623ea7aacc6e165c38018a5a20693c9fcaec64c2b7122e5537b5ab01b288",
+   "size": 25565
+  },
+  "icons/artifacts/Soul_Harvester.png": {
+   "sha256": "e8ac6e75f4799cf86e944cc734cebc4335b255c1efe575f40281f26248768e9a",
+   "size": 22500
+  },
+  "icons/artifacts/Tempo_Truffle.png": {
+   "sha256": "e208116b3d051748c036c34ef754e7e9df493d7d7a93708fc64ac3d9d89a91ef",
+   "size": 25548
+  },
+  "icons/artifacts/Totem_of_Casting.png": {
+   "sha256": "e41aef1067f6521b839753cd25ac9f91670f4b43ba495a28a5eb86f4958a1e9f",
+   "size": 21944
+  },
+  "icons/artifacts/Totem_of_Regeneration.png": {
+   "sha256": "743c99bf9f1e57d240cef08649ae469cad5cb6ab83f2e9892c47785efea2e117",
+   "size": 17010
+  },
+  "icons/artifacts/Totem_of_Shielding.png": {
+   "sha256": "2121723042877e6654e40813052444ef9ce8d98c97fd480565fd0ae03652d15b",
+   "size": 18633
+  },
+  "icons/artifacts/Turtle_Masters_Mandolin.png": {
+   "sha256": "f08c636dd0590c8ba71bf81d307a23af19f812a255b662e4e93d9f405251a60e",
+   "size": 21760
+  },
+  "icons/artifacts/Venomous_Quiver.png": {
+   "sha256": "1a9584dac6bdb607dc33299e4ff14172c7f924ed19cf7ac2c0896efd3f9db0a5",
+   "size": 20488
+  },
+  "icons/artifacts/Warding_Chimes.png": {
+   "sha256": "46e910631ef1493cfe0ec6c4ab17bd8217decf4f3cde81827aaff1366c7be4e0",
+   "size": 22420
+  },
+  "icons/artifacts/Warrior_Drums.png": {
+   "sha256": "b67397ff2fae49d50d4f4146b22d5d7c4a600bfe254d7c7c8160e9f5f762a60d",
+   "size": 29579
+  },
+  "icons/artifacts/Winter_Staff.png": {
+   "sha256": "e59fb0c830ed4351d9e863caa3a5441c618764a14769277a15771e312c1560a1",
+   "size": 21475
+  },
+  "icons/artifacts/Witch_Brew.png": {
+   "sha256": "40588d1f15692b1a6a751909c9e8e934e57fca164c45757ee06970746489fb4b",
+   "size": 28328
+  },
+  "icons/game/armor/Alchemist_Loafers.png": {
+   "sha256": "e13d463afc7277b542bc4f68dc8ca8c734f7f0492223ddba4a512f35ead7c962",
+   "size": 6436
+  },
+  "icons/game/armor/Alchemist_Overcoat.png": {
+   "sha256": "9c14ce22905bb36726607edbeb521ed922dc661c76ed09a5495eff611f424b6c",
+   "size": 6416
+  },
+  "icons/game/armor/Alchemist_Top_Hat.png": {
+   "sha256": "954bec23508433c4951a8dff399b0db052399ef817238efd3fc7991086cad8fd",
+   "size": 4407
+  },
+  "icons/game/armor/Alchemist_Trousers.png": {
+   "sha256": "48cafec07113ee7f348d6f51f970a117c5733d9a344f4e22632bb151e9cf89bc",
+   "size": 5803
+  },
+  "icons/game/armor/Beekeeper_Boots.png": {
+   "sha256": "7dcfc1b718fcc9a663fe2b0d72364b4cb160189c600ccdd68aae9b98e27ca3e0",
+   "size": 6178
+  },
+  "icons/game/armor/Beekeeper_Leggings.png": {
+   "sha256": "67f20d6ab4a1d68015a2de9b636be05bbe0a48781821f05bdcddeaa44bee2a7d",
+   "size": 6466
+  },
+  "icons/game/armor/Beekeeper_Suit.png": {
+   "sha256": "ab5f61bed7ef9c2e6f3a8a6a89f438da9bb5721ee609b101c86741f5b23dda77",
+   "size": 6737
+  },
+  "icons/game/armor/Beekeeper_Veil.png": {
+   "sha256": "70da75a3bb801df9ba267d3b06d115b41c567216a9afb7340ec7bfb1e57ed8af",
+   "size": 4953
+  },
+  "icons/game/armor/Bounty_Hunter_Boots.png": {
+   "sha256": "67c8a3265a55902a208bb8bd6c56f1cea1fe98d3088d569fded735603acbc099",
+   "size": 4672
+  },
+  "icons/game/armor/Bounty_Hunter_Chestplate.png": {
+   "sha256": "49d1d00d614b7acef9d694d00e6dda53f7e40b166aeeb1ddadb046c5fa367999",
+   "size": 5618
+  },
+  "icons/game/armor/Bounty_Hunter_Helmet.png": {
+   "sha256": "ed9259b5a2440ef8c4d4d6e9afb938435ba065eec584d12da942b1ebb20b6885",
+   "size": 5183
+  },
+  "icons/game/armor/Bounty_Hunter_Shinguards.png": {
+   "sha256": "9cdadf0233990feeb3c8bbf2aba947973196f084ab3fae1e3fc3578b8c04aa09",
+   "size": 5071
+  },
+  "icons/game/armor/Dauntless_Greaves.png": {
+   "sha256": "3939e27832385e03f7b24beeaf81d0b53c6448873ee898bf6fec0b29558eb25b",
+   "size": 6396
+  },
+  "icons/game/armor/Dauntless_Horns.png": {
+   "sha256": "f62d5411039e63a3836382849c11b3b1ae5e58e73b61e2b573fbe6aa71282cc2",
+   "size": 5632
+  },
+  "icons/game/armor/Dauntless_Pauldrons.png": {
+   "sha256": "e995c2b22e5cdd3c0b3f514917795e95ad39dbe6498f72202bac6d78ad87982a",
+   "size": 5995
+  },
+  "icons/game/armor/Dauntless_Sabatons.png": {
+   "sha256": "db46ada2061a0cc24e111a85aed198081191d54e5cb06d60fa194d691af425a4",
+   "size": 5393
+  },
+  "icons/game/armor/Disciple_Leggings.png": {
+   "sha256": "9b699b4faddb338520325704071c59fe1b008a01c0a1c2f3596558b0da040469",
+   "size": 7097
+  },
+  "icons/game/armor/Disciple_Robe.png": {
+   "sha256": "a0d3348d9b51503f4c6f8a1480d76ad87c82eef4e825b2d7146a9949a08e82f6",
+   "size": 6785
+  },
+  "icons/game/armor/Disciple_Wraps.png": {
+   "sha256": "bee9902b2bb6bcb7778a8aa93765d214490221d61515ce5ffcfe159978345154",
+   "size": 5025
+  },
+  "icons/game/armor/Disciple_mask.png": {
+   "sha256": "cbd854d0ae555e99f9124394bcb1f1062fd88286ff8571e8ac11891376774102",
+   "size": 6296
+  },
+  "icons/game/armor/Dreamruler_Cover.png": {
+   "sha256": "bddba52e4741dc03bbfb97164d85eff0db79cf353978261db5ed288278f53bfc",
+   "size": 7177
+  },
+  "icons/game/armor/Dreamruler_Crown.png": {
+   "sha256": "8a17211aff6b0c3eac793708b23f05ef3715376988e5849e112a37fdc11f2eee",
+   "size": 5723
+  },
+  "icons/game/armor/Dreamruler_Pyjamas.png": {
+   "sha256": "a2898f528e02d43d7d0a14099e71743014e7e98bd394910d9a893aa6fda48aed",
+   "size": 7013
+  },
+  "icons/game/armor/Dreamruler_Slippers.png": {
+   "sha256": "d9072140fc7d336d264ca91d4ea97f423d17ac9d8fd498dc953ca263bac93834",
+   "size": 5739
+  },
+  "icons/game/armor/Fly_Agaric_Cap.png": {
+   "sha256": "6b2602c93aeb6355bfdf0bb870ff560bc50f55f3cb6ce04fa6a8aaf9fb1fb0ec",
+   "size": 5880
+  },
+  "icons/game/armor/Fly_Agaric_Coat.png": {
+   "sha256": "45830b368bd3e8182dcb9e72d740e19f835bab578eb744f5eef5401583c6d57f",
+   "size": 7505
+  },
+  "icons/game/armor/Fly_Agaric_Galoshes.png": {
+   "sha256": "3d53a1059356dce8bf796f6f28454801b560871bb25a9bc3856f925e56fb28db",
+   "size": 6176
+  },
+  "icons/game/armor/Fly_Agaric_Trousers.png": {
+   "sha256": "a374cfca278a96f5ad8a68d70d1de224130e5f29cd6404ab44cda50be117aace",
+   "size": 7422
+  },
+  "icons/game/armor/Hivemind_Hardhat.png": {
+   "sha256": "878b22c8c320be02f4adea9fef3e8b3980ef5ad1967e63239789930b0a65e3f6",
+   "size": 6372
+  },
+  "icons/game/armor/Hivemind_Stingers.png": {
+   "sha256": "7936b911c385ef478491567843e7979780f295612a779bb01093d6a7bc4e3b51",
+   "size": 6193
+  },
+  "icons/game/armor/Hivemind_Thorax.png": {
+   "sha256": "14611c6e703aa98ebd0ee2977b076461d9fd56b251b692fd58503c1a1779571d",
+   "size": 5526
+  },
+  "icons/game/armor/Hivemind_Trousers.png": {
+   "sha256": "7dbc553c69c25d90332c1267a544992a2a10c1104eb502437cfc39b237be8a89",
+   "size": 6401
+  },
+  "icons/game/armor/Humbler_Antenna.png": {
+   "sha256": "ef7eafdb476bc34712fc13d8530bebd30a7d2fe65bea63669345355a5c2916e0",
+   "size": 5447
+  },
+  "icons/game/armor/Humbler_Carapace.png": {
+   "sha256": "bfc6feed37e8c3cf7ce66c26f24b21e70d687305f8b4a9b62330aaedfbc86af4",
+   "size": 6178
+  },
+  "icons/game/armor/Humbler_Greaves.png": {
+   "sha256": "a83c393eab4991e58fb950c5531039e84c090b8edbf439906f5ddf0636fb04e2",
+   "size": 6824
+  },
+  "icons/game/armor/Humbler_Tarsi.png": {
+   "sha256": "3733b61e2a707bcbfa412c67aadf3c59e66ae14f58b89c2cee48d065920f95ad",
+   "size": 6045
+  },
+  "icons/game/armor/Mad_Sifter_Mask.png": {
+   "sha256": "6ee1a6ec2920ae58ae7e09d970d151c99e1f1b3520c867d692ca26d96a965c19",
+   "size": 5280
+  },
+  "icons/game/armor/Mad_Sifter_Paws.png": {
+   "sha256": "e3f66871f56d97479b57d9a4bf659062c529de2c2d490c19029497b9ecd43980",
+   "size": 8266
+  },
+  "icons/game/armor/Mad_Sifter_Slacks.png": {
+   "sha256": "9e6ce04b13db8ecb7745425d501f2b103c83db05ba69d2eb017b6905eafbdf97",
+   "size": 4570
+  },
+  "icons/game/armor/Mad_Sifter_Vest.png": {
+   "sha256": "50466f628b0d08da8a94f170d4cf8d2f4036b67a343f80d8296789bef3f9c501",
+   "size": 5710
+  },
+  "icons/game/armor/Monarch_Crown.png": {
+   "sha256": "451f1b10176f47fedfd3f52b4d4b1a96077bb4d82d471915ab10281000565d51",
+   "size": 4733
+  },
+  "icons/game/armor/Monarch_Mantle.png": {
+   "sha256": "1b3056ef1100809164e7d36041ea7d6b1ae9815f7390117780310cdf636e0122",
+   "size": 6119
+  },
+  "icons/game/armor/Monarch_Sash.png": {
+   "sha256": "57fbb5274e8bf81487ab9b107fe560af675f89e7f18ece68028b79063aba3934",
+   "size": 6394
+  },
+  "icons/game/armor/Monarch_Talons.png": {
+   "sha256": "be2999cf2754d9b57262df5869360f88ba8f8f1e3b40b1dbee139197594e3221",
+   "size": 5210
+  },
+  "icons/game/armor/Monstrosity_Armor.png": {
+   "sha256": "954b901649b1225e5e58c31a82f65146a1b246cf81d4a78ce58145280d98594b",
+   "size": 6328
+  },
+  "icons/game/armor/Monstrosity_Greaves.png": {
+   "sha256": "ecaace97495a636499df678262a633f169d6e7106774551127f8b061222649c9",
+   "size": 7448
+  },
+  "icons/game/armor/Monstrosity_Horns.png": {
+   "sha256": "1a8df2ef14596467cbb56ea656dae5a532075d45b05057b0e2d7c588e8825d39",
+   "size": 5970
+  },
+  "icons/game/armor/Monstrosity_Stompers.png": {
+   "sha256": "f93137a7aa9be9d9fb938ee1184841a44d86e65f0ebf4361ae8fb58693f5d279",
+   "size": 5265
+  },
+  "icons/game/armor/Mushroom_Boots.png": {
+   "sha256": "c6f87c66f2c852090fb2d60799cb37928db6de531c285e30f0ba0863c4bed0e6",
+   "size": 5396
+  },
+  "icons/game/armor/Mushroom_Cap.png": {
+   "sha256": "f401a7c69351259e83b6e3c511b8f3ff35413466e6719f6c15c3df8fcc9b06e2",
+   "size": 5642
+  },
+  "icons/game/armor/Mushroom_Leggings.png": {
+   "sha256": "28cc7f986ac5ebab36fab2c029b03483c6f049e749bdb118f6ba5f90667ed644",
+   "size": 5642
+  },
+  "icons/game/armor/Mushroom_Robe.png": {
+   "sha256": "6f1890e7871d1c37fa6f86d9e743be87124931c468fad821fce05c54e78a8db8",
+   "size": 5005
+  },
+  "icons/game/armor/Mystic_Boots.png": {
+   "sha256": "940f87535c7a16129199bf13fb48023558dfbec6bb7cb4578c63d7e508123599",
+   "size": 5870
+  },
+  "icons/game/armor/Mystic_Circlet.png": {
+   "sha256": "b575407a08777e50a6cbb0dba3691eaac6c68d5289cdace09b977382a9e1c28f",
+   "size": 3153
+  },
+  "icons/game/armor/Mystic_Leggings.png": {
+   "sha256": "36627d047137865b835ec5d909d803625f28de97c1cca8f67a6763de15506910",
+   "size": 6000
+  },
+  "icons/game/armor/Mystic_Robe.png": {
+   "sha256": "c4911fa71d7050f259a6a52c67e1ef87f9922202e6c7e95361528090124c1816",
+   "size": 5192
+  },
+  "icons/game/armor/Nomad_Boots.png": {
+   "sha256": "0560bf96798d49d3e94c4372c74982c5310d0fc2913ceda94f975a3ec96b878a",
+   "size": 5225
+  },
+  "icons/game/armor/Nomad_Chestplate.png": {
+   "sha256": "3b7af061e55bcd1360bfbffb11d4402d59d511fab05d3a0fab05704eaa1a2299",
+   "size": 6843
+  },
+  "icons/game/armor/Nomad_Hood.png": {
+   "sha256": "4b929f59ed80f8487b43d5da4d7aa4922b40b9ecf2bb27f632bb1be2b5cb6ffd",
+   "size": 6548
+  },
+  "icons/game/armor/Nomad_Leggings.png": {
+   "sha256": "14a37b47a22d5bd5b28c81330175a58bbeff87a541d86094b1e312f70a179ec5",
+   "size": 5291
+  },
+  "icons/game/armor/Oracle_Crown.png": {
+   "sha256": "978adb9a8b40905d7d77bc6baa1dad4039a1338e19cc5ed0813e73e97a973fcb",
+   "size": 6162
+  },
+  "icons/game/armor/Oracle_Mantle.png": {
+   "sha256": "df9109d7429745ea1ef2459b7186a8326274e88de8a248f7372aaa573640eef7",
+   "size": 5330
+  },
+  "icons/game/armor/Oracle_Sandals.png": {
+   "sha256": "0445074807d09fcc89528cd91cbd2501b366633bb82798a289142c4a3b7b01dd",
+   "size": 5720
+  },
+  "icons/game/armor/Oracle_Tights.png": {
+   "sha256": "b344347fc3ba66b5f6558a6a0be4da4d0a1835d65ec1e108cf2143f6a7efa2d6",
+   "size": 6389
+  },
+  "icons/game/armor/Packleader_Fur_Chaps.png": {
+   "sha256": "98f7fdc65600d8ca2521bf05cee077649c36a6f79d78e98e33a6dca1153d9874",
+   "size": 5503
+  },
+  "icons/game/armor/Packleader_Hide.png": {
+   "sha256": "640a7d3698449c5aea3586ced9f622b2af69f23fb5152c1ad24392d5c9ab8ef5",
+   "size": 6141
+  },
+  "icons/game/armor/Packleader_Muzzle.png": {
+   "sha256": "2ff5ef3afbb65a0163c612f714da47c2c5a20d71a42f8d01c0b958daaf592525",
+   "size": 7207
+  },
+  "icons/game/armor/Packleader_Paws.png": {
+   "sha256": "95135795313545396c434d13855ca6e556db49e2d9babd9f31162f2a07f88859",
+   "size": 5459
+  },
+  "icons/game/armor/Phantom_Boots.png": {
+   "sha256": "810a55db0d24e9a73ec7a941da2e692e530f782f4a84ac55d0c373b774858038",
+   "size": 6515
+  },
+  "icons/game/armor/Phantom_Chestplate.png": {
+   "sha256": "d9d31b95109749f5b4184aecca22ff3c79d2a38fa796c367ed12fe79570c37b0",
+   "size": 7105
+  },
+  "icons/game/armor/Phantom_Helmet.png": {
+   "sha256": "6b9b172e3d539d4b85eb0d792d80f30dbff7163fe483b0938459f013166f558b",
+   "size": 4974
+  },
+  "icons/game/armor/Phantom_Pants.png": {
+   "sha256": "cdeaf12c6b23d1f9d288f84ad81166e9cc5d5c830956e3afe9403aa9ccd47921",
+   "size": 4906
+  },
+  "icons/game/armor/Protector_Boots.png": {
+   "sha256": "b00b3fe113a01a247c334cd10715a3b3ebf4de8b40b801954d3327856e9e2046",
+   "size": 5494
+  },
+  "icons/game/armor/Protector_Chestplate.png": {
+   "sha256": "7c66d609d2ecb72159697d852d34a3ce3f642a52242d902cf99495d8507bb75b",
+   "size": 5952
+  },
+  "icons/game/armor/Protector_Helmet.png": {
+   "sha256": "f34d123c46c716cdd6f351be5fc3b3df8f30f789fc62146e2e1153a194831f4e",
+   "size": 5367
+  },
+  "icons/game/armor/Protector_Shinguards.png": {
+   "sha256": "5130808ca50b79ade23440604112f890e533c982b2c8fb831f8061f0b1396985",
+   "size": 5274
+  },
+  "icons/game/armor/Ranger_Boots.png": {
+   "sha256": "7f4c964d44d81402345afeaeea716a6cc9fbfe82ce6295e1767d3140f502e53a",
+   "size": 5725
+  },
+  "icons/game/armor/Ranger_Cap.png": {
+   "sha256": "c249f33658b9919cc94e9892261f839792e3b74a61f401c7545de0e49bd61ec6",
+   "size": 3953
+  },
+  "icons/game/armor/Ranger_Jacket.png": {
+   "sha256": "37609df90d2a19620dfacad4e6f8f237a815b18d78ee4a8364a2a87651857707",
+   "size": 5905
+  },
+  "icons/game/armor/Ranger_Leggings.png": {
+   "sha256": "2d1c559d89f1c476000a1e6a25c80f6020f8104db15754321b67b12692412839",
+   "size": 4331
+  },
+  "icons/game/armor/Realmreacher_Boots.png": {
+   "sha256": "26d8bfef6c6b080c2b16afe8aa76f2680d1a715bbffc853823d2283d74874822",
+   "size": 7006
+  },
+  "icons/game/armor/Realmreacher_Hat.png": {
+   "sha256": "09f178eced92994886a8228f97bd7f495f0dcb512b59fdf667d9328299011e85",
+   "size": 4360
+  },
+  "icons/game/armor/Realmreacher_Leggings.png": {
+   "sha256": "66831ae1952504455d0e70610c1adb44d3e478366bfb526749fe854a6d50b3b7",
+   "size": 7373
+  },
+  "icons/game/armor/Realmreacher_Robe.png": {
+   "sha256": "81e9baf69ee63bd55b575c1395e0ce279b8758310bdeaeb94477f40384996b8d",
+   "size": 6791
+  },
+  "icons/game/armor/Redstone_Boots.png": {
+   "sha256": "3d5d677c2fb624959ebaf07e8bb65693ae37bd8502bc354b5c01eaaa1c1874d4",
+   "size": 4893
+  },
+  "icons/game/armor/Redstone_Chestplate.png": {
+   "sha256": "6011c713ad2b71914bcb254af25e2f3e2cd47ae630afdfea0fade63a46afe0dc",
+   "size": 7089
+  },
+  "icons/game/armor/Redstone_Helmet.png": {
+   "sha256": "9fc1025c73a6c9e293a93f2d163104442e7399c37207cf2c4735ce439aa22e6c",
+   "size": 5592
+  },
+  "icons/game/armor/Redstone_Shinguards.png": {
+   "sha256": "f4254ca26981da8f467a0dbf51a5a32fc4b612f492db3db004d49ccf58f409af",
+   "size": 7236
+  },
+  "icons/game/armor/Rimefrost_Armor.png": {
+   "sha256": "b577764c7c23b2c7a2f571508ef9b7d890ed0c92c26eb5dfd202c91bf19a3207",
+   "size": 6823
+  },
+  "icons/game/armor/Rimefrost_Icecap.png": {
+   "sha256": "62d13677f960726a416cdc5afdaae4a6dbfaa3e8335587fcac02ce19cf0432bd",
+   "size": 6513
+  },
+  "icons/game/armor/Rimefrost_Longjohns.png": {
+   "sha256": "d9f488f962ec606f60e1528c351eb8a6893adfd405d09999725f7f2b4a930ba4",
+   "size": 7597
+  },
+  "icons/game/armor/Rimefrost_Plodders.png": {
+   "sha256": "87cdf5b9e0250d94339322c9e324f58cb07adf3feca0a9ee31c005bdcabf1484",
+   "size": 6361
+  },
+  "icons/game/armor/Rover_Gaiters.png": {
+   "sha256": "68d484d8b3fea36d322ce26a3831d61aff7f26c155acd6a73a24a3f8e2514d40",
+   "size": 7059
+  },
+  "icons/game/armor/Rover_Pauldrons.png": {
+   "sha256": "040318b690025f59509b2978be40ab3ca39bc70153f6f8fa4f6d3fa1693a7b1c",
+   "size": 7124
+  },
+  "icons/game/armor/Rover_Sabatons.png": {
+   "sha256": "d6a22221caea52380aff67b6aae782ee6d6e4e81a84501ffd078d3c33c50d96b",
+   "size": 6191
+  },
+  "icons/game/armor/Rover_Visor.png": {
+   "sha256": "93fbbefee8e7740c89ff276fbdf12c4f8dc7e0db43601f8ba1c7a08a43b111ac",
+   "size": 7612
+  },
+  "icons/game/armor/Sage_Belt.png": {
+   "sha256": "e2ed852fce1fad4831eecc1d8eef1a97098445965bbf91f9e7e3c59e57825ed3",
+   "size": 7119
+  },
+  "icons/game/armor/Sage_Headband.png": {
+   "sha256": "8255a3a56c40352667cc7f646394fe3c07b6a89d5bdc84c681c2d9e45e7ac735",
+   "size": 4952
+  },
+  "icons/game/armor/Sage_Tunic.png": {
+   "sha256": "f77f55d7d5ef38c7305fc5902fc66336c1cf9e84c931af8d9b80e501d64ecd70",
+   "size": 6690
+  },
+  "icons/game/armor/Sage_Wraps.png": {
+   "sha256": "37a95685421bf188d376803bb1d877463ab3842d0f4d20c25db903775f415039",
+   "size": 4903
+  },
+  "icons/game/armor/Scamp_Hood.png": {
+   "sha256": "c9c30e3f2be8dd529b39d2b93fc3e420adf9a279056df06fd213fe6e278cb70f",
+   "size": 4471
+  },
+  "icons/game/armor/Scamp_Jacket.png": {
+   "sha256": "e3709b68a6bd5cf61cada500f8b675f71c97ecbcc07c8de8a5270d7e0c874508",
+   "size": 6937
+  },
+  "icons/game/armor/Scamp_Leggings.png": {
+   "sha256": "cb6d7592f228086e82957c459c6636d07b39adeebfe07e6cd4af5ba005d296a1",
+   "size": 3929
+  },
+  "icons/game/armor/Scamp_Sneakers.png": {
+   "sha256": "aae0ce9c92576a72562e9479cea8a9fb91a9ac5b1584995ea66d0d4039bee217",
+   "size": 5228
+  },
+  "icons/game/armor/Scoundrel_Blazer.png": {
+   "sha256": "14f2b7e2f270a223d93f613276247686ee158941af061b992917aea6abd62595",
+   "size": 6685
+  },
+  "icons/game/armor/Scoundrel_Chaps.png": {
+   "sha256": "3a822805132c34b4ca7934a9f8441eba837b05a5b6aacc130924d1501de3d891",
+   "size": 6124
+  },
+  "icons/game/armor/Scoundrel_Cowl.png": {
+   "sha256": "43b5a73881fc9fafedcaf6f7af5651703ca4d2176794e40f83885f31945487d2",
+   "size": 6248
+  },
+  "icons/game/armor/Scoundrel_Sneakers.png": {
+   "sha256": "351323a81ee158d224610d38183efa0fd014ceced0cd0ae14e55335f2f02eb5f",
+   "size": 5678
+  },
+  "icons/game/armor/Sculk_Digger_Boots.png": {
+   "sha256": "def6abb1af2c1730690f8f03f8ccbd9b97e7c0eb0e05ec91c98e5424de6f05ba",
+   "size": 4821
+  },
+  "icons/game/armor/Sculk_Digger_Hood.png": {
+   "sha256": "e786db85b586c22cb09b4701d0bbf74cfc682cd77d7aae92b26d18501499a1c9",
+   "size": 6221
+  },
+  "icons/game/armor/Sculk_Digger_Leggings.png": {
+   "sha256": "109631a2d6cd34cb2a7dd0955b3341147567cef5aaaf757e1baa47976d8bf735",
+   "size": 4706
+  },
+  "icons/game/armor/Sculk_Digger_Robe.png": {
+   "sha256": "e21a9a7d74384bc08351f6b44dde081af91ef9abee205c5edde93dc82d96ea55",
+   "size": 7377
+  },
+  "icons/game/armor/Sculker_Boots.png": {
+   "sha256": "b143d3096a12dd0997c74e17ee514972f6ae2a1501a5ec9c743c0b8577a9cffd",
+   "size": 5150
+  },
+  "icons/game/armor/Sculker_Mask.png": {
+   "sha256": "3cf73c1519b9ebe11b38c83d4323d01617e5a8ba0f52bb790bf79121e1b87e83",
+   "size": 6515
+  },
+  "icons/game/armor/Sculker_Robe.png": {
+   "sha256": "6c67d252193c23212b4b9b1e52202b84dbef45e93a508521979ccb011a950979",
+   "size": 6365
+  },
+  "icons/game/armor/Sculker_Slacks.png": {
+   "sha256": "4c89091210ae3e078b759acede3aaf58d32b1bb152b12d69cf2057f4451b94f9",
+   "size": 6120
+  },
+  "icons/game/armor/Sharpshooter_Chaps.png": {
+   "sha256": "f24fe421aa7495c03f70b7ffa588fcfd1672d85d5eb8e3be4dfe8ba98dc52f29",
+   "size": 4305
+  },
+  "icons/game/armor/Sharpshooter_Duster.png": {
+   "sha256": "e8f7b9ab7b820c87b7dae5dbcdde169779c569136e919b4e8744ebaeb11dcb0d",
+   "size": 5941
+  },
+  "icons/game/armor/Sharpshooter_Fedora.png": {
+   "sha256": "7510af02dc1493c60783c546c5fe116150996645104a43a5a609ee981f8b2194",
+   "size": 4362
+  },
+  "icons/game/armor/Sharpshooter_Spurs.png": {
+   "sha256": "37956180697fd13b0a3718c586b6951d58db472a0c3de4a19bcd80c8362dd20b",
+   "size": 5284
+  },
+  "icons/game/armor/Sifter_Boots.png": {
+   "sha256": "e2c3860463abf3d171195684b8f6d02fb93aec23edd9972e40a62e6361249911",
+   "size": 7482
+  },
+  "icons/game/armor/Sifter_Hood.png": {
+   "sha256": "111477d2d90140005fbe90b1fee4626815bcda7b43b2f4ef50c4ee33eeec08b2",
+   "size": 5598
+  },
+  "icons/game/armor/Sifter_Leggings.png": {
+   "sha256": "ac847867b9676c867b79bc981df76e0be6f6963c1e951203bffdae4dea8890af",
+   "size": 5167
+  },
+  "icons/game/armor/Sifter_Robe.png": {
+   "sha256": "89209b3b7d287d41bb1a7c2d64df13fda309ed5ebbb2d05742c4c36ce0599960",
+   "size": 7878
+  },
+  "icons/game/armor/Sorcerer_Boots.png": {
+   "sha256": "958660a531fa317d08aec4e07e33235a54f2d5f3268d42215907c456951f7546",
+   "size": 6022
+  },
+  "icons/game/armor/Sorcerer_Hat.png": {
+   "sha256": "82bef3e304bd8f826feb6c60ad02baa3fe4777c903fe7186bfd414f177d88040",
+   "size": 4294
+  },
+  "icons/game/armor/Sorcerer_Leggings.png": {
+   "sha256": "dd3da2114b4c0a7cc80f513d8b62bf84163a45635614f3bc55d1f1e161a56cf9",
+   "size": 5692
+  },
+  "icons/game/armor/Sorcerer_Robe.png": {
+   "sha256": "b3428e889d2397551029625656632da3a343392b788addefd2e2cd0a38f42f27",
+   "size": 6415
+  },
+  "icons/game/armor/Soul_Corruptor_Duster.png": {
+   "sha256": "96a3a30a29a9466959fa664a1ac55a9bfb6b1a8f5547cf9527e795050ed7ad2e",
+   "size": 7524
+  },
+  "icons/game/armor/Soul_Corruptor_Mask.png": {
+   "sha256": "799d35c3e61fe329c1aa3a7189f3e33fb1053729b6a148d783b3a4b640aa34dd",
+   "size": 6191
+  },
+  "icons/game/armor/Soul_Corruptor_Sandals.png": {
+   "sha256": "30ee3b5287a6075e2a52770c80b1c63873f7b7e5309604fa83d38143c638162e",
+   "size": 5978
+  },
+  "icons/game/armor/Soul_Corruptor_Sash.png": {
+   "sha256": "79cad0276f589c64ca2c3c19da7c5a1a38fd2e3cd805bf3b50dcee262d8527c6",
+   "size": 7666
+  },
+  "icons/game/armor/Steel_Wool_Boots.png": {
+   "sha256": "70274eeba3c71c3b410ca32774b98dac5d8277a38fe527da3e92511a23275820",
+   "size": 5674
+  },
+  "icons/game/armor/Steel_Wool_Cap.png": {
+   "sha256": "67cb8e92a697d14aead4c5325216913db5421a8a7734966573678b3409ea54ca",
+   "size": 4697
+  },
+  "icons/game/armor/Steel_Wool_Leggings.png": {
+   "sha256": "a4f272009dfae5dc1f52648229fbe7f19519becd05c8b54e734fc888bb34ceb7",
+   "size": 7893
+  },
+  "icons/game/armor/Steel_Wool_Sweater.png": {
+   "sha256": "e1f91c293ac07baf8b66efd0986c8c1db43bb578d477f3d0e924edebad04e727",
+   "size": 5449
+  },
+  "icons/game/armor/Treehugger_Chestplate.png": {
+   "sha256": "0e000328296794d31fb0d9427f4da5082ad1c241ff67af0b3cc3a922b4406951",
+   "size": 7075
+  },
+  "icons/game/armor/Treehugger_Clogs.png": {
+   "sha256": "7933a46114568532cc62808c2e5a5df35c173589a1405a02a925f17eed8ed947",
+   "size": 5200
+  },
+  "icons/game/armor/Treehugger_Leggings.png": {
+   "sha256": "37254972f5a9f6ec0e93a9c01c68ea0b096890a29a568ade2d4a32323e777f17",
+   "size": 5599
+  },
+  "icons/game/armor/Treehugger_Mask.png": {
+   "sha256": "99fb4bd5cd04ee5619fffb9cebd232f1d7387a337e2db67bbc3af6bf51b99bb5",
+   "size": 5775
+  },
+  "icons/game/armor/Twisted_Warden_Blindfold.png": {
+   "sha256": "4cde4bb81e40cad622b53049e7db589c68ed5bf41f8ed10daa3facff5faa0c22",
+   "size": 5520
+  },
+  "icons/game/armor/Twisted_Warden_Sneakers.png": {
+   "sha256": "ea71fc28bd0f13496b269313f3575e09fcd503b7886d5a1a500ebdd187515401",
+   "size": 5529
+  },
+  "icons/game/armor/Twisted_Warden_Tights.png": {
+   "sha256": "4f7cca00574fc52a0a208014f6de1388dfb7de860d9d00c33f99dffd827af48a",
+   "size": 5996
+  },
+  "icons/game/armor/Twisted_Warden_Vest.png": {
+   "sha256": "7e88a60ca78a89822de82cc38c2348d17eaaab22fd6fb3a8bbc7839ee0dcfea3",
+   "size": 6141
+  },
+  "icons/game/armor/Wolfpack_Boots.png": {
+   "sha256": "10f1f2577ed28a4e28b639a9200855b9e74c7ead54d7d3830a66d65e167230f5",
+   "size": 5466
+  },
+  "icons/game/armor/Wolfpack_Hood.png": {
+   "sha256": "0709457759693295c4622a31b5f7ce471fd72412f2d9d196d0648d147530f7ce",
+   "size": 6347
+  },
+  "icons/game/armor/Wolfpack_Jacket.png": {
+   "sha256": "de2e89825cd73730cb0cbf6769c9c06824262ed7c65b84be84679f0f08023cbc",
+   "size": 6351
+  },
+  "icons/game/armor/Wolfpack_Leggings.png": {
+   "sha256": "5b2b86bd37585a848283e46c8e19a3ce6284ed2e58764915e4a29afc20f1b65b",
+   "size": 4980
+  },
+  "icons/game/armor/Woodsprite_Barkpiece.png": {
+   "sha256": "0f54596b9b5d0d7210a9d740ca81292d6f407e210f33f4597ca9a3a8c9ce28df",
+   "size": 5867
+  },
+  "icons/game/armor/Woodsprite_Crown.png": {
+   "sha256": "42eccb78bc4159db142d194c26bc88ef65d5a889e19ed9789bdd625931a70ba6",
+   "size": 5936
+  },
+  "icons/game/armor/Woodsprite_Root_Boots.png": {
+   "sha256": "f2d5fb3891101519c353e0805087e60a1b0eac8288337eb8fe7d75b4a648eec1",
+   "size": 4389
+  },
+  "icons/game/armor/Woodsprite_Trunks.png": {
+   "sha256": "c5340f295cfdbea892746a93ea99ecdbd2f0d2c26f4ee2cc2e3cccb9e43af3dc",
+   "size": 7273
+  },
+  "icons/game/consumables/Apple.png": {
+   "sha256": "49b111542ca68916325df17eca2f91674eb61c93210cd1ff01fbb8f3bb6de910",
+   "size": 1984
+  },
+  "icons/game/consumables/Carrot.png": {
+   "sha256": "49b111542ca68916325df17eca2f91674eb61c93210cd1ff01fbb8f3bb6de910",
+   "size": 1984
+  },
+  "icons/game/consumables/Melon.png": {
+   "sha256": "49b111542ca68916325df17eca2f91674eb61c93210cd1ff01fbb8f3bb6de910",
+   "size": 1984
+  },
+  "icons/game/consumables/Potato.png": {
+   "sha256": "49b111542ca68916325df17eca2f91674eb61c93210cd1ff01fbb8f3bb6de910",
+   "size": 1984
+  },
+  "icons/game/consumables/Pumpkin_Pie.png": {
+   "sha256": "49b111542ca68916325df17eca2f91674eb61c93210cd1ff01fbb8f3bb6de910",
+   "size": 1984
+  },
+  "icons/game/consumables/TNT.png": {
+   "sha256": "e831edeec15e9f24596312f3af547dbb5636a05c7d9a75767a8e04a698cad659",
+   "size": 5596
+  },
+  "icons/game/enchantments/Ancient_Alchemy.png": {
+   "sha256": "648353b50e227ab4206715e058fd697eab98c4cecd32a6f401b3862f99620774",
+   "size": 3572
+  },
+  "icons/game/enchantments/Artifact_Amplifier.png": {
+   "sha256": "dcce5dd8db23325e2ee1d2e7ef539c3e3953508a636da611944916abd6933a67",
+   "size": 2989
+  },
+  "icons/game/enchantments/Barrier_Brew.png": {
+   "sha256": "ebfb89d209225a2ed25356d67f67c04b96e5f819414a4424d8c8e12d66d457c8",
+   "size": 3019
+  },
+  "icons/game/enchantments/Bottomless_Brew.png": {
+   "sha256": "2ed2d0faaae017e217d12d1d270b086a2ef2eac55eccaf71f341275bc5890335",
+   "size": 3842
+  },
+  "icons/game/enchantments/Buddy_Brew.png": {
+   "sha256": "1520085878098b8a46f6b780f6c538074c566474c2873806621e7f87cfbec83f",
+   "size": 3536
+  },
+  "icons/game/enchantments/Chain_Reaction.png": {
+   "sha256": "1d092dc509104cfe5fadabc5c61605a1fead9130d084928b6ea3b97ad97bb30c",
+   "size": 3422
+  },
+  "icons/game/enchantments/Cow_Stampede.png": {
+   "sha256": "bf171d47c192fd94799544c9bb123def5705228d58b4141b92fb7f90c4efbb29",
+   "size": 2851
+  },
+  "icons/game/enchantments/Crash_Landing.png": {
+   "sha256": "ab6ea98d680aac96533a2fb3f3d2504778f085a41273350215578c7d3d63c0c3",
+   "size": 4590
+  },
+  "icons/game/enchantments/Critical_Quiver.png": {
+   "sha256": "b6f73f4ebc27575780f09a8bcf43dda133ecf084ec158817a6b3c83aaf0ddd0e",
+   "size": 4161
+  },
+  "icons/game/enchantments/Dynamo.png": {
+   "sha256": "60fac24162bb84bfee901526afb91663b614c572d9a557085f26c12159951c43",
+   "size": 3517
+  },
+  "icons/game/enchantments/Ender_Mines.png": {
+   "sha256": "2e6ee6dd1f7b04c8027aa4e71f6cb1b4e7a480e045fd0d46571220dcf8358811",
+   "size": 3833
+  },
+  "icons/game/enchantments/Ender_Quiver.png": {
+   "sha256": "54e3a7857245e67db1d6b9a0aadc61a35fd4703fbb6a6370fe98b1c49c8032ae",
+   "size": 4522
+  },
+  "icons/game/enchantments/Fire_Aspect.png": {
+   "sha256": "7d72467dd3e995e892c6fe42829fbbc446f2adf5afa453aae415c8d29300eddf",
+   "size": 4793
+  },
+  "icons/game/enchantments/Frost_Crescent.png": {
+   "sha256": "d5800ab4feb506e8160975fb073bd8a86a69bdc2c235ec8b6cb2fd55b1b6b82e",
+   "size": 3720
+  },
+  "icons/game/enchantments/Gravity_Pulse.png": {
+   "sha256": "2cc2b053a89b9f58d588ddf9c7dc11f5a005ba16966628988f8903c9ced6d3ff",
+   "size": 4836
+  },
+  "icons/game/enchantments/Gravity_Strike.png": {
+   "sha256": "15bf02b613b856932c95ee0a27559e16cd9b8cb6660df842c545acc3edc13b4f",
+   "size": 6908
+  },
+  "icons/game/enchantments/Healing_Smite.png": {
+   "sha256": "f326f429f5aefe7622efb456bf20a878dac1b3a31285a1ede394f9fb20501bf0",
+   "size": 3132
+  },
+  "icons/game/enchantments/Health_Synergy.png": {
+   "sha256": "c9243c7ffe488ce2a9d8f6ba030f7208c8a388a047c899f11bbbba12d8c78de8",
+   "size": 4909
+  },
+  "icons/game/enchantments/Ichor_Blast.png": {
+   "sha256": "fb8257204c38ab50e474e78bd47b7f473c3644e76df18d8d1cefefb52832c45b",
+   "size": 4071
+  },
+  "icons/game/enchantments/Lightning_Surge.png": {
+   "sha256": "cd5e6e12c24cebd66173f3589b9cccac04e2027c23ffd211f927395b470b6589",
+   "size": 3498
+  },
+  "icons/game/enchantments/Piercing.png": {
+   "sha256": "c33b8ef5a065ed26463210f66490cf26ac84ce2f4777121e977a0f114ef60dfb",
+   "size": 3326
+  },
+  "icons/game/enchantments/Poison_Fog.png": {
+   "sha256": "a7479a0c95c6ddbe7ef3286ed697bb1e90abe2a863ed23c4684d0c791d30c7f3",
+   "size": 4384
+  },
+  "icons/game/enchantments/Power_Amplifier.png": {
+   "sha256": "0f34f4215fc8e1c8d479eae7535e3a6d7108bb64ed202059c4105a3bfda2eefd",
+   "size": 3903
+  },
+  "icons/game/enchantments/Primed_Enchantment.png": {
+   "sha256": "88172d42f0577b04ec2f03b20486b12d8018b839d2ebafaaa22c7fae377d20e2",
+   "size": 5202
+  },
+  "icons/game/enchantments/Ricochet.png": {
+   "sha256": "491dc4311e52a0340140fb4c2013f21715b32db0626fa88cbe095339b26c5ffb",
+   "size": 5061
+  },
+  "icons/game/enchantments/Shadowclaw.png": {
+   "sha256": "e72eed1be57e9604d973a9fb71820db63a40b34f4d2a7424d652e67b5fe34fb1",
+   "size": 3784
+  },
+  "icons/game/enchantments/Shadowcloak.png": {
+   "sha256": "a99952612111606e441c92996cbfc9c9fb671e6856a77cef23f0671282d17cc9",
+   "size": 2981
+  },
+  "icons/game/enchantments/Shielding_Smite.png": {
+   "sha256": "b230a9053254530c0c22c1f7bd973657267f0420d81126bed4a1a8665ea26485",
+   "size": 3289
+  },
+  "icons/game/enchantments/Shockwave.png": {
+   "sha256": "3fbaff4bede7f3b22cd66969849524e037ca890c020d76d9bb4193ab4a3858cd",
+   "size": 3021
+  },
+  "icons/game/enchantments/Somersault.png": {
+   "sha256": "a7c36dffb42aedb2c9f69ead3819e722f851e353b74250498d491315a570ce88",
+   "size": 2453
+  },
+  "icons/game/enchantments/Soul_Blast.png": {
+   "sha256": "2ca347fdc42f8f81a1346031d1b0d7d534db5b2c2fa52879385150a6f96d0d09",
+   "size": 3654
+  },
+  "icons/game/enchantments/Springload.png": {
+   "sha256": "6d88a0dd387dcf858f64c57520c40f4540b0ec7bfcba73391da0c9d8defcbfb4",
+   "size": 3699
+  },
+  "icons/game/enchantments/Swirling.png": {
+   "sha256": "612108b4414c62540de6cc6013d8106df788a1bb43d666984d67727a1ff18088",
+   "size": 3380
+  },
+  "icons/game/enchantments/Tempo_Theft.png": {
+   "sha256": "6259f23675c8f2a1bd731244b0d38add704620a9311971d64a77a0aea8da3e5f",
+   "size": 2786
+  },
+  "icons/game/enchantments/Thundering.png": {
+   "sha256": "dcbf9c3b36c07b7188eefbef26af5239a6dcfabafac1f60b5e99d76cdbd4f35f",
+   "size": 5397
+  },
+  "icons/game/enchantments/Tornado.png": {
+   "sha256": "72f45834265284bcf1773887f9bf53f10f650a43232b22278edfef1f3cb9056b",
+   "size": 5584
+  },
+  "icons/game/enchantments/Tumbleshot.png": {
+   "sha256": "fe93c62472276979a8e92f3d3f2dc90b71cbc83e4a45faef0fcc4dc7703b2be2",
+   "size": 3224
+  },
+  "icons/game/gear_artifacts/Battle_Banner.png": {
+   "sha256": "f4cf0a4d22500012bcb813d175b10bcb4f69336dc8a2f045b759013b0a83711d",
+   "size": 4207
+  },
+  "icons/game/gear_artifacts/Blaze_Bangle.png": {
+   "sha256": "1fd754cfb10eb6829698e6f8a0f639ece649c6f35c081d69f2b9ad103a960b77",
+   "size": 6782
+  },
+  "icons/game/gear_artifacts/Blight_Bangle.png": {
+   "sha256": "a7a93241e545136c7859cfb7cb8bc594142e8af5c147c6a9682b7c525bcca44c",
+   "size": 6677
+  },
+  "icons/game/gear_artifacts/Blizzard_Bangle.png": {
+   "sha256": "8011cd2d76846cbba3935ab839475d6ea4e8322c9daf3e406889ac0095241db4",
+   "size": 6689
+  },
+  "icons/game/gear_artifacts/Cinder_Scepter.png": {
+   "sha256": "d4571f20a2bb9a1ca7a05af9bd05737a3ef8577ebdffa244d4294a1a9e493ae1",
+   "size": 4485
+  },
+  "icons/game/gear_artifacts/Conductive_Quiver.png": {
+   "sha256": "bb6db58caa843e4829968797a38a7b3fa8ff12146d97f4faa444362c4d64bd7e",
+   "size": 4928
+  },
+  "icons/game/gear_artifacts/Corrupted_Beacon.png": {
+   "sha256": "6301164ed91e16451f16fe1d660ef71b311cf4c7bf1ea5202f4785aa57e6bf16",
+   "size": 7106
+  },
+  "icons/game/gear_artifacts/Corrupted_Seeds.png": {
+   "sha256": "bbd95657dbb964aa97648a93a6702cf33e50c864d7cff3819ba3304fd5f51081",
+   "size": 6762
+  },
+  "icons/game/gear_artifacts/Creeper_Candle.png": {
+   "sha256": "a49cf2481c9c66a22d651778373ad5496517255558a26628aea0406517184b41",
+   "size": 4813
+  },
+  "icons/game/gear_artifacts/Death_Cap_Mushroom.png": {
+   "sha256": "ee533e8c248e4e195b4afed6ca4c82edcfa8b634cc453a7488cc8ac5c9e40691",
+   "size": 6936
+  },
+  "icons/game/gear_artifacts/Echo_Ocarina.png": {
+   "sha256": "40280fa6617c8c8fabe784faa1af5ccdaf2e05979c1b6ca53cf22dd7a2bd4373",
+   "size": 6637
+  },
+  "icons/game/gear_artifacts/Electric_Bangle.png": {
+   "sha256": "52e211900a475a6bb66792c2b6db3ba3bae01507f8ae88b71b3c9fc51326c12f",
+   "size": 6993
+  },
+  "icons/game/gear_artifacts/Ender_Fog.png": {
+   "sha256": "bfeee39ba1848d8b7f0ee1f1e02a35f6ba453ca8d905a9704592e72dff86b642",
+   "size": 4763
+  },
+  "icons/game/gear_artifacts/Fighter_s_Flute.png": {
+   "sha256": "986a777059f1d14a2a3b191378ba7b86e697ba6d60df60ff572812ae88cc8857",
+   "size": 4343
+  },
+  "icons/game/gear_artifacts/Fighting_Fungus.png": {
+   "sha256": "9d4cb9bf45720f9fe7c0a6c0a8ee10191f201e01f3ce12a22ab9b3cd9ea85ad8",
+   "size": 6392
+  },
+  "icons/game/gear_artifacts/Firework_Arrow.png": {
+   "sha256": "c554b59ee89ea41dd30f49b70ded71602195dea9173afc3140872fbc435a5316",
+   "size": 4466
+  },
+  "icons/game/gear_artifacts/Flaming_Quiver.png": {
+   "sha256": "22f3cb4abca336eeab98b6ce4ad99b7f762843cc8af037464be34a6d378d48b3",
+   "size": 4883
+  },
+  "icons/game/gear_artifacts/Freezing_Quiver.png": {
+   "sha256": "7256ae5255d4374166e0ebc6268370b2775e19798faf24cd334145fdc7a435f8",
+   "size": 4993
+  },
+  "icons/game/gear_artifacts/Grindstone.png": {
+   "sha256": "54a28fcce80207b49112f08e9f803e87bb90334d6ac4ab2657b16b9aee2997ad",
+   "size": 4925
+  },
+  "icons/game/gear_artifacts/Honey_Dipper.png": {
+   "sha256": "1a60d2a8fe0d5561e321eadd30e02456dd35f4f13a33948af285fb9d6feb3a1e",
+   "size": 5125
+  },
+  "icons/game/gear_artifacts/Humbling_Horn.png": {
+   "sha256": "216b0220aa9ea367495ecbad9cc80fff323550bad44b57659cf287225e374064",
+   "size": 6056
+  },
+  "icons/game/gear_artifacts/Lightning_Rod.png": {
+   "sha256": "4956b3c0562a437416fc3d22c48be2e55ea7519f87ff734761319450d603dcf2",
+   "size": 4946
+  },
+  "icons/game/gear_artifacts/Picnic_Basket.png": {
+   "sha256": "1e53548b24573e8b0c070553b90072ad9d6b30cef6e7ceda1745b78b94b2d1b5",
+   "size": 8857
+  },
+  "icons/game/gear_artifacts/Pouch_of_Ember.png": {
+   "sha256": "62050616b6d2ba2aaf699bcef2b2579f8d8dec7c5e83f4ec76fccf2446a93379",
+   "size": 7094
+  },
+  "icons/game/gear_artifacts/Pouch_of_Frost.png": {
+   "sha256": "a1c20f360b73a20b7dbe08607494c71209f4c7b018e1ed8a8540132ec5e98355",
+   "size": 7359
+  },
+  "icons/game/gear_artifacts/Pouch_of_Poison.png": {
+   "sha256": "1f517ccc60ad36db1d720ebfefabdf594aa653446b820a2a19f21f65489f8bcd",
+   "size": 7021
+  },
+  "icons/game/gear_artifacts/Pouch_of_Thunder.png": {
+   "sha256": "3bc0540a0919f5d89688e2d938f827fcf3a6c10281744b4112fcf3da80aa06d3",
+   "size": 7321
+  },
+  "icons/game/gear_artifacts/Powershaker.png": {
+   "sha256": "58ad44ac5b410b00b193b4676c75e9254dac183d35a912c7f28bcd27b374c5f7",
+   "size": 6367
+  },
+  "icons/game/gear_artifacts/Redstone_Mine_Launcher.png": {
+   "sha256": "c65738fa5cc805a6e6dba907e9ac0fc973140f3d4f1945e00920b3df6fab61c7",
+   "size": 7597
+  },
+  "icons/game/gear_artifacts/Soul_Harvester.png": {
+   "sha256": "4e4c4c047f57eac8c3daafc23d8d9d82809a704c15f50be35e247e9231bcc22e",
+   "size": 7616
+  },
+  "icons/game/gear_artifacts/Tempo_Truffle.png": {
+   "sha256": "df331c1ce615bf7d6e25fe5837dc7fc36bfc9b72ddb26e5e7e76e47236e0ea79",
+   "size": 6689
+  },
+  "icons/game/gear_artifacts/Totem_of_Casting.png": {
+   "sha256": "a5b6cb4d5a652c3095600909f9961db26efc37a51f81df5333db4f2a89936176",
+   "size": 4694
+  },
+  "icons/game/gear_artifacts/Totem_of_Regeneration.png": {
+   "sha256": "2bf0b8a0d27cc48c8b79c78fd4b17f9b09a5a0eaff39ae9afef733e1aa5fcc5d",
+   "size": 4576
+  },
+  "icons/game/gear_artifacts/Totem_of_Shielding.png": {
+   "sha256": "27df72bd288855a06bdd682a736560d426a4209a3ef32546f7c609b497e94206",
+   "size": 5232
+  },
+  "icons/game/gear_artifacts/Turtle_Master_s_Mandolin.png": {
+   "sha256": "496b827ee8c46625fb779437ae6ead92bceeaae607514d70062bb9dbe93e0864",
+   "size": 5186
+  },
+  "icons/game/gear_artifacts/Venomous_Quiver.png": {
+   "sha256": "789adb37ee315b00c49bd427ac517cd3d3762d9ceb8a495e6f95fa07c535ec08",
+   "size": 5042
+  },
+  "icons/game/gear_artifacts/Warding_Chimes.png": {
+   "sha256": "35d27d609fe66759af1fc4caa0f8b4e0795fab5644792b24af9f729e96b2e343",
+   "size": 4996
+  },
+  "icons/game/gear_artifacts/Warrior_Drums.png": {
+   "sha256": "8ff40376b4daef529756d5b7c614495297052b08f17663690d033a1ecce46a56",
+   "size": 5926
+  },
+  "icons/game/gear_artifacts/Winter_Staff.png": {
+   "sha256": "f2349ed6115a27d484afb4ceaa66b41d0c6c48505bfd03ea1f3005de53fffcc9",
+   "size": 5148
+  },
+  "icons/game/gear_artifacts/Witch_Brew.png": {
+   "sha256": "f72d37ddd60958b472653eb0d43811cd358f47daae2cc729471c24967a8733bf",
+   "size": 5538
+  },
+  "icons/game/gear_effects/Acrobat.png": {
+   "sha256": "b7944d9dcabe9ae2fc84f406f6f958417fc1bf0ed8bc35cb2c244248fd1a6662",
+   "size": 4739
+  },
+  "icons/game/gear_effects/Aim.png": {
+   "sha256": "ca917daa291999d6bf4a96b6e536aafe101e80671d9d37fb24a51d7685fa8cab",
+   "size": 4346
+  },
+  "icons/game/gear_effects/Alchemist.png": {
+   "sha256": "1536f5557bb4a5e14072dacf3665ace84755e627a0b0462eb1ea7b77b7c886f4",
+   "size": 7318
+  },
+  "icons/game/gear_effects/Ally.png": {
+   "sha256": "e0d2009184fb1892e3e20d7d502218f4476076fd6d10c669079ba58c7ef5f3e2",
+   "size": 4737
+  },
+  "icons/game/gear_effects/Assassin.png": {
+   "sha256": "a499a2201f480ae19bd15a0ce2764b00401bb619e2f85ea4974ca744fb13cff2",
+   "size": 4763
+  },
+  "icons/game/gear_effects/Boost.png": {
+   "sha256": "62a07622e2a0213b106ec5572d915c1099667e383b822cb1428c1aa72c10bdc3",
+   "size": 5356
+  },
+  "icons/game/gear_effects/Bounty_Hunter.png": {
+   "sha256": "f866fd05609ddbb2efc6c1884caea28816a5dfb86e83760f9584c91c3526073c",
+   "size": 5361
+  },
+  "icons/game/gear_effects/Bowyer.png": {
+   "sha256": "2f7cf47427c5c0a02b119d6369713cf5b35c1b6362bfdb2bf5086048b596d4fc",
+   "size": 5284
+  },
+  "icons/game/gear_effects/Brawler.png": {
+   "sha256": "ec6228bdbd5d8f3623f504eb0686898bd596c518f88cc11dee17a7565c7d08df",
+   "size": 4222
+  },
+  "icons/game/gear_effects/Bully.png": {
+   "sha256": "2433a8569c1f1d63ea594f5e1427b736687985806b9614836cb437ca604d506c",
+   "size": 4370
+  },
+  "icons/game/gear_effects/Constitution.png": {
+   "sha256": "7ba553a344c2e0b74913c42a57a54521c3d75ad3cb104e00b5be48f86d5cf6a3",
+   "size": 5567
+  },
+  "icons/game/gear_effects/Cooldown.png": {
+   "sha256": "a71918c7e8e4ee0aa9800aca0e13381127ec4e31c325b85c820d662bf585ded5",
+   "size": 4323
+  },
+  "icons/game/gear_effects/Critical_Edge.png": {
+   "sha256": "b52d26d3363a56ae03f3292d9ee59db468bf327ffc96657d2765c4ca0c3e67c1",
+   "size": 5295
+  },
+  "icons/game/gear_effects/Critical_Hit.png": {
+   "sha256": "e4a27cc5e9116dd0c4e1c2f6a7a6949f498d519c95f26c893678a735d68603ba",
+   "size": 5962
+  },
+  "icons/game/gear_effects/Cryomancer.png": {
+   "sha256": "4626df68590bbe4f9d956d84079c4229c6692b9631c97e2e5500bdd35b3845f8",
+   "size": 7561
+  },
+  "icons/game/gear_effects/Deflection.png": {
+   "sha256": "d8440006136b4e1652fe103cccd55ffa320a86d9d80b755e54b39702cd451bab",
+   "size": 4859
+  },
+  "icons/game/gear_effects/DropChance_TalismanEffect.png": {
+   "sha256": "d4c0d4ce9726de63329a59a293c732d716d90987e5ba7d6564b3f529459dadca",
+   "size": 4514
+  },
+  "icons/game/gear_effects/Duelist.png": {
+   "sha256": "da24f901733526f064fc4ae161d9e61363ba7b01d1cbec6f40789a7dacb3584d",
+   "size": 6281
+  },
+  "icons/game/gear_effects/Electromancer.png": {
+   "sha256": "370f15f96e33232ca4a1f674df5f8893234bcd19e840c641a3e25c7f156de789",
+   "size": 6138
+  },
+  "icons/game/gear_effects/Elemental_Protection.png": {
+   "sha256": "edeecab18c146ce1f2b6f0d5317f1217a3ad2fc50fc3deb7d0ab300858aadf1e",
+   "size": 5765
+  },
+  "icons/game/gear_effects/Evasion.png": {
+   "sha256": "1765a32752cabd2c15791d9b9f60ae700cdd97bc84c48123a4dace15c340045c",
+   "size": 3597
+  },
+  "icons/game/gear_effects/Finesse.png": {
+   "sha256": "9adb2c3d5fe36745366291b70c96f44cdf7bdb7ba7f422bdd60f4ff1b0e0ceff",
+   "size": 4354
+  },
+  "icons/game/gear_effects/Fletcher.png": {
+   "sha256": "be995c91340d9e7fbf54282515510173a50128e1a1dc1cc6897df8f4a8702e77",
+   "size": 6093
+  },
+  "icons/game/gear_effects/Healer.png": {
+   "sha256": "8e549523c36feeb55eba08bb12d6e62c5454a1c12b148572d4dfa0b166f76c41",
+   "size": 6883
+  },
+  "icons/game/gear_effects/Healthy_Strike.png": {
+   "sha256": "bb6db317b22923728fa2e5272aa33a822e314e58745f48c5af4ed501ea1ab972",
+   "size": 6420
+  },
+  "icons/game/gear_effects/Impact.png": {
+   "sha256": "3c63324579779496e8d750f2620f4d049ab6e65b3383122969ae98e1803a4ffd",
+   "size": 5126
+  },
+  "icons/game/gear_effects/Jumpshot.png": {
+   "sha256": "302d260fcf35411bded2e5c7ccc23c601bc94564955b2f7858018882f51f62bc",
+   "size": 6808
+  },
+  "icons/game/gear_effects/Knockback.png": {
+   "sha256": "9bc7ece37aae62dff4ba68ce20ba2a3b83652378b04a0bba758abb32930994b5",
+   "size": 4672
+  },
+  "icons/game/gear_effects/Leaper.png": {
+   "sha256": "bfb35a68c67f1643e82977a6e1ad031aa19ce53e8767dfad1376509da9e2d122",
+   "size": 5841
+  },
+  "icons/game/gear_effects/Looter.png": {
+   "sha256": "5585a9be37c2dd65bc0e843a1bcd75d00d2227dce07d50e43ce97e50d02bcfe1",
+   "size": 4682
+  },
+  "icons/game/gear_effects/Luck.png": {
+   "sha256": "24ecc5e3a0ff6d434960f8410d6772701104bef53614158364180cd130dcb263",
+   "size": 5520
+  },
+  "icons/game/gear_effects/Marksman.png": {
+   "sha256": "3a95974652aca0c9835adb88827ee1a57cf38060c014df6140d7b9f512fefba3",
+   "size": 4467
+  },
+  "icons/game/gear_effects/Momentum.png": {
+   "sha256": "c2067ccddd1e378b867c9036d74f31c2a35cf300b7e6dee2ea90b628a149ab30",
+   "size": 3500
+  },
+  "icons/game/gear_effects/Pack_Leader.png": {
+   "sha256": "15f61163bedafec0b86fe41ad8f7bbbb0cc260c8216219c631d5d837ec395231",
+   "size": 5405
+  },
+  "icons/game/gear_effects/Persistence.png": {
+   "sha256": "6c0307797226d2821b1bb2e2f4a1fc3d1b9d19b0dd4e8c4c6ce7182194562b8e",
+   "size": 5396
+  },
+  "icons/game/gear_effects/Point_Blank.png": {
+   "sha256": "8345409f6f90703e5475216271e5f94bb2ebc5a44e310b420a1fa0daf0ed89c4",
+   "size": 6058
+  },
+  "icons/game/gear_effects/Potion_Maker.png": {
+   "sha256": "c712a825fda79326901c7df04446c37c986b6b043ff424f2408b1ec7932a502d",
+   "size": 5303
+  },
+  "icons/game/gear_effects/Precision.png": {
+   "sha256": "4df9a38d0f70c6ce693dce2cb9d143d52184f8f9fb7949ddba58222b2a81ef1c",
+   "size": 4593
+  },
+  "icons/game/gear_effects/Prickly.png": {
+   "sha256": "22faa19a54618728216c8a8dbb56d335849d2693385ca8a518ae52627aae42d2",
+   "size": 6387
+  },
+  "icons/game/gear_effects/Prodigy.png": {
+   "sha256": "4de6dd4ade335fecb3e9bbbd22acd7d90c895b6c7c6db79a19e68019066cb46c",
+   "size": 4921
+  },
+  "icons/game/gear_effects/Projectile_Protection.png": {
+   "sha256": "77a43d23dffcfb0e6e58b692393b70298a313f929050c58f8525e1bc72d9e257",
+   "size": 4557
+  },
+  "icons/game/gear_effects/Prospector.png": {
+   "sha256": "4216c19429e1d51cda7cac8a0ef3885bb406cc5d68a77275a2d0cb303e1cb5fc",
+   "size": 4666
+  },
+  "icons/game/gear_effects/Protection.png": {
+   "sha256": "f44bbb8a7f4233ea57f31efa5fb81c603120dc030b428213f6a144b339654610",
+   "size": 3238
+  },
+  "icons/game/gear_effects/Prowler.png": {
+   "sha256": "e616b40d741dc527ee7dad4c0e4172ce5f4d82e0c00ad3e882d3328120c4c5ab",
+   "size": 4324
+  },
+  "icons/game/gear_effects/Pyromancer.png": {
+   "sha256": "a5c46840066d2a801d7d1165ac26cb99c69ef257bb8828d0533efc4ab944f40c",
+   "size": 6291
+  },
+  "icons/game/gear_effects/Pyrotechnics.png": {
+   "sha256": "10dbfb12fba5b12347dc0f2aef5474ad07269555895d47994296178ac56a0a3e",
+   "size": 5915
+  },
+  "icons/game/gear_effects/Quiver.png": {
+   "sha256": "20feccc2503d95e8d8ab54637a318623df5ef3fa652a4b1c73db72f8f8d33f71",
+   "size": 4537
+  },
+  "icons/game/gear_effects/Raider.png": {
+   "sha256": "be07e17248b427c1c6e81bbf8d5154a6508cc1a5c43b51c346483ad76788b0ca",
+   "size": 6172
+  },
+  "icons/game/gear_effects/Randomancer.png": {
+   "sha256": "3c2663ea88233a46fb61d3c4e140535f55852303c45db2d921deda64ecbbd306",
+   "size": 6946
+  },
+  "icons/game/gear_effects/Ranger.png": {
+   "sha256": "d6f3c79ad77c60b3a81ea9282c2e8f5186c2451f900f6ee3c2ff02ab4b549e5b",
+   "size": 5592
+  },
+  "icons/game/gear_effects/Reaper.png": {
+   "sha256": "e59806c98d67b10004a8308f2d8f4ccd52ef98b32eb5300d7f8aaea1a4b21171",
+   "size": 6856
+  },
+  "icons/game/gear_effects/Recovery.png": {
+   "sha256": "7c928784c14a9156462bc7829b71538f3d82cb839bc8b65d8da66160feb501fe",
+   "size": 7059
+  },
+  "icons/game/gear_effects/Regeneration.png": {
+   "sha256": "7fd4d7c4491da39c2410b64100e4c34115f116a255056414c883345b70c9ff53",
+   "size": 4522
+  },
+  "icons/game/gear_effects/Relic.png": {
+   "sha256": "07fa43fea9e0b5b2b3aa39c79c36616472381da07a3e226478d3d7a83c5a3582",
+   "size": 7169
+  },
+  "icons/game/gear_effects/Reload.png": {
+   "sha256": "eac53092ce4649d5b3951ee7902747490a751f39db43d0c9b6985a57698e6d8e",
+   "size": 4558
+  },
+  "icons/game/gear_effects/Resilience.png": {
+   "sha256": "58fe985297a6068848ffcbff74c4ecc9d26bdd5961be6089441681cd70e6d0cc",
+   "size": 5609
+  },
+  "icons/game/gear_effects/Shackler.png": {
+   "sha256": "f18cf170dcb20f361ab4fcf73920777851e30f4197d1bb5050be180c544e373d",
+   "size": 7570
+  },
+  "icons/game/gear_effects/Sharpness.png": {
+   "sha256": "4d315dcacd8aac9c3c35567d1acebd1e0a60096df1598d5710ffc86780252e73",
+   "size": 3527
+  },
+  "icons/game/gear_effects/Sharpshooter.png": {
+   "sha256": "6a34bbdb40c0e03a3ff266402f7f9567b147581c8cb8591d72d151d627ccfd9f",
+   "size": 5464
+  },
+  "icons/game/gear_effects/Shepherd.png": {
+   "sha256": "0fee71d13c08c3e82a34f533477dcbb9859a77ea58cdba3d9184409d8cdd1857",
+   "size": 4692
+  },
+  "icons/game/gear_effects/Slinger_of_Bling.png": {
+   "sha256": "6c8edbd735ff2317237dea6f9cddcbebf0066354dc15f7cf585b8acec520fcda",
+   "size": 5579
+  },
+  "icons/game/gear_effects/Sniper.png": {
+   "sha256": "8d6980e763489e246e382fd274a81abec9196fb699a87547c9fc2b995a21c001",
+   "size": 5960
+  },
+  "icons/game/gear_effects/Sorcerer.png": {
+   "sha256": "babba56c99b18cc32bf6eebede1acbbcf80cefe70fc389231347dd8a2984cd86",
+   "size": 5636
+  },
+  "icons/game/gear_effects/SoulGather_TalismanEffect.png": {
+   "sha256": "e59806c98d67b10004a8308f2d8f4ccd52ef98b32eb5300d7f8aaea1a4b21171",
+   "size": 6856
+  },
+  "icons/game/gear_effects/Soul_Cursed.png": {
+   "sha256": "098ad36c2dbf4ff5fc0d971cbd56889bef76132820145eff956bb0d590ed2aa2",
+   "size": 5340
+  },
+  "icons/game/gear_effects/Soulmancer.png": {
+   "sha256": "b3bb5c7e9b9c37629c031883c5a41056be6bcb6f4edc8a226374a05aa14ebf37",
+   "size": 6072
+  },
+  "icons/game/gear_effects/Speed.png": {
+   "sha256": "d999f3762518e52447900c58e3344cddc46c621490cfe3dc9b94997653a7b237",
+   "size": 3062
+  },
+  "icons/game/gear_effects/Speed_Increment.png": {
+   "sha256": "e953bb29065d49dee5cc68c2739f490698b27477260e1ebb52e04b5dd3cd0f31",
+   "size": 5967
+  },
+  "icons/game/gear_effects/Spiritual.png": {
+   "sha256": "8a3d22d37508661d5a8e2e36227f7dd004c39d9941e80f9b7bd3cb7b29c3fa90",
+   "size": 6332
+  },
+  "icons/game/gear_effects/Stealth.png": {
+   "sha256": "fb9dc4d7ac24656ea21b108c029783ba43a56dff17acc77a236b17e75a8f9e01",
+   "size": 4405
+  },
+  "icons/game/gear_effects/Strength.png": {
+   "sha256": "e65bb21268a7c1c64915c23ef1dce4bc824a8d0d31cd6ebca14045fc8d79fdd3",
+   "size": 5068
+  },
+  "icons/game/gear_effects/Strengthening_Hit.png": {
+   "sha256": "ade406e1c84c76dfb91520ae9bc2492046263319b82647a490a01fc4a17c916c",
+   "size": 6396
+  },
+  "icons/game/gear_effects/Swiftness.png": {
+   "sha256": "691ab853cf147c31166e5fede8ac8252ee537b725a5526c425d42ede4491b90d",
+   "size": 3151
+  },
+  "icons/game/gear_effects/Tainted.png": {
+   "sha256": "39ff1c7a38bf466c3a61dc553b047f8ee631ee18bcfad8278ab5e708dc10df4e",
+   "size": 4017
+  },
+  "icons/game/gear_effects/Totem_Radius.png": {
+   "sha256": "c8cd145db83d149a4e522b34aa68150ed5cdf962c28cd5c0d2f01f64cc2513de",
+   "size": 6851
+  },
+  "icons/game/gear_effects/Vanguard.png": {
+   "sha256": "20aa6501cf2c70e59abf7917d645bf34c6bc860e7c0a7278277ff209c6f04d15",
+   "size": 6429
+  },
+  "icons/game/gear_effects/Venomancer.png": {
+   "sha256": "88ef5a822c44c26d325d3a3b90b007f97dd807c959def288b32081b723d594f2",
+   "size": 7088
+  },
+  "icons/game/gear_effects/Veterinarian.png": {
+   "sha256": "3e67b443d8fa80477e2aa4d5ccee115bda21559a96622b7e1d7013fb3e55d1a8",
+   "size": 5011
+  },
+  "icons/game/index.json": {
+   "sha256": "613b451583761cbb51e41f9cdb76a9a3867e075dbb3aa007e1cabdd21566b5d9",
+   "size": 99696
+  },
+  "icons/game/melee_weapons/Awesomeaxe.png": {
+   "sha256": "1586684b8792627747f8e6d4145506e4b71a53a98e58a97d4ee7a6eed9f193a0",
+   "size": 5178
+  },
+  "icons/game/melee_weapons/Axe.png": {
+   "sha256": "f611fe12c77f85fb9591de6e5ba457a8ca0a2b824edda0d67373211fa5812556",
+   "size": 4667
+  },
+  "icons/game/melee_weapons/Battle_Hammer.png": {
+   "sha256": "0467ad9f41efb1069cf4cdd2ffb94ec961b759321e73593600707cdccccbc4bc",
+   "size": 6015
+  },
+  "icons/game/melee_weapons/Battlestaff.png": {
+   "sha256": "ec84ae020175e3f2bc2a4b9a4c2fc1ca19cc20d1a8666e0afd030d215ac1a68f",
+   "size": 3150
+  },
+  "icons/game/melee_weapons/Cacaphonous_Cleaver.png": {
+   "sha256": "6e2f27817a8db263c03236bd971d57c28218066bf8283267b960f41111a6edd8",
+   "size": 4964
+  },
+  "icons/game/melee_weapons/Carapace_Mace.png": {
+   "sha256": "ce8ecfb445125401714f6e8b90de417d26a385329a8244ddfd02b836722f6620",
+   "size": 5033
+  },
+  "icons/game/melee_weapons/Claymore.png": {
+   "sha256": "6d27018f5df3be2b3cb88a5113b08edd7a4cd8d08874eb5a7b6e8e51f8c0b9d5",
+   "size": 3475
+  },
+  "icons/game/melee_weapons/Clobberer.png": {
+   "sha256": "f7e1a565c488d05a15553bd7c7a9f012f4371e2080c243a8e62fc6bab29e8a81",
+   "size": 5526
+  },
+  "icons/game/melee_weapons/Cookiecutter.png": {
+   "sha256": "b13d404b72a40148870942800fcd0c5dcbdb4ef168daabe74ece33afe7e53b84",
+   "size": 3007
+  },
+  "icons/game/melee_weapons/Diamond_Shovel.png": {
+   "sha256": "826f3e010a41d6d5069208403e606e35b54c0c30ebe829fa537dc52577aebba3",
+   "size": 4335
+  },
+  "icons/game/melee_weapons/Double_Daggers.png": {
+   "sha256": "8b377a01194c8e4ca69d6cfc0fe2d6f6fee4964d0d43fca39cb11d424caf47af",
+   "size": 5065
+  },
+  "icons/game/melee_weapons/Double_Sickles.png": {
+   "sha256": "d94ac7300d5330c87b4abc69c8d7cac5902934e5d9c68f83de8b12cb8b87571a",
+   "size": 3905
+  },
+  "icons/game/melee_weapons/Elemental_Staff.png": {
+   "sha256": "fd0314316820614bec1a7239f0ba43a687c7ac9ca2b5e111977067c4a57bc938",
+   "size": 3513
+  },
+  "icons/game/melee_weapons/Emerald_Hammer.png": {
+   "sha256": "a635b48dd7ae6d1f8e4b2c680e89d8ab00d27c3bb7c8e467dfe8edab6159ab9b",
+   "size": 6459
+  },
+  "icons/game/melee_weapons/Frostbiter.png": {
+   "sha256": "c3129ad70410c10c7864c5e0b61a7a5123c277284c2b03fa2fa4ea5e58cdb7e6",
+   "size": 4417
+  },
+  "icons/game/melee_weapons/Gauntlets.png": {
+   "sha256": "59ef7f1255eaaa0f6b262737440bf4a87aa15e631f1004df36a2556f36630972",
+   "size": 4675
+  },
+  "icons/game/melee_weapons/Glaive.png": {
+   "sha256": "fb534b46cac5749784bb753a69afe92deec15cd409a858b9b3c413587f8db4f0",
+   "size": 2955
+  },
+  "icons/game/melee_weapons/Golden_Glaive.png": {
+   "sha256": "4625e54730849946e4e7c0823a1db325341755c3f4d9803eb526803f7c91b6d0",
+   "size": 3503
+  },
+  "icons/game/melee_weapons/Greataxe.png": {
+   "sha256": "06ee656939ff272f284c953069f0e5a3400387412ebb8cf5a77956f2869175ee",
+   "size": 4795
+  },
+  "icons/game/melee_weapons/Greatsword.png": {
+   "sha256": "ef1d1dfd7bc6032ff151aa128a4f339fcaca92efcff160a02754937aae4c2efe",
+   "size": 4310
+  },
+  "icons/game/melee_weapons/Heartbreaker.png": {
+   "sha256": "cd145637c69060a86bbca7b1ea8ef341ac9b15625eacd5ed1b6450d43f6cc7ad",
+   "size": 4395
+  },
+  "icons/game/melee_weapons/Hunter_s_Hatchet.png": {
+   "sha256": "ff95973809ea79c359c3ab32baf7b474962be4f07af815c8aa0d2d20d00ad40d",
+   "size": 5159
+  },
+  "icons/game/melee_weapons/Longsword.png": {
+   "sha256": "51f500cc96d3d3671e9cda8a03d20500ac34fb0d754a1080fb3e64da3c506160",
+   "size": 3772
+  },
+  "icons/game/melee_weapons/Lullaby_Blade.png": {
+   "sha256": "2fca403504c3c780d6d782cf89f6bda729417d1e845a406e9f1b0a03fdaad9d9",
+   "size": 3387
+  },
+  "icons/game/melee_weapons/Lunar_Sickle.png": {
+   "sha256": "a87d5a473a56be90fb3de93296717f398df0d4b130b0a846aaaa4530b4cef053",
+   "size": 4343
+  },
+  "icons/game/melee_weapons/Mace.png": {
+   "sha256": "4a0b9113202885490096a80c817861bf891b740dc0794a1b7b6c01f7e7f3d5bf",
+   "size": 5036
+  },
+  "icons/game/melee_weapons/Meat_Cleaver.png": {
+   "sha256": "3aae0624f7f4eeb30dc5115003b1a431b243b03106548188bfbd38d81fe6017a",
+   "size": 4374
+  },
+  "icons/game/melee_weapons/Mob_Mallet.png": {
+   "sha256": "5fc0a15f5d99ca21c77d6e180e2966ada569f67279fd23c35d310aafb23f988a",
+   "size": 6421
+  },
+  "icons/game/melee_weapons/Monster_Masher.png": {
+   "sha256": "904c9e6fddfe4acd6899ff42ba4c0743771ec1aa0e3aba2550f8bd8b326e298a",
+   "size": 6190
+  },
+  "icons/game/melee_weapons/Pickaxe.png": {
+   "sha256": "4de8ceda5e5acbcf26341fe76aad37378d69393d396839e075af7413c7d79b63",
+   "size": 5588
+  },
+  "icons/game/melee_weapons/Pike.png": {
+   "sha256": "8f1ffb60a449d0e28092b53f088ba45ab58e7be7bb18ffeca2f02a36bc51ee20",
+   "size": 3400
+  },
+  "icons/game/melee_weapons/Pride_of_the_Plains.png": {
+   "sha256": "904ffd7840c1d84c9a8be8c5a50bd9ce3305a86467844ba564fa7f1a98174eac",
+   "size": 3415
+  },
+  "icons/game/melee_weapons/Prime_Enchanter_s_Gauntlets.png": {
+   "sha256": "0d2ec45529e4025fc68489220291a32f89de9167a4c06e5555ada2023db059da",
+   "size": 4983
+  },
+  "icons/game/melee_weapons/Rapier.png": {
+   "sha256": "89a236b5a59d94458c2b9bcebc109151657391b5d26c33a27a902f9a0e7f0982",
+   "size": 4164
+  },
+  "icons/game/melee_weapons/Rascal_s_Razor.png": {
+   "sha256": "8a9a630b299e5d3e6415170c53106b8f996c4cf701ea98cd3c45b49e3cb68c92",
+   "size": 3519
+  },
+  "icons/game/melee_weapons/Redstone_Wrecker.png": {
+   "sha256": "112dae8f473a89c9c13e9873afe7749b64ad128a038deefad287760228f37446",
+   "size": 5856
+  },
+  "icons/game/melee_weapons/Riftslasher.png": {
+   "sha256": "2e0cd58d1fca9f5f00fd112ab41999237a5cb5dd9e374b41e9017f91c4458483",
+   "size": 2979
+  },
+  "icons/game/melee_weapons/Sabre.png": {
+   "sha256": "45d76e492ed0ad47ab3cba519af4c3156383333c26600f0f8029a3b5d7fada3b",
+   "size": 3227
+  },
+  "icons/game/melee_weapons/Sculker_Claws.png": {
+   "sha256": "4144357aa68463ae99caeac7bf88047c3cfda9fa8f2fce7225282c634becb0e3",
+   "size": 6816
+  },
+  "icons/game/melee_weapons/Sculker_s_Bane.png": {
+   "sha256": "8124032d9ddc93b5d4323d4afd9f2de93d398c3d5bde3f408335c897f2dbbeed",
+   "size": 5239
+  },
+  "icons/game/melee_weapons/Scythe.png": {
+   "sha256": "f5cee4c50c217a90ae17a099d13e4723b320d07c220450e2920cb454533366d9",
+   "size": 4856
+  },
+  "icons/game/melee_weapons/Short_Spear.png": {
+   "sha256": "03339a9c1a73d4e5cc5fdf4100a422b45f375005774bb7c5d45eb9aa0f8430d9",
+   "size": 3240
+  },
+  "icons/game/melee_weapons/Shovel.png": {
+   "sha256": "eecd8a45e38df5bfd907ec90c71c8805e79ece5f0d854bda1a22e0ff39cc52cc",
+   "size": 4143
+  },
+  "icons/game/melee_weapons/Sift_Sickles.png": {
+   "sha256": "12aae926c6e4501f8780d165f92bfb9766196a1a6d881ded4ade03cfdc2f9ba4",
+   "size": 5510
+  },
+  "icons/game/melee_weapons/Slaymore.png": {
+   "sha256": "8fb1f6199477353f149fc18f2dc01e6a4b8be62c1f902ac2903ba57430a052c8",
+   "size": 3978
+  },
+  "icons/game/melee_weapons/Soul_Reaper.png": {
+   "sha256": "a7103b8589143c45b4b9cd949e5ae6c6ab876353fb9a3d6a046a1b1ef6054fd3",
+   "size": 5234
+  },
+  "icons/game/melee_weapons/Spectral_Spear.png": {
+   "sha256": "e63f4a0d366910102db9ca9da8487ea7055524be45a836173bc22261bd83d5f5",
+   "size": 3392
+  },
+  "icons/game/melee_weapons/Stormcaller.png": {
+   "sha256": "2e5e14b45acf1360d848866db87297abef3317adaa511c6cf6f2b5eb3d61a2c1",
+   "size": 3395
+  },
+  "icons/game/melee_weapons/Sword.png": {
+   "sha256": "024a9896e8b761e341ac88cbec3b099588a4b8c59acaec6ace4b780dd07a6c69",
+   "size": 4727
+  },
+  "icons/game/melee_weapons/The_Burning_Blade.png": {
+   "sha256": "8a597b385b5c7a69e661b0f58309001a6586e1c676e5250a6904ead691680062",
+   "size": 5225
+  },
+  "icons/game/melee_weapons/The_Darkshard.png": {
+   "sha256": "b3644775df9ddd639344465ff491b1718e5cd9b67bfcacba6df9fdc9c4d64768",
+   "size": 4468
+  },
+  "icons/game/melee_weapons/The_Prospector_s_Pick.png": {
+   "sha256": "acc559d5ba27b466cc4034e0dd4b2f40682ae85eb2f19b25327a86528a12ba50",
+   "size": 5750
+  },
+  "icons/game/melee_weapons/The_Thousand_Cuts.png": {
+   "sha256": "49e5a229bba20221a8d1a4ce0be6bd10a7db7e5e8ba14b249e1bb0c4012f79a1",
+   "size": 4044
+  },
+  "icons/game/melee_weapons/Tidal_Sickle.png": {
+   "sha256": "11dd32922fff03e3f04dde39307df461532b0539dc93b55fb80bf7d3dce80671",
+   "size": 4574
+  },
+  "icons/game/melee_weapons/Twilight_Dagger.png": {
+   "sha256": "44298f68536bd93cc00c81c9e3bf44cc17430bd3532b72f8a400d42f2c82d73e",
+   "size": 4666
+  },
+  "icons/game/melee_weapons/Venomous_Fangs.png": {
+   "sha256": "df2b9bede41fbc50c37c7fa3c0e3058d553ba2578758d733f010593499047ab0",
+   "size": 5401
+  },
+  "icons/game/melee_weapons/War_Hammer.png": {
+   "sha256": "e484fcb9c9d1d70f38ee7e3e6edb35c10669a45d30db36f124247ac5522fe348",
+   "size": 3982
+  },
+  "icons/game/melee_weapons/Wolf_Claws.png": {
+   "sha256": "e451960297b2b3a981cbcc162c43303d5fdece7e7f327625663259a76ee7e2e8",
+   "size": 5836
+  },
+  "icons/game/mobs/Arctic_Fox.png": {
+   "sha256": "d563e87e3b78e8b938aea3f0f2811b46407a3b951bc1fd1e8ebccec3649952c0",
+   "size": 4053
+  },
+  "icons/game/mobs/Baby_Chicken.png": {
+   "sha256": "1167ca2e548c8624fcd4a7a768633396697d9fd46aa21e9f961bccc568322f4f",
+   "size": 6476
+  },
+  "icons/game/mobs/Baby_Pig.png": {
+   "sha256": "7d088d9e192acc9b2a022d2651f73114ceca473a8450d2e3b318554ff33e8c9c",
+   "size": 3615
+  },
+  "icons/game/mobs/Baby_Wolf.png": {
+   "sha256": "30b17f750488ea61769dd2ac44cd1d17da7d1b33629599622cb28077cc980751",
+   "size": 4808
+  },
+  "icons/game/mobs/Baby_Zombie.png": {
+   "sha256": "7dc7af7868e57fe62028a53ccaeaf3b69bcbde4163c5d8783a2177227edaf566",
+   "size": 5369
+  },
+  "icons/game/mobs/Bee.png": {
+   "sha256": "b0a3986ab319987a771e5cd59d9ab5e3210ad9048f9c3fb221d70f7d68f98518",
+   "size": 6101
+  },
+  "icons/game/mobs/Bloombud.png": {
+   "sha256": "8a3e3f94b9a6ef4006370fa963c373c3256761a3289b66879623c52d3472bf4b",
+   "size": 6141
+  },
+  "icons/game/mobs/Blub.png": {
+   "sha256": "954f2bef6e3811aac6318224b88b7a892ba8533805955c6c90e15b7542a510f1",
+   "size": 5878
+  },
+  "icons/game/mobs/Bogged.png": {
+   "sha256": "8a3e3f94b9a6ef4006370fa963c373c3256761a3289b66879623c52d3472bf4b",
+   "size": 6141
+  },
+  "icons/game/mobs/Cat.png": {
+   "sha256": "954f2bef6e3811aac6318224b88b7a892ba8533805955c6c90e15b7542a510f1",
+   "size": 5878
+  },
+  "icons/game/mobs/Cave_Spider.png": {
+   "sha256": "e3c559710e0f2fa745cb48ab2fb14178409aa2ccb73171e4595482abf0c029f4",
+   "size": 6861
+  },
+  "icons/game/mobs/Charged_Creeper.png": {
+   "sha256": "5255bd9ab2c143a53c1b3f8996296597e8cd6f197a532d6190044c7eab1d4677",
+   "size": 5964
+  },
+  "icons/game/mobs/Charred.png": {
+   "sha256": "7dc7af7868e57fe62028a53ccaeaf3b69bcbde4163c5d8783a2177227edaf566",
+   "size": 5369
+  },
+  "icons/game/mobs/Chicken.png": {
+   "sha256": "1167ca2e548c8624fcd4a7a768633396697d9fd46aa21e9f961bccc568322f4f",
+   "size": 6476
+  },
+  "icons/game/mobs/Chicken_Jockey.png": {
+   "sha256": "31f54adf49585c3f79a93f6dede7d965662e80f9879915b711dd4f6fc975ba42",
+   "size": 6630
+  },
+  "icons/game/mobs/Copper_Cube.png": {
+   "sha256": "8a3e3f94b9a6ef4006370fa963c373c3256761a3289b66879623c52d3472bf4b",
+   "size": 6141
+  },
+  "icons/game/mobs/Copper_Monstrosity.png": {
+   "sha256": "683f9706765a61c583e5fcfc8662a4eae8f0a7e6a188e2f747362d84448d0be2",
+   "size": 6038
+  },
+  "icons/game/mobs/Cow.png": {
+   "sha256": "5b3a84754bcde7b6dce2eb54ad5914b9f3871a86d253ee96d90d1a65acc93d14",
+   "size": 4099
+  },
+  "icons/game/mobs/Creeper.png": {
+   "sha256": "5255bd9ab2c143a53c1b3f8996296597e8cd6f197a532d6190044c7eab1d4677",
+   "size": 5964
+  },
+  "icons/game/mobs/Dartback.png": {
+   "sha256": "683f9706765a61c583e5fcfc8662a4eae8f0a7e6a188e2f747362d84448d0be2",
+   "size": 6038
+  },
+  "icons/game/mobs/Echo_Golem.png": {
+   "sha256": "2ad7e4931ee8e3acee43e6920455d4425ce87e0ed3325a0d70960e31ae999a9d",
+   "size": 6920
+  },
+  "icons/game/mobs/Enchanter.png": {
+   "sha256": "1012e0a1b006c376ac37ee232900d871d07709a601ee17f23e943664260bcb72",
+   "size": 6278
+  },
+  "icons/game/mobs/Enderman.png": {
+   "sha256": "41e52cab38a69beb6a7548b3d1409d0df61c15800ec30b2f8f631cc2bd1751be",
+   "size": 6592
+  },
+  "icons/game/mobs/Evoker.png": {
+   "sha256": "0ae8a6dfd47ba385f99c2c27e2671d6416b037478ed6ceeeb80b127cb6b226e2",
+   "size": 6736
+  },
+  "icons/game/mobs/Excavator.png": {
+   "sha256": "1012e0a1b006c376ac37ee232900d871d07709a601ee17f23e943664260bcb72",
+   "size": 6278
+  },
+  "icons/game/mobs/Flame_Construct.png": {
+   "sha256": "d2874bfdaad453a2652be5cb198b8f647ecbb64639081f56c2f495a98b1d683e",
+   "size": 7164
+  },
+  "icons/game/mobs/Fox.png": {
+   "sha256": "d563e87e3b78e8b938aea3f0f2811b46407a3b951bc1fd1e8ebccec3649952c0",
+   "size": 4053
+  },
+  "icons/game/mobs/Frog.png": {
+   "sha256": "5e80dcab88787385f1f418c5f4e110f88904ba77686d55a914f68f8f8cfc96f7",
+   "size": 5774
+  },
+  "icons/game/mobs/Frozen.png": {
+   "sha256": "7dc7af7868e57fe62028a53ccaeaf3b69bcbde4163c5d8783a2177227edaf566",
+   "size": 5369
+  },
+  "icons/game/mobs/Fusefly.png": {
+   "sha256": "8a3e3f94b9a6ef4006370fa963c373c3256761a3289b66879623c52d3472bf4b",
+   "size": 6141
+  },
+  "icons/game/mobs/Geomancer.png": {
+   "sha256": "1012e0a1b006c376ac37ee232900d871d07709a601ee17f23e943664260bcb72",
+   "size": 6278
+  },
+  "icons/game/mobs/Goat.png": {
+   "sha256": "11359fa8e26ec160120a04aceabee7cf61b4fcb785c700cca6016d5fde846ee9",
+   "size": 4999
+  },
+  "icons/game/mobs/Harmonizer.png": {
+   "sha256": "41e52cab38a69beb6a7548b3d1409d0df61c15800ec30b2f8f631cc2bd1751be",
+   "size": 6592
+  },
+  "icons/game/mobs/Hunter.png": {
+   "sha256": "8a3e3f94b9a6ef4006370fa963c373c3256761a3289b66879623c52d3472bf4b",
+   "size": 6141
+  },
+  "icons/game/mobs/Hurler.png": {
+   "sha256": "8a3e3f94b9a6ef4006370fa963c373c3256761a3289b66879623c52d3472bf4b",
+   "size": 6141
+  },
+  "icons/game/mobs/Husk.png": {
+   "sha256": "7dc7af7868e57fe62028a53ccaeaf3b69bcbde4163c5d8783a2177227edaf566",
+   "size": 5369
+  },
+  "icons/game/mobs/Iron_Golem.png": {
+   "sha256": "3fe0a145f15a38a4d4625cffc4a9f12ac38d0cac32bb66a1e794a04c7e95e96a",
+   "size": 2534
+  },
+  "icons/game/mobs/Key_Golem.png": {
+   "sha256": "d2874bfdaad453a2652be5cb198b8f647ecbb64639081f56c2f495a98b1d683e",
+   "size": 7164
+  },
+  "icons/game/mobs/Llama.png": {
+   "sha256": "000ee3b1f6d37dfd20bebf2169e792befec4c6dcf5bf4a9550d02e52b2f46668",
+   "size": 1771
+  },
+  "icons/game/mobs/Lootkin.png": {
+   "sha256": "954f2bef6e3811aac6318224b88b7a892ba8533805955c6c90e15b7542a510f1",
+   "size": 5878
+  },
+  "icons/game/mobs/Monarch.png": {
+   "sha256": "8a3e3f94b9a6ef4006370fa963c373c3256761a3289b66879623c52d3472bf4b",
+   "size": 6141
+  },
+  "icons/game/mobs/Monarch_Echo.png": {
+   "sha256": "8a3e3f94b9a6ef4006370fa963c373c3256761a3289b66879623c52d3472bf4b",
+   "size": 6141
+  },
+  "icons/game/mobs/Monstrous_Opus.png": {
+   "sha256": "683f9706765a61c583e5fcfc8662a4eae8f0a7e6a188e2f747362d84448d0be2",
+   "size": 6038
+  },
+  "icons/game/mobs/Moss_Cube.png": {
+   "sha256": "8a3e3f94b9a6ef4006370fa963c373c3256761a3289b66879623c52d3472bf4b",
+   "size": 6141
+  },
+  "icons/game/mobs/Mosstrosity.png": {
+   "sha256": "683f9706765a61c583e5fcfc8662a4eae8f0a7e6a188e2f747362d84448d0be2",
+   "size": 6038
+  },
+  "icons/game/mobs/Mucked.png": {
+   "sha256": "7dc7af7868e57fe62028a53ccaeaf3b69bcbde4163c5d8783a2177227edaf566",
+   "size": 5369
+  },
+  "icons/game/mobs/Nester.png": {
+   "sha256": "b43f4c8829859ceadf997269bd2785fc830552dfcbd6e2620b7d85fab79edc8b",
+   "size": 4525
+  },
+  "icons/game/mobs/Nuzzle.png": {
+   "sha256": "954f2bef6e3811aac6318224b88b7a892ba8533805955c6c90e15b7542a510f1",
+   "size": 5878
+  },
+  "icons/game/mobs/Ocelot.png": {
+   "sha256": "954f2bef6e3811aac6318224b88b7a892ba8533805955c6c90e15b7542a510f1",
+   "size": 5878
+  },
+  "icons/game/mobs/Pig.png": {
+   "sha256": "7d088d9e192acc9b2a022d2651f73114ceca473a8450d2e3b318554ff33e8c9c",
+   "size": 3615
+  },
+  "icons/game/mobs/Pigeon.png": {
+   "sha256": "7d088d9e192acc9b2a022d2651f73114ceca473a8450d2e3b318554ff33e8c9c",
+   "size": 3615
+  },
+  "icons/game/mobs/Piggy_Bank.png": {
+   "sha256": "7d088d9e192acc9b2a022d2651f73114ceca473a8450d2e3b318554ff33e8c9c",
+   "size": 3615
+  },
+  "icons/game/mobs/Pillager.png": {
+   "sha256": "1012e0a1b006c376ac37ee232900d871d07709a601ee17f23e943664260bcb72",
+   "size": 6278
+  },
+  "icons/game/mobs/Pollinator.png": {
+   "sha256": "b43f4c8829859ceadf997269bd2785fc830552dfcbd6e2620b7d85fab79edc8b",
+   "size": 4525
+  },
+  "icons/game/mobs/Prickle.png": {
+   "sha256": "cb6f967e604992d023bdcaecac78990a03786513e3574a3d6af466425a6c19d9",
+   "size": 998
+  },
+  "icons/game/mobs/Rabbit.png": {
+   "sha256": "954f2bef6e3811aac6318224b88b7a892ba8533805955c6c90e15b7542a510f1",
+   "size": 5878
+  },
+  "icons/game/mobs/Ravager.png": {
+   "sha256": "1012e0a1b006c376ac37ee232900d871d07709a601ee17f23e943664260bcb72",
+   "size": 6278
+  },
+  "icons/game/mobs/Redstone_Cube.png": {
+   "sha256": "8a3e3f94b9a6ef4006370fa963c373c3256761a3289b66879623c52d3472bf4b",
+   "size": 6141
+  },
+  "icons/game/mobs/Redstone_Monstrosity.png": {
+   "sha256": "683f9706765a61c583e5fcfc8662a4eae8f0a7e6a188e2f747362d84448d0be2",
+   "size": 6038
+  },
+  "icons/game/mobs/Roamroot.png": {
+   "sha256": "8a3e3f94b9a6ef4006370fa963c373c3256761a3289b66879623c52d3472bf4b",
+   "size": 6141
+  },
+  "icons/game/mobs/Roamrot.png": {
+   "sha256": "8a3e3f94b9a6ef4006370fa963c373c3256761a3289b66879623c52d3472bf4b",
+   "size": 6141
+  },
+  "icons/game/mobs/Royal_Guard.png": {
+   "sha256": "1012e0a1b006c376ac37ee232900d871d07709a601ee17f23e943664260bcb72",
+   "size": 6278
+  },
+  "icons/game/mobs/Salmon.png": {
+   "sha256": "954f2bef6e3811aac6318224b88b7a892ba8533805955c6c90e15b7542a510f1",
+   "size": 5878
+  },
+  "icons/game/mobs/Scavenger.png": {
+   "sha256": "8a3e3f94b9a6ef4006370fa963c373c3256761a3289b66879623c52d3472bf4b",
+   "size": 6141
+  },
+  "icons/game/mobs/Scorched.png": {
+   "sha256": "8a3e3f94b9a6ef4006370fa963c373c3256761a3289b66879623c52d3472bf4b",
+   "size": 6141
+  },
+  "icons/game/mobs/Sculk_Cube.png": {
+   "sha256": "8a3e3f94b9a6ef4006370fa963c373c3256761a3289b66879623c52d3472bf4b",
+   "size": 6141
+  },
+  "icons/game/mobs/Sculk_Monstrosity.png": {
+   "sha256": "683f9706765a61c583e5fcfc8662a4eae8f0a7e6a188e2f747362d84448d0be2",
+   "size": 6038
+  },
+  "icons/game/mobs/Seedling.png": {
+   "sha256": "b43f4c8829859ceadf997269bd2785fc830552dfcbd6e2620b7d85fab79edc8b",
+   "size": 4525
+  },
+  "icons/game/mobs/Sentinel.png": {
+   "sha256": "b43f4c8829859ceadf997269bd2785fc830552dfcbd6e2620b7d85fab79edc8b",
+   "size": 4525
+  },
+  "icons/game/mobs/Sheep.png": {
+   "sha256": "89f9b1fce41628fe2383d3ccb44da032418ade75be50245bf4f6091adcb6be62",
+   "size": 5001
+  },
+  "icons/game/mobs/Singer.png": {
+   "sha256": "954f2bef6e3811aac6318224b88b7a892ba8533805955c6c90e15b7542a510f1",
+   "size": 5878
+  },
+  "icons/game/mobs/Skeleton.png": {
+   "sha256": "8a3e3f94b9a6ef4006370fa963c373c3256761a3289b66879623c52d3472bf4b",
+   "size": 6141
+  },
+  "icons/game/mobs/Slabber.png": {
+   "sha256": "954f2bef6e3811aac6318224b88b7a892ba8533805955c6c90e15b7542a510f1",
+   "size": 5878
+  },
+  "icons/game/mobs/Slime.png": {
+   "sha256": "e478ad9944654a9e568950395807c25d18b77fe7817accd9761877db33b39b8b",
+   "size": 5157
+  },
+  "icons/game/mobs/Soul_Corrupted_Baby_Zombie.png": {
+   "sha256": "7dc7af7868e57fe62028a53ccaeaf3b69bcbde4163c5d8783a2177227edaf566",
+   "size": 5369
+  },
+  "icons/game/mobs/Soul_Corrupted_Bloombud.png": {
+   "sha256": "8a3e3f94b9a6ef4006370fa963c373c3256761a3289b66879623c52d3472bf4b",
+   "size": 6141
+  },
+  "icons/game/mobs/Soul_Corrupted_Cave_Spider.png": {
+   "sha256": "e3c559710e0f2fa745cb48ab2fb14178409aa2ccb73171e4595482abf0c029f4",
+   "size": 6861
+  },
+  "icons/game/mobs/Soul_Corrupted_Chicken_Jockey.png": {
+   "sha256": "31f54adf49585c3f79a93f6dede7d965662e80f9879915b711dd4f6fc975ba42",
+   "size": 6630
+  },
+  "icons/game/mobs/Soul_Corrupted_Creeper.png": {
+   "sha256": "5255bd9ab2c143a53c1b3f8996296597e8cd6f197a532d6190044c7eab1d4677",
+   "size": 5964
+  },
+  "icons/game/mobs/Soul_Corrupted_Dartback.png": {
+   "sha256": "683f9706765a61c583e5fcfc8662a4eae8f0a7e6a188e2f747362d84448d0be2",
+   "size": 6038
+  },
+  "icons/game/mobs/Soul_Corrupted_Enchanter.png": {
+   "sha256": "1012e0a1b006c376ac37ee232900d871d07709a601ee17f23e943664260bcb72",
+   "size": 6278
+  },
+  "icons/game/mobs/Soul_Corrupted_Enderman.png": {
+   "sha256": "41e52cab38a69beb6a7548b3d1409d0df61c15800ec30b2f8f631cc2bd1751be",
+   "size": 6592
+  },
+  "icons/game/mobs/Soul_Corrupted_Evoker.png": {
+   "sha256": "0ae8a6dfd47ba385f99c2c27e2671d6416b037478ed6ceeeb80b127cb6b226e2",
+   "size": 6736
+  },
+  "icons/game/mobs/Soul_Corrupted_Excavator.png": {
+   "sha256": "1012e0a1b006c376ac37ee232900d871d07709a601ee17f23e943664260bcb72",
+   "size": 6278
+  },
+  "icons/game/mobs/Soul_Corrupted_Flame_Construct.png": {
+   "sha256": "d2874bfdaad453a2652be5cb198b8f647ecbb64639081f56c2f495a98b1d683e",
+   "size": 7164
+  },
+  "icons/game/mobs/Soul_Corrupted_Fusefly.png": {
+   "sha256": "8a3e3f94b9a6ef4006370fa963c373c3256761a3289b66879623c52d3472bf4b",
+   "size": 6141
+  },
+  "icons/game/mobs/Soul_Corrupted_Geomancer.png": {
+   "sha256": "1012e0a1b006c376ac37ee232900d871d07709a601ee17f23e943664260bcb72",
+   "size": 6278
+  },
+  "icons/game/mobs/Soul_Corrupted_Harmonizer.png": {
+   "sha256": "41e52cab38a69beb6a7548b3d1409d0df61c15800ec30b2f8f631cc2bd1751be",
+   "size": 6592
+  },
+  "icons/game/mobs/Soul_Corrupted_Hunter.png": {
+   "sha256": "8a3e3f94b9a6ef4006370fa963c373c3256761a3289b66879623c52d3472bf4b",
+   "size": 6141
+  },
+  "icons/game/mobs/Soul_Corrupted_Hurler.png": {
+   "sha256": "8a3e3f94b9a6ef4006370fa963c373c3256761a3289b66879623c52d3472bf4b",
+   "size": 6141
+  },
+  "icons/game/mobs/Soul_Corrupted_Husk.png": {
+   "sha256": "7dc7af7868e57fe62028a53ccaeaf3b69bcbde4163c5d8783a2177227edaf566",
+   "size": 5369
+  },
+  "icons/game/mobs/Soul_Corrupted_Nester.png": {
+   "sha256": "b43f4c8829859ceadf997269bd2785fc830552dfcbd6e2620b7d85fab79edc8b",
+   "size": 4525
+  },
+  "icons/game/mobs/Soul_Corrupted_Pillager.png": {
+   "sha256": "1012e0a1b006c376ac37ee232900d871d07709a601ee17f23e943664260bcb72",
+   "size": 6278
+  },
+  "icons/game/mobs/Soul_Corrupted_Pollinator.png": {
+   "sha256": "b43f4c8829859ceadf997269bd2785fc830552dfcbd6e2620b7d85fab79edc8b",
+   "size": 4525
+  },
+  "icons/game/mobs/Soul_Corrupted_Ravager.png": {
+   "sha256": "1012e0a1b006c376ac37ee232900d871d07709a601ee17f23e943664260bcb72",
+   "size": 6278
+  },
+  "icons/game/mobs/Soul_Corrupted_Roamroot.png": {
+   "sha256": "8a3e3f94b9a6ef4006370fa963c373c3256761a3289b66879623c52d3472bf4b",
+   "size": 6141
+  },
+  "icons/game/mobs/Soul_Corrupted_Royal_Guard.png": {
+   "sha256": "1012e0a1b006c376ac37ee232900d871d07709a601ee17f23e943664260bcb72",
+   "size": 6278
+  },
+  "icons/game/mobs/Soul_Corrupted_Scavenger.png": {
+   "sha256": "8a3e3f94b9a6ef4006370fa963c373c3256761a3289b66879623c52d3472bf4b",
+   "size": 6141
+  },
+  "icons/game/mobs/Soul_Corrupted_Seedling.png": {
+   "sha256": "b43f4c8829859ceadf997269bd2785fc830552dfcbd6e2620b7d85fab79edc8b",
+   "size": 4525
+  },
+  "icons/game/mobs/Soul_Corrupted_Sentinel.png": {
+   "sha256": "b43f4c8829859ceadf997269bd2785fc830552dfcbd6e2620b7d85fab79edc8b",
+   "size": 4525
+  },
+  "icons/game/mobs/Soul_Corrupted_Skeleton.png": {
+   "sha256": "8a3e3f94b9a6ef4006370fa963c373c3256761a3289b66879623c52d3472bf4b",
+   "size": 6141
+  },
+  "icons/game/mobs/Soul_Corrupted_Slime.png": {
+   "sha256": "e478ad9944654a9e568950395807c25d18b77fe7817accd9761877db33b39b8b",
+   "size": 5157
+  },
+  "icons/game/mobs/Soul_Corrupted_Spider.png": {
+   "sha256": "e3c559710e0f2fa745cb48ab2fb14178409aa2ccb73171e4595482abf0c029f4",
+   "size": 6861
+  },
+  "icons/game/mobs/Soul_Corrupted_Spider_Jockey.png": {
+   "sha256": "e3c559710e0f2fa745cb48ab2fb14178409aa2ccb73171e4595482abf0c029f4",
+   "size": 6861
+  },
+  "icons/game/mobs/Soul_Corrupted_Sprout.png": {
+   "sha256": "b43f4c8829859ceadf997269bd2785fc830552dfcbd6e2620b7d85fab79edc8b",
+   "size": 4525
+  },
+  "icons/game/mobs/Soul_Corrupted_Stalker.png": {
+   "sha256": "8a3e3f94b9a6ef4006370fa963c373c3256761a3289b66879623c52d3472bf4b",
+   "size": 6141
+  },
+  "icons/game/mobs/Soul_Corrupted_Trapper.png": {
+   "sha256": "8a3e3f94b9a6ef4006370fa963c373c3256761a3289b66879623c52d3472bf4b",
+   "size": 6141
+  },
+  "icons/game/mobs/Soul_Corrupted_Vanguard.png": {
+   "sha256": "1012e0a1b006c376ac37ee232900d871d07709a601ee17f23e943664260bcb72",
+   "size": 6278
+  },
+  "icons/game/mobs/Soul_Corrupted_Vex.png": {
+   "sha256": "8a3e3f94b9a6ef4006370fa963c373c3256761a3289b66879623c52d3472bf4b",
+   "size": 6141
+  },
+  "icons/game/mobs/Soul_Corrupted_Vindicator.png": {
+   "sha256": "1012e0a1b006c376ac37ee232900d871d07709a601ee17f23e943664260bcb72",
+   "size": 6278
+  },
+  "icons/game/mobs/Soul_Corrupted_Warden.png": {
+   "sha256": "683f9706765a61c583e5fcfc8662a4eae8f0a7e6a188e2f747362d84448d0be2",
+   "size": 6038
+  },
+  "icons/game/mobs/Soul_Corrupted_Witch.png": {
+   "sha256": "41e52cab38a69beb6a7548b3d1409d0df61c15800ec30b2f8f631cc2bd1751be",
+   "size": 6592
+  },
+  "icons/game/mobs/Soul_Corrupted_Zombie.png": {
+   "sha256": "7dc7af7868e57fe62028a53ccaeaf3b69bcbde4163c5d8783a2177227edaf566",
+   "size": 5369
+  },
+  "icons/game/mobs/Spider.png": {
+   "sha256": "e3c559710e0f2fa745cb48ab2fb14178409aa2ccb73171e4595482abf0c029f4",
+   "size": 6861
+  },
+  "icons/game/mobs/Spider_Jockey.png": {
+   "sha256": "e3c559710e0f2fa745cb48ab2fb14178409aa2ccb73171e4595482abf0c029f4",
+   "size": 6861
+  },
+  "icons/game/mobs/Sprout.png": {
+   "sha256": "b43f4c8829859ceadf997269bd2785fc830552dfcbd6e2620b7d85fab79edc8b",
+   "size": 4525
+  },
+  "icons/game/mobs/Squid.png": {
+   "sha256": "954f2bef6e3811aac6318224b88b7a892ba8533805955c6c90e15b7542a510f1",
+   "size": 5878
+  },
+  "icons/game/mobs/Stalker.png": {
+   "sha256": "8a3e3f94b9a6ef4006370fa963c373c3256761a3289b66879623c52d3472bf4b",
+   "size": 6141
+  },
+  "icons/game/mobs/Stray.png": {
+   "sha256": "8a3e3f94b9a6ef4006370fa963c373c3256761a3289b66879623c52d3472bf4b",
+   "size": 6141
+  },
+  "icons/game/mobs/The_Prime_Enchanter.png": {
+   "sha256": "0ae8a6dfd47ba385f99c2c27e2671d6416b037478ed6ceeeb80b127cb6b226e2",
+   "size": 6736
+  },
+  "icons/game/mobs/The_Supreme_Evoker.png": {
+   "sha256": "0ae8a6dfd47ba385f99c2c27e2671d6416b037478ed6ceeeb80b127cb6b226e2",
+   "size": 6736
+  },
+  "icons/game/mobs/Trapper.png": {
+   "sha256": "8a3e3f94b9a6ef4006370fa963c373c3256761a3289b66879623c52d3472bf4b",
+   "size": 6141
+  },
+  "icons/game/mobs/Tuner.png": {
+   "sha256": "8a3e3f94b9a6ef4006370fa963c373c3256761a3289b66879623c52d3472bf4b",
+   "size": 6141
+  },
+  "icons/game/mobs/Twisted_Warden.png": {
+   "sha256": "00c6b6cdef99d98afcd40d3b9c025433e301e02bda600c06f3fbb639516547e6",
+   "size": 6046
+  },
+  "icons/game/mobs/Vanguard.png": {
+   "sha256": "1012e0a1b006c376ac37ee232900d871d07709a601ee17f23e943664260bcb72",
+   "size": 6278
+  },
+  "icons/game/mobs/Vex.png": {
+   "sha256": "8a3e3f94b9a6ef4006370fa963c373c3256761a3289b66879623c52d3472bf4b",
+   "size": 6141
+  },
+  "icons/game/mobs/Vindicator.png": {
+   "sha256": "1012e0a1b006c376ac37ee232900d871d07709a601ee17f23e943664260bcb72",
+   "size": 6278
+  },
+  "icons/game/mobs/Warden.png": {
+   "sha256": "683f9706765a61c583e5fcfc8662a4eae8f0a7e6a188e2f747362d84448d0be2",
+   "size": 6038
+  },
+  "icons/game/mobs/Wisp.png": {
+   "sha256": "954f2bef6e3811aac6318224b88b7a892ba8533805955c6c90e15b7542a510f1",
+   "size": 5878
+  },
+  "icons/game/mobs/Witch.png": {
+   "sha256": "41e52cab38a69beb6a7548b3d1409d0df61c15800ec30b2f8f631cc2bd1751be",
+   "size": 6592
+  },
+  "icons/game/mobs/Wobble.png": {
+   "sha256": "deb162379c39f7e5b89bc607aa3ac809bf3bd9cb3a0c7ed76011c2c9af073231",
+   "size": 1646
+  },
+  "icons/game/mobs/Wolf.png": {
+   "sha256": "d7d25263b9e966b5dcb88f7742339b797ed33d7d1988659f85840c8b12d87cfe",
+   "size": 988
+  },
+  "icons/game/mobs/Zombie.png": {
+   "sha256": "7dc7af7868e57fe62028a53ccaeaf3b69bcbde4163c5d8783a2177227edaf566",
+   "size": 5369
+  },
+  "icons/game/potion.png": {
+   "sha256": "61d6464042e00f8c77f7965236b4bf018dfc89b1c01b7d3c06cea9f0e37eeaa6",
+   "size": 3814
+  },
+  "icons/game/ranged_weapons/Bow.png": {
+   "sha256": "a7d930e8e3869a33cb609f23eacd35d2aa9c8c788c8274feca779dbeec2e35e8",
+   "size": 5180
+  },
+  "icons/game/ranged_weapons/Creaking_s_Reach.png": {
+   "sha256": "8ebc7118a4d54b05dc5f79d75b8ca5bf3f82392c5824bed0492abfc378ad79be",
+   "size": 5504
+  },
+  "icons/game/ranged_weapons/Crossbow.png": {
+   "sha256": "60f6641ae02d4cdc84bab03b14ab680f442212324bd80d513aaabddbfc565311",
+   "size": 6751
+  },
+  "icons/game/ranged_weapons/Double_Crossers.png": {
+   "sha256": "b99180b809e2f76000b88b00423581017d632c500ad1c020979fd9334819b8d7",
+   "size": 6617
+  },
+  "icons/game/ranged_weapons/Dual_Crossbows.png": {
+   "sha256": "7ddf1a19a613eb7a78f0098e52de7f7747e86897513377ee03191152a5d61686",
+   "size": 6840
+  },
+  "icons/game/ranged_weapons/Greatbow.png": {
+   "sha256": "848c31626682618cf3dee5f63372e6f39ccea4af0f8f63259c6fa35ecd0d1f78",
+   "size": 4191
+  },
+  "icons/game/ranged_weapons/Harp_Crossbow.png": {
+   "sha256": "675394004c56dbe77ba95409b95107e9b6bc20ef317b8e7f1e519c68e8da2a5a",
+   "size": 7991
+  },
+  "icons/game/ranged_weapons/Heavy_Crossbow.png": {
+   "sha256": "aeef6fc8f9ccbf2a35356082362e188f1b8b50cde322541ba6c9c59923702c3b",
+   "size": 7013
+  },
+  "icons/game/ranged_weapons/Humbler_Heartstring.png": {
+   "sha256": "28531010eca26503053ec2c38a12c001f3679ebc64bee78bb2e4d83b3c7d0ff3",
+   "size": 4249
+  },
+  "icons/game/ranged_weapons/Longbow.png": {
+   "sha256": "64b7ab14af60dcfaa2bbb1b6b4e182ae5935856997785d94312d97de3488ef46",
+   "size": 4905
+  },
+  "icons/game/ranged_weapons/Paragon.png": {
+   "sha256": "0568f287b1821762c28bb33e850805e31d6c528720ee4d33fbbacd7fe079e29a",
+   "size": 5120
+  },
+  "icons/game/ranged_weapons/Phantom_Wing.png": {
+   "sha256": "bfa2d06959c205f5696a63a094750cd36cc25847c5c0be055492179212d00001",
+   "size": 5750
+  },
+  "icons/game/ranged_weapons/Powerbow.png": {
+   "sha256": "950aff4fdadf553b3606acb2e801bc9d22851d3861e41c6b9d567d648e2dda36",
+   "size": 5255
+  },
+  "icons/game/ranged_weapons/Ranger_s_Promise.png": {
+   "sha256": "80291b81e3fb1eb3fe10a37d314c3e27fd98dbb1c94083a315bfcec91d843245",
+   "size": 6081
+  },
+  "icons/game/ranged_weapons/Rapid_Crossbow.png": {
+   "sha256": "0252efbbd88bafc04c309187e2ab6fdbbe1caaaf3e769a2eb465f96e7751c620",
+   "size": 7313
+  },
+  "icons/game/ranged_weapons/Scatter_Crossbow.png": {
+   "sha256": "3b7e68f2def3ecd0623e0069ea95467cbf150a9e1b3caeefb24da61a16ddbaec",
+   "size": 7545
+  },
+  "icons/game/ranged_weapons/Shooting_Star.png": {
+   "sha256": "dfca43bf83da559bb595c486d5f5d5293a0a212acba5dc15908c77a1169b1754",
+   "size": 5758
+  },
+  "icons/game/ranged_weapons/Shortbow.png": {
+   "sha256": "74e5373fcb62002b1fc627f0d16a4923c6fd9f95ed9a4b78e534a4b78d831567",
+   "size": 5499
+  },
+  "icons/game/ranged_weapons/The_Close_Ranger.png": {
+   "sha256": "36afc45c0acd40565a2fd9cd17a7f6b5df72a0656f219d8005807d9e42e49b63",
+   "size": 6931
+  },
+  "icons/game/ranged_weapons/The_Cross_Pollinator.png": {
+   "sha256": "031e36a3ba4e5ce32618151c9d8323bbf92002852044aca0377b08c840ab215f",
+   "size": 6782
+  },
+  "icons/game/ranged_weapons/The_Shackler.png": {
+   "sha256": "5a204913c18bc6df2e04714ee9e5490812e71ca4ec677b3aace8a41b07fdac84",
+   "size": 7344
+  },
+  "icons/game/ranged_weapons/Trickbow.png": {
+   "sha256": "13ed8e19cd7f4dd85147fc548454119e10a55f4e8355bf7e64cda87a80d30cfb",
+   "size": 5410
+  },
+  "icons/game/soul_enchantments/Bubble_Shield.png": {
+   "sha256": "3a53ecb38579a2f14f279732bc72f4a52e6d32d4687b0d58d6127b5c0ac210f1",
+   "size": 4949
+  },
+  "icons/game/soul_enchantments/Burning.png": {
+   "sha256": "5c5450f5a2debdb4391e152e1becf434beb3d4a6f6bf44c361355061f1070f90",
+   "size": 6027
+  },
+  "icons/game/soul_enchantments/Freezing.png": {
+   "sha256": "2f0bd913047f2ff09342ba6e428644094ab46a4ada7c05b632d98a9d41dbdabe",
+   "size": 6653
+  },
+  "icons/game/soul_enchantments/Life_Leech.png": {
+   "sha256": "786e1d2b594aca816b40a00cd48a09ecf25d0f1bd2a8a2489e30c2f2f1c9559a",
+   "size": 3840
+  },
+  "icons/game/soul_enchantments/Orb_Caster.png": {
+   "sha256": "7be18fc2a650b01e769fc3035d16b886046cb1636c23d8a8d6923e83c695805d",
+   "size": 5920
+  },
+  "icons/game/soul_enchantments/Persistence.png": {
+   "sha256": "18374b958488b9e15b450544fb67c985e17d449ca8beb9eed4d5eba4e628ab5c",
+   "size": 6179
+  },
+  "icons/game/soul_enchantments/Slasher.png": {
+   "sha256": "a552836c7d32d95336b31b26e94cbc4cf990b6bb634cdba0f34e2b1df047d9c6",
+   "size": 5744
+  },
+  "icons/game/soul_enchantments/Sniper.png": {
+   "sha256": "926174ba05db2b99c9239f208e987dd8f6291c73c37773a04d0eccf17e166c8b",
+   "size": 4352
+  },
+  "icons/game/soul_enchantments/Soul_Wave.png": {
+   "sha256": "1a7e4fdb21637897b0b0e6c53d8bd082d0b7916868b11df1e04a6e2d3497838f",
+   "size": 7034
+  },
+  "icons/game/soul_enchantments/Swiftness.png": {
+   "sha256": "36f7c6fb958a09914e4628fa9ea2b6e64ba7f71a4b4c4f71cd94e486a4620a9f",
+   "size": 4705
+  },
+  "icons/game/soul_enchantments/Toxic.png": {
+   "sha256": "08136d2a048a9a5b7c1fbf44a06429050a7365ea3d10bf730a41bdf1ecba1b9f",
+   "size": 4554
+  },
+  "icons/game/soul_enchantments/Zapping.png": {
+   "sha256": "b8f9ee8bec418175b1d5da4eabab43243e6537e2a302133db883210500a6d959",
+   "size": 4777
+  },
+  "icons/game/status_effects/Artificing.png": {
+   "sha256": "c68d7da7041ad4f53c66c249e15cbc3489dc961311b6acad6cc16f68944854a7",
+   "size": 7356
+  },
+  "icons/game/status_effects/Blaze_Bangle.png": {
+   "sha256": "4c01249e117f41583a04cf40241c5ccec632c54f8c2b7e9644e31d47756a4750",
+   "size": 7841
+  },
+  "icons/game/status_effects/Blight_Bangle.png": {
+   "sha256": "a48f58330e723518a8f234fe705f6fe5bd7fb39fc4152fd71d87f30ab8d804ea",
+   "size": 8210
+  },
+  "icons/game/status_effects/Blizzard_Bangle.png": {
+   "sha256": "2a01e837b7aac026faf5f9462db83b0faffefc675e85e96afe2f79683bd6252a",
+   "size": 8886
+  },
+  "icons/game/status_effects/Burned.png": {
+   "sha256": "02b9c736b0ec4ef9c883f5d250fb23c9f10c4f71f61f021d641de6fc23d2483a",
+   "size": 5076
+  },
+  "icons/game/status_effects/Chained.png": {
+   "sha256": "ff06c5f9efdc977b4c1bd4a11c533cb145f5101fa4ab2d9e29b4d179de3ff59d",
+   "size": 7648
+  },
+  "icons/game/status_effects/Critical_Precision.png": {
+   "sha256": "ab99d33bfffbde38360c9720e8ebdb16f141a39328e5f867ea2f236ae6fd5061",
+   "size": 7399
+  },
+  "icons/game/status_effects/Critical_Strength.png": {
+   "sha256": "2cc690820425bde4cb1c947e10bfe314e9218320ed183cadb073a26c5bdd8cd9",
+   "size": 7438
+  },
+  "icons/game/status_effects/Deathcap_Mushroom.png": {
+   "sha256": "b7d1447b91fa9bd65687796a1471c96b7d1bd752c48d27c59fffe020ca1f3e51",
+   "size": 4848
+  },
+  "icons/game/status_effects/Deflection.png": {
+   "sha256": "75c64326e585f2a9ef9f24b47639b05c3ee4d50d8ab137d282e5e3c05d7f8189",
+   "size": 6576
+  },
+  "icons/game/status_effects/Electric_Bangle.png": {
+   "sha256": "6c49f301371ad217097f15ce29f8c06dffe96e41fae9ba5cdcb75cad76304b46",
+   "size": 8851
+  },
+  "icons/game/status_effects/Flurrying.png": {
+   "sha256": "2c6ec7a0ecf33cea97cf818ddf2453825fd9ffc4052933568a1d3283783b7fed",
+   "size": 7171
+  },
+  "icons/game/status_effects/Fortifying.png": {
+   "sha256": "1210ebcbaebf904bf653c5c821aebcb82ee66bc96fa5673949559e8c6784f3ff",
+   "size": 5407
+  },
+  "icons/game/status_effects/Frozen.png": {
+   "sha256": "e69846aad09c197bd9938ea15608d6ff3f15ba12d0419bf3708bae7ce2a1ba00",
+   "size": 8614
+  },
+  "icons/game/status_effects/Grindstone.png": {
+   "sha256": "622a0037203785f08cd300352e96f77fd424b840b2734af873fd607b42514b68",
+   "size": 6003
+  },
+  "icons/game/status_effects/Honeyed.png": {
+   "sha256": "113ea11dd0b54baf9fc57f1fa7ac8ab615de1a1421247fd81c830c3a0a82999e",
+   "size": 6582
+  },
+  "icons/game/status_effects/Hurrying.png": {
+   "sha256": "23dc7ff7d081eaaeed032a9df6daec5cd378e31fdbffd8fbeba4ff918070f25d",
+   "size": 4715
+  },
+  "icons/game/status_effects/Invulnerable.png": {
+   "sha256": "79a7133aa571496695762801a3def69fb34d32b200bd89704e84a4b2c98ee378",
+   "size": 4704
+  },
+  "icons/game/status_effects/Poisoned.png": {
+   "sha256": "77824e18df8bc80b67b630472b068e9846c985b1814121e8c0fccb9d27df5cfd",
+   "size": 8148
+  },
+  "icons/game/status_effects/Powershaker.png": {
+   "sha256": "e3a52da04c91eb471212b73b1db84bf18cd4e0305725604b6121539b68b79cbf",
+   "size": 7830
+  },
+  "icons/game/status_effects/Regenerating.png": {
+   "sha256": "847d1fab654ce692158db5eacee104bba49a69171f809d3bfb0fc7df58661878",
+   "size": 6361
+  },
+  "icons/game/status_effects/Sealed.png": {
+   "sha256": "cd8e1e8bc10bdffc36bdf4369fb1eadc4bb523e1c266d5298ce4855aa119a2e7",
+   "size": 7695
+  },
+  "icons/game/status_effects/Shadowcloaking.png": {
+   "sha256": "45a67e208aa736623b1cc039dc5b792da7565d46d2b44872229fb05c36f9bc99",
+   "size": 6768
+  },
+  "icons/game/status_effects/Slowed.png": {
+   "sha256": "b17725ada307288e6a5d3ba4c589812c8b2b80d3ce83cb3e04ba910bf4268093",
+   "size": 6588
+  },
+  "icons/game/status_effects/Soulsick.png": {
+   "sha256": "21700d0c7f5781551481b3bb91beb5c24eb2ddc7d2acf70e3e286b07228ebceb",
+   "size": 7496
+  },
+  "icons/game/status_effects/Stampeding.png": {
+   "sha256": "3f181db81015f91333e2043c9876625f3b63b47198e194943916d76fee76880c",
+   "size": 6056
+  },
+  "icons/game/status_effects/Strengthened.png": {
+   "sha256": "a2b60be7a31263e97889c0f3843eecffb8278b3d2d80ba26dca3241d221eb2e1",
+   "size": 6722
+  },
+  "icons/game/status_effects/Vined.png": {
+   "sha256": "896db3abaec91be2027e1e244b54a382330dea10ae4ce1d22534d38267bc5fa4",
+   "size": 6552
+  },
+  "icons/game/status_effects/Weakened.png": {
+   "sha256": "940fe3497aa4547a38f4632e964d0147cdb2c047625ee42a2c02d0378f26900c",
+   "size": 5768
+  },
+  "icons/game/status_effects/Webbed.png": {
+   "sha256": "67079ef7f47f50219a953a949c8f334710b3262a0cc408b4d6a641646ab86f31",
+   "size": 6798
+  },
+  "icons/game/status_effects/Zapped.png": {
+   "sha256": "f6e1153272c48c674b8017932431caf629466eddc01a9cd63f4e5ddf1eeda510",
+   "size": 7239
+  },
+  "icons/game/talismans/Amethyst_Lens.png": {
+   "sha256": "eb42c88d10ea66707ccc0b9cc7a73c6d01b4dea8e1d5bc46aecf5afb52aa3057",
+   "size": 5512
+  },
+  "icons/game/talismans/Armadillo_Amulet.png": {
+   "sha256": "49131d5da7c8589bedcdc6ae783f3eaca280401dc69535dc904bc16ef4f4365e",
+   "size": 8464
+  },
+  "icons/game/talismans/Emerald_of_Good_Fortune.png": {
+   "sha256": "9f816e3cb6769cecae33b830c853edd159383c5352b2450491edf0e120ab80e2",
+   "size": 5955
+  },
+  "icons/game/talismans/Essence_of_Efficiency.png": {
+   "sha256": "728715eb3158998b51a561b995792d3df546902410529fbcd6276faa0df56890",
+   "size": 5809
+  },
+  "icons/game/talismans/Fist_of_Iron.png": {
+   "sha256": "e9b1572f3a929e8e7c6041584b2768646ac98222c12c94374d426d0b0531aa08",
+   "size": 7044
+  },
+  "icons/game/talismans/Glowstone_Flask.png": {
+   "sha256": "ed2b25235cc6900ce7c7a77917c3377dc6c64b20fdd194db244e3a0469b2c5a6",
+   "size": 6903
+  },
+  "icons/game/talismans/Golem_Kit.png": {
+   "sha256": "2697384e7944c539b81f1590e7b9ae385d9a85fc45333ab1b7e391245cd56c4a",
+   "size": 5877
+  },
+  "icons/game/talismans/Healing_Heart.png": {
+   "sha256": "59deefcc8450d87a79fb853bfa7959da176444ae7a1ae13617b4522faa541806",
+   "size": 5829
+  },
+  "icons/game/talismans/Looter_s_Charm.png": {
+   "sha256": "5f63a228056750d7632ad4d350a2b5380a4bfb3042e3f432b76d537156753628",
+   "size": 7619
+  },
+  "icons/game/talismans/Lucky_Clover.png": {
+   "sha256": "b43f4b5d65e766def1af292b6784830de3a46d2c54f4a5bb0865ae09b9a13c3a",
+   "size": 4755
+  },
+  "icons/game/talismans/Medallion_of_Momentum.png": {
+   "sha256": "75208d30237085ff6074ac308419bb2a2fe126a241df6656a69513e1f5890e4c",
+   "size": 5555
+  },
+  "icons/game/talismans/Ocelot_s_Paw.png": {
+   "sha256": "a02f5697021cef4cbb05e1f95d1e45669960dfa1d1692ce63f8a4db7f67643fd",
+   "size": 7068
+  },
+  "icons/game/talismans/Prickle_s_Mark.png": {
+   "sha256": "ac1bbf12a18606824cfff253b8e8e43232d61b7d28501bbd43b30ebcd5b9962f",
+   "size": 6102
+  },
+  "icons/game/talismans/Sculk_Badge.png": {
+   "sha256": "9093ffba2df9dbc9bdaa2739c3ea616ca0d9f143b8435ca443c1af51e6d107d3",
+   "size": 7408
+  },
+  "icons/game/talismans/Sigil_of_Beeswax.png": {
+   "sha256": "6914ec3ee7ea73810fce4dc5d43d8d49c970904f2f80e6fa1bc128fd41f50617",
+   "size": 5980
+  },
+  "icons/game/talismans/Soul_Chip.png": {
+   "sha256": "783d36ae42358dddb68092e5a0a2d0861d21861556f91f19213c7d2766ea2c48",
+   "size": 6299
+  },
+  "icons/game/talismans/Tasty_Bone.png": {
+   "sha256": "574ee44f920512f28e40f38beac8bdeb5bf751fcd28fa49b8cba75cee2247df3",
+   "size": 6209
+  },
+  "icons/game/talismans/Tendrils_of_the_Sprout.png": {
+   "sha256": "1dff2a416613a6b1f10d2dda8fbfdf9627764c89383b8d7966e3ba6d59f7d444",
+   "size": 5672
+  },
+  "icons/game/talismans/The_Eye_of_Experience.png": {
+   "sha256": "3d251d3ce0dd46a283f1ae04065e4b1cf6fef41e841201520baf002d4544d572",
+   "size": 7532
+  },
+  "icons/game/talismans/Thrifty_Pendant.png": {
+   "sha256": "07a0b722ae22e92491d0575f960ba44b53d5bab07570b5f29a5a1e016d3237ae",
+   "size": 4423
+  },
+  "icons/game/talismans/Twig_of_Dark_Oak.png": {
+   "sha256": "586c206122238a1ca8a793f538523dce76782f4c8882b3670546580c4f9357b2",
+   "size": 5230
+  },
+  "icons/game/talismans/Twisted_Tooth.png": {
+   "sha256": "123ed9663103c0f404afbd0b0c989c627726154a1b8776d7c51494f02ea500d7",
+   "size": 5975
+  },
+  "icons/game/talismans/Wobblestone.png": {
+   "sha256": "ca3c522189f1b458f2cbef37e88190fa8f85bbdb44c15058dfb8d224ad99c4de",
+   "size": 6486
+  },
+  "icons/game/talismans/Wonderful_Wheat.png": {
+   "sha256": "9fc63ab87c141cccdb5755f813961bd04ce16374b02c94fea37a0d2fcadd5c4a",
+   "size": 5670
+  },
+  "icons/status/Artificing.png": {
+   "sha256": "acee1cf44bb1b1a4ab84ba4a474216b431049575194948352e570ad038c85f2c",
+   "size": 941
+  },
+  "icons/status/Blaze_Bangle.png": {
+   "sha256": "3fc0630c18df5a1d4f219e650f53b7db5805a645069c713056ab751e68e26c1c",
+   "size": 999
+  },
+  "icons/status/Blight_Bangle.png": {
+   "sha256": "f46024cb9a643d1dabe7ac2f44f947baf7b6df6812399c81c4e2585d9bd29535",
+   "size": 1046
+  },
+  "icons/status/Blizzard_Bangle.png": {
+   "sha256": "135a7baff0eb8cb0ad3e8424fed8ff61c14ca454f164cd22d3d518da0075fc1d",
+   "size": 1097
+  },
+  "icons/status/Burned.png": {
+   "sha256": "fd16b79e3a918d0675c1f9a9be6d043c5820fd809f282ba59abad389eb86dde1",
+   "size": 969
+  },
+  "icons/status/Chained.png": {
+   "sha256": "78e10db0424015eb963626123f5856b9385b68d5f7637ad94821512e3bd62970",
+   "size": 785
+  },
+  "icons/status/Critical_Precision.png": {
+   "sha256": "87ee061ba0274630c0dddfaa9833eb1c08671ff1c3891169f1bc18453f7670cc",
+   "size": 987
+  },
+  "icons/status/Critical_Strength.png": {
+   "sha256": "6eef2495458f9053148c004f6f537d4e4d39df2cdff3f30195aa4343217452cf",
+   "size": 1165
+  },
+  "icons/status/Deathcap_Mushroom.png": {
+   "sha256": "3b66fac9fcc191a623477ed131e5421a0063b56d93b9f5e8d43468acef846045",
+   "size": 879
+  },
+  "icons/status/Deflection.png": {
+   "sha256": "087f55d33e4566c6b522161d919a950dc2c3e812303945001005ae7733ecddd5",
+   "size": 968
+  },
+  "icons/status/Electric_Bangle.png": {
+   "sha256": "f9c51d7f7deb69439de5803f2c0ecfe7203010f0b8de65f933b2b15a5091111b",
+   "size": 993
+  },
+  "icons/status/Flurrying.png": {
+   "sha256": "795544155245a2010f875645cfb490fa2bbab968ecac1b710d79e38fbfa16ab7",
+   "size": 890
+  },
+  "icons/status/Fortifying.png": {
+   "sha256": "4ad3726b6ad81362d0995f577e1581fb6639cac9d3fe5d7c8a96c8b2ef84d411",
+   "size": 882
+  },
+  "icons/status/Frozen.png": {
+   "sha256": "845f9bf5350c38bd6972ce7a3c86baf9e35de55503e81ac30242415278c32146",
+   "size": 859
+  },
+  "icons/status/Grindstone.png": {
+   "sha256": "7f2592b53d8ed1dcaa9f0d88ae6138a852679dd6e35041b54bdf4c799b722d04",
+   "size": 900
+  },
+  "icons/status/Honeyed.png": {
+   "sha256": "d37879e49a7c66bd8561455bbc655990cb4babda72bdaaffc3a1ef5c8ef6ec9c",
+   "size": 954
+  },
+  "icons/status/Hurrying.png": {
+   "sha256": "9e92e28f013494bf0c67e1d488846142dbbe99cea322732a61837a464e2ee1b4",
+   "size": 786
+  },
+  "icons/status/Invulnerable.png": {
+   "sha256": "795ae701cee7bcb7a51c646ab86c9e2c22cd6be791cb563839944c892896477a",
+   "size": 786
+  },
+  "icons/status/Poisoned.png": {
+   "sha256": "11f62c9f4820c06fde35d0f9af618bb8ffac2cb7187809b2681555d8e2eb5c36",
+   "size": 1097
+  },
+  "icons/status/Powershaker.png": {
+   "sha256": "87a61639831dfc03d92f887de93f386c9db08af4eb44176578271036d3ec9ebe",
+   "size": 1015
+  },
+  "icons/status/Regenerating.png": {
+   "sha256": "95bb840876a897cfbba494fc4c874747fa929aa62dedce42ab75740c6e3f8707",
+   "size": 889
+  },
+  "icons/status/Sealed.png": {
+   "sha256": "5563bc04d4e4a07748ed607f81d6dc7d6b12ceffcf79cc22f1fba7d3d870e560",
+   "size": 1269
+  },
+  "icons/status/Shadowcloaking.png": {
+   "sha256": "ccb8da2828667050d65656fd3d05fccac9ed5e69be034ad014f29ba7552311aa",
+   "size": 1052
+  },
+  "icons/status/Slowed.png": {
+   "sha256": "46af2167e322b1f99231bcd8accd8e4c23a9b390cecf8cd23f2c38c3cb18db41",
+   "size": 992
+  },
+  "icons/status/Soulsick.png": {
+   "sha256": "54dae4605e1f101662deb10bd3e09a2f8054a198cc07c1ca6c98892ac6732209",
+   "size": 1106
+  },
+  "icons/status/Stampeding.png": {
+   "sha256": "3f9c6242df06faae4e84c8473b05a07a7dce533d1132b3c8b5f5b63f58b0e378",
+   "size": 863
+  },
+  "icons/status/Strengthened.png": {
+   "sha256": "8b1c84184095287984c11bc4b78943cdb65823a8a0f5d396d96f79aeebae6d4b",
+   "size": 949
+  },
+  "icons/status/Vined.png": {
+   "sha256": "79b3857e5c617e862dd7a7255b980321bd11692c7735ff73440ec0d7f422a224",
+   "size": 1060
+  },
+  "icons/status/Weakened.png": {
+   "sha256": "8b0fa88f0deb19fd6ca0267d4963dcac42e99be38f234e6b08014fecf3dc3b06",
+   "size": 939
+  },
+  "icons/status/Webbed.png": {
+   "sha256": "f9d223dd8893bd9d39dd3a1e363c3eb9250bf41c6774460a3a2de9e875671329",
+   "size": 948
+  },
+  "icons/status/Zapped.png": {
+   "sha256": "01e1f4c6bd461d234585d501e7f26737de683880793bb12a3f031f0ea74e7671",
+   "size": 949
+  }
+ }
+}

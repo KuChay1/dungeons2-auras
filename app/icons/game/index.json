@@ -1,0 +1,3560 @@
+{
+ "armor/armor_scamp_boots": {
+  "name": "Scamp Sneakers",
+  "cat": "armor",
+  "id": "armor_scamp_boots",
+  "file": "armor/Scamp_Sneakers.png"
+ },
+ "armor/armor_voyager_boots": {
+  "name": "Nomad Boots",
+  "cat": "armor",
+  "id": "armor_voyager_boots",
+  "file": "armor/Nomad_Boots.png"
+ },
+ "armor/armor_realmreachers_boots": {
+  "name": "Ranger Boots",
+  "cat": "armor",
+  "id": "armor_realmreachers_boots",
+  "file": "armor/Ranger_Boots.png"
+ },
+ "armor/armor_wolfclutch_boots": {
+  "name": "Wolfpack Boots",
+  "cat": "armor",
+  "id": "armor_wolfclutch_boots",
+  "file": "armor/Wolfpack_Boots.png"
+ },
+ "armor/armor_undaunted_boots": {
+  "name": "Bounty Hunter Boots",
+  "cat": "armor",
+  "id": "armor_undaunted_boots",
+  "file": "armor/Bounty_Hunter_Boots.png"
+ },
+ "armor/armor_frostrime_boots": {
+  "name": "Steel Wool Boots",
+  "cat": "armor",
+  "id": "armor_frostrime_boots",
+  "file": "armor/Steel_Wool_Boots.png"
+ },
+ "armor/armor_cave_crawler_boots": {
+  "name": "Sculk Digger Boots",
+  "cat": "armor",
+  "id": "armor_cave_crawler_boots",
+  "file": "armor/Sculk_Digger_Boots.png"
+ },
+ "armor/armor_undaunted_boots_unique": {
+  "name": "Dauntless Sabatons",
+  "cat": "armor",
+  "id": "armor_undaunted_boots_unique",
+  "file": "armor/Dauntless_Sabatons.png"
+ },
+ "armor/armor_frostrime_boots_unique": {
+  "name": "Rimefrost Plodders",
+  "cat": "armor",
+  "id": "armor_frostrime_boots_unique",
+  "file": "armor/Rimefrost_Plodders.png"
+ },
+ "armor/armor_scamp_boots_unique": {
+  "name": "Scoundrel Sneakers",
+  "cat": "armor",
+  "id": "armor_scamp_boots_unique",
+  "file": "armor/Scoundrel_Sneakers.png"
+ },
+ "armor/armor_voyager_boots_unique": {
+  "name": "Rover Sabatons",
+  "cat": "armor",
+  "id": "armor_voyager_boots_unique",
+  "file": "armor/Rover_Sabatons.png"
+ },
+ "armor/armor_cave_crawler_boots_unique": {
+  "name": "Twisted Warden Sneakers",
+  "cat": "armor",
+  "id": "armor_cave_crawler_boots_unique",
+  "file": "armor/Twisted_Warden_Sneakers.png"
+ },
+ "armor/armor_realmreachers_boots_unique": {
+  "name": "Sharpshooter Spurs",
+  "cat": "armor",
+  "id": "armor_realmreachers_boots_unique",
+  "file": "armor/Sharpshooter_Spurs.png"
+ },
+ "armor/armor_stalwart_boots": {
+  "name": "Protector Boots",
+  "cat": "armor",
+  "id": "armor_stalwart_boots",
+  "file": "armor/Protector_Boots.png"
+ },
+ "armor/armor_stalwart_boots_unique": {
+  "name": "Humbler Tarsi",
+  "cat": "armor",
+  "id": "armor_stalwart_boots_unique",
+  "file": "armor/Humbler_Tarsi.png"
+ },
+ "armor/armor_wolfclutch_boots_unique": {
+  "name": "Packleader Paws",
+  "cat": "armor",
+  "id": "armor_wolfclutch_boots_unique",
+  "file": "armor/Packleader_Paws.png"
+ },
+ "armor/armor_mystic_boots": {
+  "name": "Mystic Boots",
+  "cat": "armor",
+  "id": "armor_mystic_boots",
+  "file": "armor/Mystic_Boots.png"
+ },
+ "armor/armor_mystic_boots_unique": {
+  "name": "Oracle Sandals",
+  "cat": "armor",
+  "id": "armor_mystic_boots_unique",
+  "file": "armor/Oracle_Sandals.png"
+ },
+ "armor/armor_phantom_boots": {
+  "name": "Phantom Boots",
+  "cat": "armor",
+  "id": "armor_phantom_boots",
+  "file": "armor/Phantom_Boots.png"
+ },
+ "armor/armor_hewn_bark_boots": {
+  "name": "Treehugger Clogs",
+  "cat": "armor",
+  "id": "armor_hewn_bark_boots",
+  "file": "armor/Treehugger_Clogs.png"
+ },
+ "armor/armor_timeworn_boots": {
+  "name": "Realmreacher Boots",
+  "cat": "armor",
+  "id": "armor_timeworn_boots",
+  "file": "armor/Realmreacher_Boots.png"
+ },
+ "armor/armor_honey_boots": {
+  "name": "Beekeeper Boots",
+  "cat": "armor",
+  "id": "armor_honey_boots",
+  "file": "armor/Beekeeper_Boots.png"
+ },
+ "armor/armor_mushroom_boots": {
+  "name": "Mushroom Boots",
+  "cat": "armor",
+  "id": "armor_mushroom_boots",
+  "file": "armor/Mushroom_Boots.png"
+ },
+ "armor/armor_disciple_boots": {
+  "name": "Disciple Wraps",
+  "cat": "armor",
+  "id": "armor_disciple_boots",
+  "file": "armor/Disciple_Wraps.png"
+ },
+ "armor/armor_wellspring_boots": {
+  "name": "Sifter Boots",
+  "cat": "armor",
+  "id": "armor_wellspring_boots",
+  "file": "armor/Sifter_Boots.png"
+ },
+ "armor/armor_redstone_boots": {
+  "name": "Redstone Boots",
+  "cat": "armor",
+  "id": "armor_redstone_boots",
+  "file": "armor/Redstone_Boots.png"
+ },
+ "armor/armor_evocation_boots": {
+  "name": "Sorcerer Boots",
+  "cat": "armor",
+  "id": "armor_evocation_boots",
+  "file": "armor/Sorcerer_Boots.png"
+ },
+ "armor/armor_phantom_boots_unique": {
+  "name": "Dreamruler Slippers",
+  "cat": "armor",
+  "id": "armor_phantom_boots_unique",
+  "file": "armor/Dreamruler_Slippers.png"
+ },
+ "armor/armor_hewn_bark_boots_unique": {
+  "name": "Woodsprite Root Boots",
+  "cat": "armor",
+  "id": "armor_hewn_bark_boots_unique",
+  "file": "armor/Woodsprite_Root_Boots.png"
+ },
+ "armor/armor_timeworn_boots_unique": {
+  "name": "Soul Corruptor Sandals",
+  "cat": "armor",
+  "id": "armor_timeworn_boots_unique",
+  "file": "armor/Soul_Corruptor_Sandals.png"
+ },
+ "armor/armor_honey_boots_unique": {
+  "name": "Hivemind Stingers",
+  "cat": "armor",
+  "id": "armor_honey_boots_unique",
+  "file": "armor/Hivemind_Stingers.png"
+ },
+ "armor/armor_mushroom_boots_unique": {
+  "name": "Fly Agaric Galoshes",
+  "cat": "armor",
+  "id": "armor_mushroom_boots_unique",
+  "file": "armor/Fly_Agaric_Galoshes.png"
+ },
+ "armor/armor_disciple_boots_unique": {
+  "name": "Sage Wraps",
+  "cat": "armor",
+  "id": "armor_disciple_boots_unique",
+  "file": "armor/Sage_Wraps.png"
+ },
+ "armor/armor_wellspring_boots_unique": {
+  "name": "Mad Sifter Paws",
+  "cat": "armor",
+  "id": "armor_wellspring_boots_unique",
+  "file": "armor/Mad_Sifter_Paws.png"
+ },
+ "armor/armor_redstone_boots_unique": {
+  "name": "Monstrosity Stompers",
+  "cat": "armor",
+  "id": "armor_redstone_boots_unique",
+  "file": "armor/Monstrosity_Stompers.png"
+ },
+ "armor/armor_evocation_boots_unique": {
+  "name": "Alchemist Loafers",
+  "cat": "armor",
+  "id": "armor_evocation_boots_unique",
+  "file": "armor/Alchemist_Loafers.png"
+ },
+ "armor/armor_scavenger_boots": {
+  "name": "Sculker Boots",
+  "cat": "armor",
+  "id": "armor_scavenger_boots",
+  "file": "armor/Sculker_Boots.png"
+ },
+ "armor/armor_scavenger_boots_unique": {
+  "name": "Monarch Talons",
+  "cat": "armor",
+  "id": "armor_scavenger_boots_unique",
+  "file": "armor/Monarch_Talons.png"
+ },
+ "armor/armor_scamp_helmet": {
+  "name": "Scamp Hood",
+  "cat": "armor",
+  "id": "armor_scamp_helmet",
+  "file": "armor/Scamp_Hood.png"
+ },
+ "armor/armor_voyager_helmet": {
+  "name": "Nomad Hood",
+  "cat": "armor",
+  "id": "armor_voyager_helmet",
+  "file": "armor/Nomad_Hood.png"
+ },
+ "armor/armor_realmreachers_hood": {
+  "name": "Ranger Cap",
+  "cat": "armor",
+  "id": "armor_realmreachers_hood",
+  "file": "armor/Ranger_Cap.png"
+ },
+ "armor/armor_wolfclutch_helmet": {
+  "name": "Wolfpack Hood",
+  "cat": "armor",
+  "id": "armor_wolfclutch_helmet",
+  "file": "armor/Wolfpack_Hood.png"
+ },
+ "armor/armor_undaunted_helmet": {
+  "name": "Bounty Hunter Helmet",
+  "cat": "armor",
+  "id": "armor_undaunted_helmet",
+  "file": "armor/Bounty_Hunter_Helmet.png"
+ },
+ "armor/armor_frostrime_helmet": {
+  "name": "Steel Wool Cap",
+  "cat": "armor",
+  "id": "armor_frostrime_helmet",
+  "file": "armor/Steel_Wool_Cap.png"
+ },
+ "armor/armor_cave_crawler_helmet": {
+  "name": "Sculk Digger Hood",
+  "cat": "armor",
+  "id": "armor_cave_crawler_helmet",
+  "file": "armor/Sculk_Digger_Hood.png"
+ },
+ "armor/armor_undaunted_helmet_unique": {
+  "name": "Dauntless Horns",
+  "cat": "armor",
+  "id": "armor_undaunted_helmet_unique",
+  "file": "armor/Dauntless_Horns.png"
+ },
+ "armor/armor_frostrime_helmet_unique": {
+  "name": "Rimefrost Icecap",
+  "cat": "armor",
+  "id": "armor_frostrime_helmet_unique",
+  "file": "armor/Rimefrost_Icecap.png"
+ },
+ "armor/armor_scamp_helmet_unique": {
+  "name": "Scoundrel Cowl",
+  "cat": "armor",
+  "id": "armor_scamp_helmet_unique",
+  "file": "armor/Scoundrel_Cowl.png"
+ },
+ "armor/armor_voyager_helmet_unique": {
+  "name": "Rover Visor",
+  "cat": "armor",
+  "id": "armor_voyager_helmet_unique",
+  "file": "armor/Rover_Visor.png"
+ },
+ "armor/armor_cave_crawler_helmet_unique": {
+  "name": "Twisted Warden Blindfold",
+  "cat": "armor",
+  "id": "armor_cave_crawler_helmet_unique",
+  "file": "armor/Twisted_Warden_Blindfold.png"
+ },
+ "armor/armor_realmreachers_helmet_unique": {
+  "name": "Sharpshooter Fedora",
+  "cat": "armor",
+  "id": "armor_realmreachers_helmet_unique",
+  "file": "armor/Sharpshooter_Fedora.png"
+ },
+ "armor/armor_stalwart_helmet": {
+  "name": "Protector Helmet",
+  "cat": "armor",
+  "id": "armor_stalwart_helmet",
+  "file": "armor/Protector_Helmet.png"
+ },
+ "armor/armor_stalwart_helmet_unique": {
+  "name": "Humbler Antenna",
+  "cat": "armor",
+  "id": "armor_stalwart_helmet_unique",
+  "file": "armor/Humbler_Antenna.png"
+ },
+ "armor/armor_wolfclutch_helmet_unique": {
+  "name": "Packleader Muzzle",
+  "cat": "armor",
+  "id": "armor_wolfclutch_helmet_unique",
+  "file": "armor/Packleader_Muzzle.png"
+ },
+ "armor/armor_mystic_helmet": {
+  "name": "Mystic Circlet",
+  "cat": "armor",
+  "id": "armor_mystic_helmet",
+  "file": "armor/Mystic_Circlet.png"
+ },
+ "armor/armor_mystic_helmet_unique": {
+  "name": "Oracle Crown",
+  "cat": "armor",
+  "id": "armor_mystic_helmet_unique",
+  "file": "armor/Oracle_Crown.png"
+ },
+ "armor/armor_phantom_helmet": {
+  "name": "Phantom Helmet",
+  "cat": "armor",
+  "id": "armor_phantom_helmet",
+  "file": "armor/Phantom_Helmet.png"
+ },
+ "armor/armor_hewn_bark_helmet": {
+  "name": "Treehugger Mask",
+  "cat": "armor",
+  "id": "armor_hewn_bark_helmet",
+  "file": "armor/Treehugger_Mask.png"
+ },
+ "armor/armor_timeworn_helmet": {
+  "name": "Realmreacher Hat",
+  "cat": "armor",
+  "id": "armor_timeworn_helmet",
+  "file": "armor/Realmreacher_Hat.png"
+ },
+ "armor/armor_honey_helmet": {
+  "name": "Beekeeper Veil",
+  "cat": "armor",
+  "id": "armor_honey_helmet",
+  "file": "armor/Beekeeper_Veil.png"
+ },
+ "armor/armor_mushroom_helmet": {
+  "name": "Mushroom Cap",
+  "cat": "armor",
+  "id": "armor_mushroom_helmet",
+  "file": "armor/Mushroom_Cap.png"
+ },
+ "armor/armor_disciple_helmet": {
+  "name": "Disciple mask",
+  "cat": "armor",
+  "id": "armor_disciple_helmet",
+  "file": "armor/Disciple_mask.png"
+ },
+ "armor/armor_wellspring_helmet": {
+  "name": "Sifter Hood",
+  "cat": "armor",
+  "id": "armor_wellspring_helmet",
+  "file": "armor/Sifter_Hood.png"
+ },
+ "armor/armor_redstone_helmet": {
+  "name": "Redstone Helmet",
+  "cat": "armor",
+  "id": "armor_redstone_helmet",
+  "file": "armor/Redstone_Helmet.png"
+ },
+ "armor/armor_evocation_helmet": {
+  "name": "Sorcerer Hat",
+  "cat": "armor",
+  "id": "armor_evocation_helmet",
+  "file": "armor/Sorcerer_Hat.png"
+ },
+ "armor/armor_phantom_helmet_unique": {
+  "name": "Dreamruler Crown",
+  "cat": "armor",
+  "id": "armor_phantom_helmet_unique",
+  "file": "armor/Dreamruler_Crown.png"
+ },
+ "armor/armor_hewn_bark_helmet_unique": {
+  "name": "Woodsprite Crown",
+  "cat": "armor",
+  "id": "armor_hewn_bark_helmet_unique",
+  "file": "armor/Woodsprite_Crown.png"
+ },
+ "armor/armor_timeworn_helmet_unique": {
+  "name": "Soul Corruptor Mask",
+  "cat": "armor",
+  "id": "armor_timeworn_helmet_unique",
+  "file": "armor/Soul_Corruptor_Mask.png"
+ },
+ "armor/armor_honey_helmet_unique": {
+  "name": "Hivemind Hardhat",
+  "cat": "armor",
+  "id": "armor_honey_helmet_unique",
+  "file": "armor/Hivemind_Hardhat.png"
+ },
+ "armor/armor_mushroom_helmet_unique": {
+  "name": "Fly Agaric Cap",
+  "cat": "armor",
+  "id": "armor_mushroom_helmet_unique",
+  "file": "armor/Fly_Agaric_Cap.png"
+ },
+ "armor/armor_disciple_helmet_unique": {
+  "name": "Sage Headband",
+  "cat": "armor",
+  "id": "armor_disciple_helmet_unique",
+  "file": "armor/Sage_Headband.png"
+ },
+ "armor/armor_wellspring_helmet_unique": {
+  "name": "Mad Sifter Mask",
+  "cat": "armor",
+  "id": "armor_wellspring_helmet_unique",
+  "file": "armor/Mad_Sifter_Mask.png"
+ },
+ "armor/armor_redstone_helmet_unique": {
+  "name": "Monstrosity Horns",
+  "cat": "armor",
+  "id": "armor_redstone_helmet_unique",
+  "file": "armor/Monstrosity_Horns.png"
+ },
+ "armor/armor_evocation_helmet_unique": {
+  "name": "Alchemist Top Hat",
+  "cat": "armor",
+  "id": "armor_evocation_helmet_unique",
+  "file": "armor/Alchemist_Top_Hat.png"
+ },
+ "armor/armor_scavenger_helmet": {
+  "name": "Sculker Mask",
+  "cat": "armor",
+  "id": "armor_scavenger_helmet",
+  "file": "armor/Sculker_Mask.png"
+ },
+ "armor/armor_scavenger_helmet_unique": {
+  "name": "Monarch Crown",
+  "cat": "armor",
+  "id": "armor_scavenger_helmet_unique",
+  "file": "armor/Monarch_Crown.png"
+ },
+ "armor/armor_scamp_chest": {
+  "name": "Scamp Jacket",
+  "cat": "armor",
+  "id": "armor_scamp_chest",
+  "file": "armor/Scamp_Jacket.png"
+ },
+ "armor/armor_voyager_chest": {
+  "name": "Nomad Chestplate",
+  "cat": "armor",
+  "id": "armor_voyager_chest",
+  "file": "armor/Nomad_Chestplate.png"
+ },
+ "armor/armor_realmreacher_chest": {
+  "name": "Ranger Jacket",
+  "cat": "armor",
+  "id": "armor_realmreacher_chest",
+  "file": "armor/Ranger_Jacket.png"
+ },
+ "armor/armor_wolfclutch_chestpiece": {
+  "name": "Wolfpack Jacket",
+  "cat": "armor",
+  "id": "armor_wolfclutch_chestpiece",
+  "file": "armor/Wolfpack_Jacket.png"
+ },
+ "armor/armor_undaunted_chestpiece": {
+  "name": "Bounty Hunter Chestplate",
+  "cat": "armor",
+  "id": "armor_undaunted_chestpiece",
+  "file": "armor/Bounty_Hunter_Chestplate.png"
+ },
+ "armor/armor_frostrime_chest": {
+  "name": "Steel Wool Sweater",
+  "cat": "armor",
+  "id": "armor_frostrime_chest",
+  "file": "armor/Steel_Wool_Sweater.png"
+ },
+ "armor/armor_cave_crawler_chest": {
+  "name": "Sculk Digger Robe",
+  "cat": "armor",
+  "id": "armor_cave_crawler_chest",
+  "file": "armor/Sculk_Digger_Robe.png"
+ },
+ "armor/armor_undaunted_chestpiece_unique": {
+  "name": "Dauntless Pauldrons",
+  "cat": "armor",
+  "id": "armor_undaunted_chestpiece_unique",
+  "file": "armor/Dauntless_Pauldrons.png"
+ },
+ "armor/armor_frostrime_chest_unique": {
+  "name": "Rimefrost Armor",
+  "cat": "armor",
+  "id": "armor_frostrime_chest_unique",
+  "file": "armor/Rimefrost_Armor.png"
+ },
+ "armor/armor_scamp_chest_unique": {
+  "name": "Scoundrel Blazer",
+  "cat": "armor",
+  "id": "armor_scamp_chest_unique",
+  "file": "armor/Scoundrel_Blazer.png"
+ },
+ "armor/armor_voyager_chest_unique": {
+  "name": "Rover Pauldrons",
+  "cat": "armor",
+  "id": "armor_voyager_chest_unique",
+  "file": "armor/Rover_Pauldrons.png"
+ },
+ "armor/armor_cave_crawler_chest_unique": {
+  "name": "Twisted Warden Vest",
+  "cat": "armor",
+  "id": "armor_cave_crawler_chest_unique",
+  "file": "armor/Twisted_Warden_Vest.png"
+ },
+ "armor/armor_realmreacher_chest_unique": {
+  "name": "Sharpshooter Duster",
+  "cat": "armor",
+  "id": "armor_realmreacher_chest_unique",
+  "file": "armor/Sharpshooter_Duster.png"
+ },
+ "armor/armor_stalwart_chest": {
+  "name": "Protector Chestplate",
+  "cat": "armor",
+  "id": "armor_stalwart_chest",
+  "file": "armor/Protector_Chestplate.png"
+ },
+ "armor/armor_stalwart_chest_unique": {
+  "name": "Humbler Carapace",
+  "cat": "armor",
+  "id": "armor_stalwart_chest_unique",
+  "file": "armor/Humbler_Carapace.png"
+ },
+ "armor/armor_wolfclutch_chestpiece_unique": {
+  "name": "Packleader Hide",
+  "cat": "armor",
+  "id": "armor_wolfclutch_chestpiece_unique",
+  "file": "armor/Packleader_Hide.png"
+ },
+ "armor/armor_mystic_chest": {
+  "name": "Mystic Robe",
+  "cat": "armor",
+  "id": "armor_mystic_chest",
+  "file": "armor/Mystic_Robe.png"
+ },
+ "armor/armor_mystic_chest_unique": {
+  "name": "Oracle Mantle",
+  "cat": "armor",
+  "id": "armor_mystic_chest_unique",
+  "file": "armor/Oracle_Mantle.png"
+ },
+ "armor/armor_phantom_chest": {
+  "name": "Phantom Chestplate",
+  "cat": "armor",
+  "id": "armor_phantom_chest",
+  "file": "armor/Phantom_Chestplate.png"
+ },
+ "armor/armor_hewn_bark_chest": {
+  "name": "Treehugger Chestplate",
+  "cat": "armor",
+  "id": "armor_hewn_bark_chest",
+  "file": "armor/Treehugger_Chestplate.png"
+ },
+ "armor/armor_timeworn_chest": {
+  "name": "Realmreacher Robe",
+  "cat": "armor",
+  "id": "armor_timeworn_chest",
+  "file": "armor/Realmreacher_Robe.png"
+ },
+ "armor/armor_honey_chest": {
+  "name": "Beekeeper Suit",
+  "cat": "armor",
+  "id": "armor_honey_chest",
+  "file": "armor/Beekeeper_Suit.png"
+ },
+ "armor/armor_mushroom_chest": {
+  "name": "Mushroom Robe",
+  "cat": "armor",
+  "id": "armor_mushroom_chest",
+  "file": "armor/Mushroom_Robe.png"
+ },
+ "armor/armor_disciple_chest": {
+  "name": "Disciple Robe",
+  "cat": "armor",
+  "id": "armor_disciple_chest",
+  "file": "armor/Disciple_Robe.png"
+ },
+ "armor/armor_wellspring_chest": {
+  "name": "Sifter Robe",
+  "cat": "armor",
+  "id": "armor_wellspring_chest",
+  "file": "armor/Sifter_Robe.png"
+ },
+ "armor/armor_redstone_chest": {
+  "name": "Redstone Chestplate",
+  "cat": "armor",
+  "id": "armor_redstone_chest",
+  "file": "armor/Redstone_Chestplate.png"
+ },
+ "armor/armor_evocation_chest": {
+  "name": "Sorcerer Robe",
+  "cat": "armor",
+  "id": "armor_evocation_chest",
+  "file": "armor/Sorcerer_Robe.png"
+ },
+ "armor/armor_phantom_chest_unique": {
+  "name": "Dreamruler Cover",
+  "cat": "armor",
+  "id": "armor_phantom_chest_unique",
+  "file": "armor/Dreamruler_Cover.png"
+ },
+ "armor/armor_hewn_bark_chest_unique": {
+  "name": "Woodsprite Barkpiece",
+  "cat": "armor",
+  "id": "armor_hewn_bark_chest_unique",
+  "file": "armor/Woodsprite_Barkpiece.png"
+ },
+ "armor/armor_timeworn_chest_unique": {
+  "name": "Soul Corruptor Duster",
+  "cat": "armor",
+  "id": "armor_timeworn_chest_unique",
+  "file": "armor/Soul_Corruptor_Duster.png"
+ },
+ "armor/armor_honey_chest_unique": {
+  "name": "Hivemind Thorax",
+  "cat": "armor",
+  "id": "armor_honey_chest_unique",
+  "file": "armor/Hivemind_Thorax.png"
+ },
+ "armor/armor_mushroom_chest_unique": {
+  "name": "Fly Agaric Coat",
+  "cat": "armor",
+  "id": "armor_mushroom_chest_unique",
+  "file": "armor/Fly_Agaric_Coat.png"
+ },
+ "armor/armor_disciple_chest_unique": {
+  "name": "Sage Tunic",
+  "cat": "armor",
+  "id": "armor_disciple_chest_unique",
+  "file": "armor/Sage_Tunic.png"
+ },
+ "armor/armor_wellspring_chest_unique": {
+  "name": "Mad Sifter Vest",
+  "cat": "armor",
+  "id": "armor_wellspring_chest_unique",
+  "file": "armor/Mad_Sifter_Vest.png"
+ },
+ "armor/armor_redstone_chest_unique": {
+  "name": "Monstrosity Armor",
+  "cat": "armor",
+  "id": "armor_redstone_chest_unique",
+  "file": "armor/Monstrosity_Armor.png"
+ },
+ "armor/armor_evocation_chest_unique": {
+  "name": "Alchemist Overcoat",
+  "cat": "armor",
+  "id": "armor_evocation_chest_unique",
+  "file": "armor/Alchemist_Overcoat.png"
+ },
+ "armor/armor_scavenger_chest": {
+  "name": "Sculker Robe",
+  "cat": "armor",
+  "id": "armor_scavenger_chest",
+  "file": "armor/Sculker_Robe.png"
+ },
+ "armor/armor_scavenger_chest_unique": {
+  "name": "Monarch Mantle",
+  "cat": "armor",
+  "id": "armor_scavenger_chest_unique",
+  "file": "armor/Monarch_Mantle.png"
+ },
+ "armor/armor_scamp_leggings": {
+  "name": "Scamp Leggings",
+  "cat": "armor",
+  "id": "armor_scamp_leggings",
+  "file": "armor/Scamp_Leggings.png"
+ },
+ "armor/armor_voyager_leggings": {
+  "name": "Nomad Leggings",
+  "cat": "armor",
+  "id": "armor_voyager_leggings",
+  "file": "armor/Nomad_Leggings.png"
+ },
+ "armor/armor_realmreacher_leggings": {
+  "name": "Ranger Leggings",
+  "cat": "armor",
+  "id": "armor_realmreacher_leggings",
+  "file": "armor/Ranger_Leggings.png"
+ },
+ "armor/armor_wolfclutch_leggings": {
+  "name": "Wolfpack Leggings",
+  "cat": "armor",
+  "id": "armor_wolfclutch_leggings",
+  "file": "armor/Wolfpack_Leggings.png"
+ },
+ "armor/armor_undaunted_leggings": {
+  "name": "Bounty Hunter Shinguards",
+  "cat": "armor",
+  "id": "armor_undaunted_leggings",
+  "file": "armor/Bounty_Hunter_Shinguards.png"
+ },
+ "armor/armor_frostrime_leggings": {
+  "name": "Steel Wool Leggings",
+  "cat": "armor",
+  "id": "armor_frostrime_leggings",
+  "file": "armor/Steel_Wool_Leggings.png"
+ },
+ "armor/armor_cave_crawler_leggings": {
+  "name": "Sculk Digger Leggings",
+  "cat": "armor",
+  "id": "armor_cave_crawler_leggings",
+  "file": "armor/Sculk_Digger_Leggings.png"
+ },
+ "armor/armor_undaunted_leggings_unique": {
+  "name": "Dauntless Greaves",
+  "cat": "armor",
+  "id": "armor_undaunted_leggings_unique",
+  "file": "armor/Dauntless_Greaves.png"
+ },
+ "armor/armor_frostrime_leggings_unique": {
+  "name": "Rimefrost Longjohns",
+  "cat": "armor",
+  "id": "armor_frostrime_leggings_unique",
+  "file": "armor/Rimefrost_Longjohns.png"
+ },
+ "armor/armor_scamp_leggings_unique": {
+  "name": "Scoundrel Chaps",
+  "cat": "armor",
+  "id": "armor_scamp_leggings_unique",
+  "file": "armor/Scoundrel_Chaps.png"
+ },
+ "armor/armor_voyager_leggings_unique": {
+  "name": "Rover Gaiters",
+  "cat": "armor",
+  "id": "armor_voyager_leggings_unique",
+  "file": "armor/Rover_Gaiters.png"
+ },
+ "armor/armor_cave_crawler_leggings_unique": {
+  "name": "Twisted Warden Tights",
+  "cat": "armor",
+  "id": "armor_cave_crawler_leggings_unique",
+  "file": "armor/Twisted_Warden_Tights.png"
+ },
+ "armor/armor_realmreacher_leggings_unique": {
+  "name": "Sharpshooter Chaps",
+  "cat": "armor",
+  "id": "armor_realmreacher_leggings_unique",
+  "file": "armor/Sharpshooter_Chaps.png"
+ },
+ "armor/armor_stalwart_leggings": {
+  "name": "Protector Shinguards",
+  "cat": "armor",
+  "id": "armor_stalwart_leggings",
+  "file": "armor/Protector_Shinguards.png"
+ },
+ "armor/armor_stalwart_leggings_unique": {
+  "name": "Humbler Greaves",
+  "cat": "armor",
+  "id": "armor_stalwart_leggings_unique",
+  "file": "armor/Humbler_Greaves.png"
+ },
+ "armor/armor_wolfclutch_leggings_unique": {
+  "name": "Packleader Fur Chaps",
+  "cat": "armor",
+  "id": "armor_wolfclutch_leggings_unique",
+  "file": "armor/Packleader_Fur_Chaps.png"
+ },
+ "armor/armor_mystic_leggings": {
+  "name": "Mystic Leggings",
+  "cat": "armor",
+  "id": "armor_mystic_leggings",
+  "file": "armor/Mystic_Leggings.png"
+ },
+ "armor/armor_mystic_leggings_unique": {
+  "name": "Oracle Tights",
+  "cat": "armor",
+  "id": "armor_mystic_leggings_unique",
+  "file": "armor/Oracle_Tights.png"
+ },
+ "armor/armor_phantom_leggings": {
+  "name": "Phantom Pants",
+  "cat": "armor",
+  "id": "armor_phantom_leggings",
+  "file": "armor/Phantom_Pants.png"
+ },
+ "armor/armor_hewn_bark_leggings": {
+  "name": "Treehugger Leggings",
+  "cat": "armor",
+  "id": "armor_hewn_bark_leggings",
+  "file": "armor/Treehugger_Leggings.png"
+ },
+ "armor/armor_timeworn_leggings": {
+  "name": "Realmreacher Leggings",
+  "cat": "armor",
+  "id": "armor_timeworn_leggings",
+  "file": "armor/Realmreacher_Leggings.png"
+ },
+ "armor/armor_honey_leggings": {
+  "name": "Beekeeper Leggings",
+  "cat": "armor",
+  "id": "armor_honey_leggings",
+  "file": "armor/Beekeeper_Leggings.png"
+ },
+ "armor/armor_mushroom_leggings": {
+  "name": "Mushroom Leggings",
+  "cat": "armor",
+  "id": "armor_mushroom_leggings",
+  "file": "armor/Mushroom_Leggings.png"
+ },
+ "armor/armor_disciple_leggings": {
+  "name": "Disciple Leggings",
+  "cat": "armor",
+  "id": "armor_disciple_leggings",
+  "file": "armor/Disciple_Leggings.png"
+ },
+ "armor/armor_wellspring_leggings": {
+  "name": "Sifter Leggings",
+  "cat": "armor",
+  "id": "armor_wellspring_leggings",
+  "file": "armor/Sifter_Leggings.png"
+ },
+ "armor/armor_redstone_leggings": {
+  "name": "Redstone Shinguards",
+  "cat": "armor",
+  "id": "armor_redstone_leggings",
+  "file": "armor/Redstone_Shinguards.png"
+ },
+ "armor/armor_evocation_leggings": {
+  "name": "Sorcerer Leggings",
+  "cat": "armor",
+  "id": "armor_evocation_leggings",
+  "file": "armor/Sorcerer_Leggings.png"
+ },
+ "armor/armor_phantom_leggings_unique": {
+  "name": "Dreamruler Pyjamas",
+  "cat": "armor",
+  "id": "armor_phantom_leggings_unique",
+  "file": "armor/Dreamruler_Pyjamas.png"
+ },
+ "armor/armor_hewn_bark_leggings_unique": {
+  "name": "Woodsprite Trunks",
+  "cat": "armor",
+  "id": "armor_hewn_bark_leggings_unique",
+  "file": "armor/Woodsprite_Trunks.png"
+ },
+ "armor/armor_timeworn_leggings_unique": {
+  "name": "Soul Corruptor Sash",
+  "cat": "armor",
+  "id": "armor_timeworn_leggings_unique",
+  "file": "armor/Soul_Corruptor_Sash.png"
+ },
+ "armor/armor_honey_leggings_unique": {
+  "name": "Hivemind Trousers",
+  "cat": "armor",
+  "id": "armor_honey_leggings_unique",
+  "file": "armor/Hivemind_Trousers.png"
+ },
+ "armor/armor_mushroom_leggings_unique": {
+  "name": "Fly Agaric Trousers",
+  "cat": "armor",
+  "id": "armor_mushroom_leggings_unique",
+  "file": "armor/Fly_Agaric_Trousers.png"
+ },
+ "armor/armor_disciple_leggings_unique": {
+  "name": "Sage Belt",
+  "cat": "armor",
+  "id": "armor_disciple_leggings_unique",
+  "file": "armor/Sage_Belt.png"
+ },
+ "armor/armor_wellspring_leggings_unique": {
+  "name": "Mad Sifter Slacks",
+  "cat": "armor",
+  "id": "armor_wellspring_leggings_unique",
+  "file": "armor/Mad_Sifter_Slacks.png"
+ },
+ "armor/armor_redstone_leggings_unique": {
+  "name": "Monstrosity Greaves",
+  "cat": "armor",
+  "id": "armor_redstone_leggings_unique",
+  "file": "armor/Monstrosity_Greaves.png"
+ },
+ "armor/armor_evocation_leggings_unique": {
+  "name": "Alchemist Trousers",
+  "cat": "armor",
+  "id": "armor_evocation_leggings_unique",
+  "file": "armor/Alchemist_Trousers.png"
+ },
+ "armor/armor_scavenger_leggings": {
+  "name": "Sculker Slacks",
+  "cat": "armor",
+  "id": "armor_scavenger_leggings",
+  "file": "armor/Sculker_Slacks.png"
+ },
+ "armor/armor_scavenger_leggings_unique": {
+  "name": "Monarch Sash",
+  "cat": "armor",
+  "id": "armor_scavenger_leggings_unique",
+  "file": "armor/Monarch_Sash.png"
+ },
+ "consumables/consumable_apple": {
+  "name": "Apple",
+  "cat": "consumables",
+  "id": "consumable_apple",
+  "file": "consumables/Apple.png"
+ },
+ "consumables/consumable_carrot": {
+  "name": "Carrot",
+  "cat": "consumables",
+  "id": "consumable_carrot",
+  "file": "consumables/Carrot.png"
+ },
+ "consumables/consumable_melon": {
+  "name": "Melon",
+  "cat": "consumables",
+  "id": "consumable_melon",
+  "file": "consumables/Melon.png"
+ },
+ "consumables/consumable_potato": {
+  "name": "Potato",
+  "cat": "consumables",
+  "id": "consumable_potato",
+  "file": "consumables/Potato.png"
+ },
+ "consumables/consumable_pumpkin_pie": {
+  "name": "Pumpkin Pie",
+  "cat": "consumables",
+  "id": "consumable_pumpkin_pie",
+  "file": "consumables/Pumpkin_Pie.png"
+ },
+ "consumables/consumable_tnt": {
+  "name": "TNT",
+  "cat": "consumables",
+  "id": "consumable_tnt",
+  "file": "consumables/TNT.png"
+ },
+ "enchantments/ench_fire_aspect": {
+  "name": "Fire Aspect",
+  "cat": "enchantments",
+  "id": "ench_fire_aspect",
+  "file": "enchantments/Fire_Aspect.png"
+ },
+ "enchantments/ench_poison_fog": {
+  "name": "Poison Fog",
+  "cat": "enchantments",
+  "id": "ench_poison_fog",
+  "file": "enchantments/Poison_Fog.png"
+ },
+ "enchantments/ench_shockwave": {
+  "name": "Shockwave",
+  "cat": "enchantments",
+  "id": "ench_shockwave",
+  "file": "enchantments/Shockwave.png"
+ },
+ "enchantments/ench_frost_crescent": {
+  "name": "Frost Crescent",
+  "cat": "enchantments",
+  "id": "ench_frost_crescent",
+  "file": "enchantments/Frost_Crescent.png"
+ },
+ "enchantments/ench_channeling": {
+  "name": "Lightning Surge",
+  "cat": "enchantments",
+  "id": "ench_channeling",
+  "file": "enchantments/Lightning_Surge.png"
+ },
+ "enchantments/ench_soul_fire_aspect": {
+  "name": "Soul Blast",
+  "cat": "enchantments",
+  "id": "ench_soul_fire_aspect",
+  "file": "enchantments/Soul_Blast.png"
+ },
+ "enchantments/ench_blowback": {
+  "name": "Crash Landing",
+  "cat": "enchantments",
+  "id": "ench_blowback",
+  "file": "enchantments/Crash_Landing.png"
+ },
+ "enchantments/ench_swirling": {
+  "name": "Swirling",
+  "cat": "enchantments",
+  "id": "ench_swirling",
+  "file": "enchantments/Swirling.png"
+ },
+ "enchantments/ench_unstoppable": {
+  "name": "Cow Stampede",
+  "cat": "enchantments",
+  "id": "ench_unstoppable",
+  "file": "enchantments/Cow_Stampede.png"
+ },
+ "enchantments/ench_borealis": {
+  "name": "Ender Mines",
+  "cat": "enchantments",
+  "id": "ench_borealis",
+  "file": "enchantments/Ender_Mines.png"
+ },
+ "enchantments/ench_thundering": {
+  "name": "Thundering",
+  "cat": "enchantments",
+  "id": "ench_thundering",
+  "file": "enchantments/Thundering.png"
+ },
+ "enchantments/ench_lingering_power": {
+  "name": "Power Amplifier",
+  "cat": "enchantments",
+  "id": "ench_lingering_power",
+  "file": "enchantments/Power_Amplifier.png"
+ },
+ "enchantments/ench_dynamo": {
+  "name": "Dynamo",
+  "cat": "enchantments",
+  "id": "ench_dynamo",
+  "file": "enchantments/Dynamo.png"
+ },
+ "enchantments/ench_mauler_dive_unique": {
+  "name": "Primed Enchantment",
+  "cat": "enchantments",
+  "id": "ench_mauler_dive_unique",
+  "file": "enchantments/Primed_Enchantment.png"
+ },
+ "enchantments/ench_phantom_lance_unique": {
+  "name": "Ichor Blast",
+  "cat": "enchantments",
+  "id": "ench_phantom_lance_unique",
+  "file": "enchantments/Ichor_Blast.png"
+ },
+ "enchantments/ench_piercing": {
+  "name": "Piercing",
+  "cat": "enchantments",
+  "id": "ench_piercing",
+  "file": "enchantments/Piercing.png"
+ },
+ "enchantments/ench_ricochet": {
+  "name": "Ricochet",
+  "cat": "enchantments",
+  "id": "ench_ricochet",
+  "file": "enchantments/Ricochet.png"
+ },
+ "enchantments/ench_chain_reaction": {
+  "name": "Chain Reaction",
+  "cat": "enchantments",
+  "id": "ench_chain_reaction",
+  "file": "enchantments/Chain_Reaction.png"
+ },
+ "enchantments/ench_burst_bowstring": {
+  "name": "Tumbleshot",
+  "cat": "enchantments",
+  "id": "ench_burst_bowstring",
+  "file": "enchantments/Tumbleshot.png"
+ },
+ "enchantments/ench_multi_roll": {
+  "name": "Somersault",
+  "cat": "enchantments",
+  "id": "ench_multi_roll",
+  "file": "enchantments/Somersault.png"
+ },
+ "enchantments/ench_tempo_theft": {
+  "name": "Tempo Theft",
+  "cat": "enchantments",
+  "id": "ench_tempo_theft",
+  "file": "enchantments/Tempo_Theft.png"
+ },
+ "enchantments/ench_radiance": {
+  "name": "Healing Smite",
+  "cat": "enchantments",
+  "id": "ench_radiance",
+  "file": "enchantments/Healing_Smite.png"
+ },
+ "enchantments/ench_shadow_strike": {
+  "name": "Shadowcloak",
+  "cat": "enchantments",
+  "id": "ench_shadow_strike",
+  "file": "enchantments/Shadowcloak.png"
+ },
+ "enchantments/ench_potion_sharing": {
+  "name": "Buddy Brew",
+  "cat": "enchantments",
+  "id": "ench_potion_sharing",
+  "file": "enchantments/Buddy_Brew.png"
+ },
+ "enchantments/ench_arcane": {
+  "name": "Artifact Amplifier",
+  "cat": "enchantments",
+  "id": "ench_arcane",
+  "file": "enchantments/Artifact_Amplifier.png"
+ },
+ "enchantments/ench_gravity_pulse": {
+  "name": "Gravity Pulse",
+  "cat": "enchantments",
+  "id": "ench_gravity_pulse",
+  "file": "enchantments/Gravity_Pulse.png"
+ },
+ "enchantments/ench_spring_loaded": {
+  "name": "Springload",
+  "cat": "enchantments",
+  "id": "ench_spring_loaded",
+  "file": "enchantments/Springload.png"
+ },
+ "enchantments/ench_expanded_quiver": {
+  "name": "Ender Quiver",
+  "cat": "enchantments",
+  "id": "ench_expanded_quiver",
+  "file": "enchantments/Ender_Quiver.png"
+ },
+ "enchantments/ench_critical_quiver": {
+  "name": "Critical Quiver",
+  "cat": "enchantments",
+  "id": "ench_critical_quiver",
+  "file": "enchantments/Critical_Quiver.png"
+ },
+ "enchantments/ench_soul_infused_potion": {
+  "name": "Ancient Alchemy",
+  "cat": "enchantments",
+  "id": "ench_soul_infused_potion",
+  "file": "enchantments/Ancient_Alchemy.png"
+ },
+ "enchantments/ench_multi_potion": {
+  "name": "Bottomless Brew",
+  "cat": "enchantments",
+  "id": "ench_multi_potion",
+  "file": "enchantments/Bottomless_Brew.png"
+ },
+ "enchantments/ench_clawing_shadow_unique": {
+  "name": "Shadowclaw",
+  "cat": "enchantments",
+  "id": "ench_clawing_shadow_unique",
+  "file": "enchantments/Shadowclaw.png"
+ },
+ "enchantments/ench_swirling_unique": {
+  "name": "Tornado",
+  "cat": "enchantments",
+  "id": "ench_swirling_unique",
+  "file": "enchantments/Tornado.png"
+ },
+ "enchantments/ench_gravity_pulse_unique": {
+  "name": "Gravity Strike",
+  "cat": "enchantments",
+  "id": "ench_gravity_pulse_unique",
+  "file": "enchantments/Gravity_Strike.png"
+ },
+ "enchantments/ench_potion_barrier": {
+  "name": "Barrier Brew",
+  "cat": "enchantments",
+  "id": "ench_potion_barrier",
+  "file": "enchantments/Barrier_Brew.png"
+ },
+ "enchantments/ench_guarding_strike": {
+  "name": "Shielding Smite",
+  "cat": "enchantments",
+  "id": "ench_guarding_strike",
+  "file": "enchantments/Shielding_Smite.png"
+ },
+ "enchantments/ench_health_synergy": {
+  "name": "Health Synergy",
+  "cat": "enchantments",
+  "id": "ench_health_synergy",
+  "file": "enchantments/Health_Synergy.png"
+ },
+ "gear_artifacts/artifact_rallying_horn": {
+  "name": "Humbling Horn",
+  "cat": "gear_artifacts",
+  "id": "artifact_rallying_horn",
+  "file": "gear_artifacts/Humbling_Horn.png"
+ },
+ "gear_artifacts/artifact_totem_of_regeneration": {
+  "name": "Totem of Regeneration",
+  "cat": "gear_artifacts",
+  "id": "artifact_totem_of_regeneration",
+  "file": "gear_artifacts/Totem_of_Regeneration.png"
+ },
+ "gear_artifacts/artifact_picnic_blanket": {
+  "name": "Picnic Basket",
+  "cat": "gear_artifacts",
+  "id": "artifact_picnic_blanket",
+  "file": "gear_artifacts/Picnic_Basket.png"
+ },
+ "gear_artifacts/artifact_deathcap_mushroom": {
+  "name": "Death Cap Mushroom",
+  "cat": "gear_artifacts",
+  "id": "artifact_deathcap_mushroom",
+  "file": "gear_artifacts/Death_Cap_Mushroom.png"
+ },
+ "gear_artifacts/artifact_totem_of_shielding": {
+  "name": "Totem of Shielding",
+  "cat": "gear_artifacts",
+  "id": "artifact_totem_of_shielding",
+  "file": "gear_artifacts/Totem_of_Shielding.png"
+ },
+ "gear_artifacts/artifact_totem_of_casting": {
+  "name": "Totem of Casting",
+  "cat": "gear_artifacts",
+  "id": "artifact_totem_of_casting",
+  "file": "gear_artifacts/Totem_of_Casting.png"
+ },
+ "gear_artifacts/artifact_smoke_bomb": {
+  "name": "Ender Fog",
+  "cat": "gear_artifacts",
+  "id": "artifact_smoke_bomb",
+  "file": "gear_artifacts/Ender_Fog.png"
+ },
+ "gear_artifacts/artifact_redstone_mines": {
+  "name": "Redstone Mine Launcher",
+  "cat": "gear_artifacts",
+  "id": "artifact_redstone_mines",
+  "file": "gear_artifacts/Redstone_Mine_Launcher.png"
+ },
+ "gear_artifacts/artifact_witches_brew": {
+  "name": "Witch Brew",
+  "cat": "gear_artifacts",
+  "id": "artifact_witches_brew",
+  "file": "gear_artifacts/Witch_Brew.png"
+ },
+ "gear_artifacts/artifact_creeper_candle": {
+  "name": "Creeper Candle",
+  "cat": "gear_artifacts",
+  "id": "artifact_creeper_candle",
+  "file": "gear_artifacts/Creeper_Candle.png"
+ },
+ "gear_artifacts/artifact_maiming_mushroom": {
+  "name": "Fighting Fungus",
+  "cat": "gear_artifacts",
+  "id": "artifact_maiming_mushroom",
+  "file": "gear_artifacts/Fighting_Fungus.png"
+ },
+ "gear_artifacts/artifact_haste_mushroom": {
+  "name": "Tempo Truffle",
+  "cat": "gear_artifacts",
+  "id": "artifact_haste_mushroom",
+  "file": "gear_artifacts/Tempo_Truffle.png"
+ },
+ "gear_artifacts/artifact_warriors_drum": {
+  "name": "Warrior Drums",
+  "cat": "gear_artifacts",
+  "id": "artifact_warriors_drum",
+  "file": "gear_artifacts/Warrior_Drums.png"
+ },
+ "gear_artifacts/artifact_carapace_ocarina": {
+  "name": "Echo Ocarina",
+  "cat": "gear_artifacts",
+  "id": "artifact_carapace_ocarina",
+  "file": "gear_artifacts/Echo_Ocarina.png"
+ },
+ "gear_artifacts/artifact_fighters_fife": {
+  "name": "Fighter's Flute",
+  "cat": "gear_artifacts",
+  "id": "artifact_fighters_fife",
+  "file": "gear_artifacts/Fighter_s_Flute.png"
+ },
+ "gear_artifacts/artifact_grindstone": {
+  "name": "Grindstone",
+  "cat": "gear_artifacts",
+  "id": "artifact_grindstone",
+  "file": "gear_artifacts/Grindstone.png"
+ },
+ "gear_artifacts/artifact_iron_hide_lute": {
+  "name": "Turtle Master's Mandolin",
+  "cat": "gear_artifacts",
+  "id": "artifact_iron_hide_lute",
+  "file": "gear_artifacts/Turtle_Master_s_Mandolin.png"
+ },
+ "gear_artifacts/artifact_warding_chimes": {
+  "name": "Warding Chimes",
+  "cat": "gear_artifacts",
+  "id": "artifact_warding_chimes",
+  "file": "gear_artifacts/Warding_Chimes.png"
+ },
+ "gear_artifacts/artifact_war_banner": {
+  "name": "Battle Banner",
+  "cat": "gear_artifacts",
+  "id": "artifact_war_banner",
+  "file": "gear_artifacts/Battle_Banner.png"
+ },
+ "gear_artifacts/artifact_honeypot": {
+  "name": "Honey Dipper",
+  "cat": "gear_artifacts",
+  "id": "artifact_honeypot",
+  "file": "gear_artifacts/Honey_Dipper.png"
+ },
+ "gear_artifacts/artifact_powershaker": {
+  "name": "Powershaker",
+  "cat": "gear_artifacts",
+  "id": "artifact_powershaker",
+  "file": "gear_artifacts/Powershaker.png"
+ },
+ "gear_artifacts/artifact_firework_quiver": {
+  "name": "Firework Arrow",
+  "cat": "gear_artifacts",
+  "id": "artifact_firework_quiver",
+  "file": "gear_artifacts/Firework_Arrow.png"
+ },
+ "gear_artifacts/artifact_soul_harvester": {
+  "name": "Soul Harvester",
+  "cat": "gear_artifacts",
+  "id": "artifact_soul_harvester",
+  "file": "gear_artifacts/Soul_Harvester.png"
+ },
+ "gear_artifacts/artifact_corrupted_beacon": {
+  "name": "Corrupted Beacon",
+  "cat": "gear_artifacts",
+  "id": "artifact_corrupted_beacon",
+  "file": "gear_artifacts/Corrupted_Beacon.png"
+ },
+ "gear_artifacts/artifact_corrupted_seeds": {
+  "name": "Corrupted Seeds",
+  "cat": "gear_artifacts",
+  "id": "artifact_corrupted_seeds",
+  "file": "gear_artifacts/Corrupted_Seeds.png"
+ },
+ "gear_artifacts/artifact_poison_satchel": {
+  "name": "Pouch of Poison",
+  "cat": "gear_artifacts",
+  "id": "artifact_poison_satchel",
+  "file": "gear_artifacts/Pouch_of_Poison.png"
+ },
+ "gear_artifacts/artifact_poison_bracelet": {
+  "name": "Blight Bangle",
+  "cat": "gear_artifacts",
+  "id": "artifact_poison_bracelet",
+  "file": "gear_artifacts/Blight_Bangle.png"
+ },
+ "gear_artifacts/artifact_poison_quiver": {
+  "name": "Venomous Quiver",
+  "cat": "gear_artifacts",
+  "id": "artifact_poison_quiver",
+  "file": "gear_artifacts/Venomous_Quiver.png"
+ },
+ "gear_artifacts/artifact_fire_satchel": {
+  "name": "Pouch of Ember",
+  "cat": "gear_artifacts",
+  "id": "artifact_fire_satchel",
+  "file": "gear_artifacts/Pouch_of_Ember.png"
+ },
+ "gear_artifacts/artifact_flame_sceptre": {
+  "name": "Cinder Scepter",
+  "cat": "gear_artifacts",
+  "id": "artifact_flame_sceptre",
+  "file": "gear_artifacts/Cinder_Scepter.png"
+ },
+ "gear_artifacts/artifact_fire_bracelet": {
+  "name": "Blaze Bangle",
+  "cat": "gear_artifacts",
+  "id": "artifact_fire_bracelet",
+  "file": "gear_artifacts/Blaze_Bangle.png"
+ },
+ "gear_artifacts/artifact_flame_quiver": {
+  "name": "Flaming Quiver",
+  "cat": "gear_artifacts",
+  "id": "artifact_flame_quiver",
+  "file": "gear_artifacts/Flaming_Quiver.png"
+ },
+ "gear_artifacts/artifact_freezing_satchel": {
+  "name": "Pouch of Frost",
+  "cat": "gear_artifacts",
+  "id": "artifact_freezing_satchel",
+  "file": "gear_artifacts/Pouch_of_Frost.png"
+ },
+ "gear_artifacts/artifact_blizzard_staff": {
+  "name": "Winter Staff",
+  "cat": "gear_artifacts",
+  "id": "artifact_blizzard_staff",
+  "file": "gear_artifacts/Winter_Staff.png"
+ },
+ "gear_artifacts/artifact_frost_bracelet": {
+  "name": "Blizzard Bangle",
+  "cat": "gear_artifacts",
+  "id": "artifact_frost_bracelet",
+  "file": "gear_artifacts/Blizzard_Bangle.png"
+ },
+ "gear_artifacts/artifact_frost_quiver": {
+  "name": "Freezing Quiver",
+  "cat": "gear_artifacts",
+  "id": "artifact_frost_quiver",
+  "file": "gear_artifacts/Freezing_Quiver.png"
+ },
+ "gear_artifacts/artifact_conductive_satchel": {
+  "name": "Pouch of Thunder",
+  "cat": "gear_artifacts",
+  "id": "artifact_conductive_satchel",
+  "file": "gear_artifacts/Pouch_of_Thunder.png"
+ },
+ "gear_artifacts/artifact_lightning_rod": {
+  "name": "Lightning Rod",
+  "cat": "gear_artifacts",
+  "id": "artifact_lightning_rod",
+  "file": "gear_artifacts/Lightning_Rod.png"
+ },
+ "gear_artifacts/artifact_conductive_bracelet": {
+  "name": "Electric Bangle",
+  "cat": "gear_artifacts",
+  "id": "artifact_conductive_bracelet",
+  "file": "gear_artifacts/Electric_Bangle.png"
+ },
+ "gear_artifacts/artifact_lightning_quiver": {
+  "name": "Conductive Quiver",
+  "cat": "gear_artifacts",
+  "id": "artifact_lightning_quiver",
+  "file": "gear_artifacts/Conductive_Quiver.png"
+ },
+ "gear_effects/effect_protection": {
+  "name": "Protection",
+  "cat": "gear_effects",
+  "id": "effect_protection",
+  "file": "gear_effects/Protection.png"
+ },
+ "gear_effects/effect_constitution": {
+  "name": "Recovery",
+  "cat": "gear_effects",
+  "id": "effect_constitution",
+  "file": "gear_effects/Recovery.png"
+ },
+ "gear_effects/effect_regeneration": {
+  "name": "Regeneration",
+  "cat": "gear_effects",
+  "id": "effect_regeneration",
+  "file": "gear_effects/Regeneration.png"
+ },
+ "gear_effects/effect_projectile_protection": {
+  "name": "Projectile Protection",
+  "cat": "gear_effects",
+  "id": "effect_projectile_protection",
+  "file": "gear_effects/Projectile_Protection.png"
+ },
+ "gear_effects/effect_health_boost": {
+  "name": "Constitution",
+  "cat": "gear_effects",
+  "id": "effect_health_boost",
+  "file": "gear_effects/Constitution.png"
+ },
+ "gear_effects/effect_elemental_protection": {
+  "name": "Elemental Protection",
+  "cat": "gear_effects",
+  "id": "effect_elemental_protection",
+  "file": "gear_effects/Elemental_Protection.png"
+ },
+ "gear_effects/effect_deflect": {
+  "name": "Deflection",
+  "cat": "gear_effects",
+  "id": "effect_deflect",
+  "file": "gear_effects/Deflection.png"
+ },
+ "gear_effects/effect_artifact_healing": {
+  "name": "Relic",
+  "cat": "gear_effects",
+  "id": "effect_artifact_healing",
+  "file": "gear_effects/Relic.png"
+ },
+ "gear_effects/effect_anima_conduit": {
+  "name": "Alchemist",
+  "cat": "gear_effects",
+  "id": "effect_anima_conduit",
+  "file": "gear_effects/Alchemist.png"
+ },
+ "gear_effects/effect_resilience": {
+  "name": "Resilience",
+  "cat": "gear_effects",
+  "id": "effect_resilience",
+  "file": "gear_effects/Resilience.png"
+ },
+ "gear_effects/effect_healing_focus": {
+  "name": "Healer",
+  "cat": "gear_effects",
+  "id": "effect_healing_focus",
+  "file": "gear_effects/Healer.png"
+ },
+ "gear_effects/effect_friendship": {
+  "name": "Shepherd",
+  "cat": "gear_effects",
+  "id": "effect_friendship",
+  "file": "gear_effects/Shepherd.png"
+ },
+ "gear_effects/effect_sharpness": {
+  "name": "Sharpness",
+  "cat": "gear_effects",
+  "id": "effect_sharpness",
+  "file": "gear_effects/Sharpness.png"
+ },
+ "gear_effects/effect_rapid_strike": {
+  "name": "Swiftness",
+  "cat": "gear_effects",
+  "id": "effect_rapid_strike",
+  "file": "gear_effects/Swiftness.png"
+ },
+ "gear_effects/effect_power": {
+  "name": "Impact",
+  "cat": "gear_effects",
+  "id": "effect_power",
+  "file": "gear_effects/Impact.png"
+ },
+ "gear_effects/effect_hairtrigger": {
+  "name": "Reload",
+  "cat": "gear_effects",
+  "id": "effect_hairtrigger",
+  "file": "gear_effects/Reload.png"
+ },
+ "gear_effects/effect_finesse": {
+  "name": "Finesse",
+  "cat": "gear_effects",
+  "id": "effect_finesse",
+  "file": "gear_effects/Finesse.png"
+ },
+ "gear_effects/effect_fire_focus": {
+  "name": "Pyromancer",
+  "cat": "gear_effects",
+  "id": "effect_fire_focus",
+  "file": "gear_effects/Pyromancer.png"
+ },
+ "gear_effects/effect_vestige": {
+  "name": "Sorcerer",
+  "cat": "gear_effects",
+  "id": "effect_vestige",
+  "file": "gear_effects/Sorcerer.png"
+ },
+ "gear_effects/effect_lightning_focus": {
+  "name": "Electromancer",
+  "cat": "gear_effects",
+  "id": "effect_lightning_focus",
+  "file": "gear_effects/Electromancer.png"
+ },
+ "gear_effects/effect_soul_focus": {
+  "name": "Soulmancer",
+  "cat": "gear_effects",
+  "id": "effect_soul_focus",
+  "file": "gear_effects/Soulmancer.png"
+ },
+ "gear_effects/effect_poison_focus": {
+  "name": "Venomancer",
+  "cat": "gear_effects",
+  "id": "effect_poison_focus",
+  "file": "gear_effects/Venomancer.png"
+ },
+ "gear_effects/effect_critical_hit": {
+  "name": "Critical Hit",
+  "cat": "gear_effects",
+  "id": "effect_critical_hit",
+  "file": "gear_effects/Critical_Hit.png"
+ },
+ "gear_effects/effect_critical_edge": {
+  "name": "Critical Edge",
+  "cat": "gear_effects",
+  "id": "effect_critical_edge",
+  "file": "gear_effects/Critical_Edge.png"
+ },
+ "gear_effects/effect_precision": {
+  "name": "Precision",
+  "cat": "gear_effects",
+  "id": "effect_precision",
+  "file": "gear_effects/Precision.png"
+ },
+ "gear_effects/effect_master_strike": {
+  "name": "Strength",
+  "cat": "gear_effects",
+  "id": "effect_master_strike",
+  "file": "gear_effects/Strength.png"
+ },
+ "gear_effects/effect_eagle_eye": {
+  "name": "Aim",
+  "cat": "gear_effects",
+  "id": "effect_eagle_eye",
+  "file": "gear_effects/Aim.png"
+ },
+ "gear_effects/effect_master_marksman": {
+  "name": "Marksman",
+  "cat": "gear_effects",
+  "id": "effect_master_marksman",
+  "file": "gear_effects/Marksman.png"
+ },
+ "gear_effects/effect_reeling": {
+  "name": "Momentum",
+  "cat": "gear_effects",
+  "id": "effect_reeling",
+  "file": "gear_effects/Momentum.png"
+ },
+ "gear_effects/effect_knockback": {
+  "name": "Knockback",
+  "cat": "gear_effects",
+  "id": "effect_knockback",
+  "file": "gear_effects/Knockback.png"
+ },
+ "gear_effects/effect_desperation": {
+  "name": "Persistence",
+  "cat": "gear_effects",
+  "id": "effect_desperation",
+  "file": "gear_effects/Persistence.png"
+ },
+ "gear_effects/effect_supercharge": {
+  "name": "Sharpshooter",
+  "cat": "gear_effects",
+  "id": "effect_supercharge",
+  "file": "gear_effects/Sharpshooter.png"
+ },
+ "gear_effects/effect_plummeting": {
+  "name": "Leaper",
+  "cat": "gear_effects",
+  "id": "effect_plummeting",
+  "file": "gear_effects/Leaper.png"
+ },
+ "gear_effects/effect_opportunist": {
+  "name": "Bully",
+  "cat": "gear_effects",
+  "id": "effect_opportunist",
+  "file": "gear_effects/Bully.png"
+ },
+ "gear_effects/effect_sweeping_edge": {
+  "name": "Brawler",
+  "cat": "gear_effects",
+  "id": "effect_sweeping_edge",
+  "file": "gear_effects/Brawler.png"
+ },
+ "gear_effects/effect_thorns": {
+  "name": "Prickly",
+  "cat": "gear_effects",
+  "id": "effect_thorns",
+  "file": "gear_effects/Prickly.png"
+ },
+ "gear_effects/effect_frost_focus": {
+  "name": "Cryomancer",
+  "cat": "gear_effects",
+  "id": "effect_frost_focus",
+  "file": "gear_effects/Cryomancer.png"
+ },
+ "gear_effects/effect_point_blank": {
+  "name": "Point Blank",
+  "cat": "gear_effects",
+  "id": "effect_point_blank",
+  "file": "gear_effects/Point_Blank.png"
+ },
+ "gear_effects/effect_sniper": {
+  "name": "Sniper",
+  "cat": "gear_effects",
+  "id": "effect_sniper",
+  "file": "gear_effects/Sniper.png"
+ },
+ "gear_effects/effect_multi_shot": {
+  "name": "Ranger",
+  "cat": "gear_effects",
+  "id": "effect_multi_shot",
+  "file": "gear_effects/Ranger.png"
+ },
+ "gear_effects/effect_chains": {
+  "name": "Shackler",
+  "cat": "gear_effects",
+  "id": "effect_chains",
+  "file": "gear_effects/Shackler.png"
+ },
+ "gear_effects/effect_duelist": {
+  "name": "Duelist",
+  "cat": "gear_effects",
+  "id": "effect_duelist",
+  "file": "gear_effects/Duelist.png"
+ },
+ "gear_effects/effect_beast_boss": {
+  "name": "Pack Leader",
+  "cat": "gear_effects",
+  "id": "effect_beast_boss",
+  "file": "gear_effects/Pack_Leader.png"
+ },
+ "gear_effects/effect_committed": {
+  "name": "Bounty Hunter",
+  "cat": "gear_effects",
+  "id": "effect_committed",
+  "file": "gear_effects/Bounty_Hunter.png"
+ },
+ "gear_effects/effect_vanguard": {
+  "name": "Vanguard",
+  "cat": "gear_effects",
+  "id": "effect_vanguard",
+  "file": "gear_effects/Vanguard.png"
+ },
+ "gear_effects/effect_soul_curse": {
+  "name": "Soul Cursed",
+  "cat": "gear_effects",
+  "id": "effect_soul_curse",
+  "file": "gear_effects/Soul_Cursed.png"
+ },
+ "gear_effects/effect_explosive_strike": {
+  "name": "Pyrotechnics",
+  "cat": "gear_effects",
+  "id": "effect_explosive_strike",
+  "file": "gear_effects/Pyrotechnics.png"
+ },
+ "gear_effects/effect_elemental_hit": {
+  "name": "Randomancer",
+  "cat": "gear_effects",
+  "id": "effect_elemental_hit",
+  "file": "gear_effects/Randomancer.png"
+ },
+ "gear_effects/effect_strength_on_hit": {
+  "name": "Strengthening Hit",
+  "cat": "gear_effects",
+  "id": "effect_strength_on_hit",
+  "file": "gear_effects/Strengthening_Hit.png"
+ },
+ "gear_effects/effect_jumpshot": {
+  "name": "Jumpshot",
+  "cat": "gear_effects",
+  "id": "effect_jumpshot",
+  "file": "gear_effects/Jumpshot.png"
+ },
+ "gear_effects/effect_healthy_strike": {
+  "name": "Healthy Strike",
+  "cat": "gear_effects",
+  "id": "effect_healthy_strike",
+  "file": "gear_effects/Healthy_Strike.png"
+ },
+ "gear_effects/effect_speedboost": {
+  "name": "Speed",
+  "cat": "gear_effects",
+  "id": "effect_speedboost",
+  "file": "gear_effects/Speed.png"
+ },
+ "gear_effects/effect_cooldown": {
+  "name": "Cooldown",
+  "cat": "gear_effects",
+  "id": "effect_cooldown",
+  "file": "gear_effects/Cooldown.png"
+ },
+ "gear_effects/effect_side_step": {
+  "name": "Evasion",
+  "cat": "gear_effects",
+  "id": "effect_side_step",
+  "file": "gear_effects/Evasion.png"
+ },
+ "gear_effects/effect_reconstruction": {
+  "name": "Fletcher",
+  "cat": "gear_effects",
+  "id": "effect_reconstruction",
+  "file": "gear_effects/Fletcher.png"
+ },
+ "gear_effects/effect_expand": {
+  "name": "Totem Radius",
+  "cat": "gear_effects",
+  "id": "effect_expand",
+  "file": "gear_effects/Totem_Radius.png"
+ },
+ "gear_effects/effect_looting": {
+  "name": "Looter",
+  "cat": "gear_effects",
+  "id": "effect_looting",
+  "file": "gear_effects/Looter.png"
+ },
+ "gear_effects/effect_opulence": {
+  "name": "Raider",
+  "cat": "gear_effects",
+  "id": "effect_opulence",
+  "file": "gear_effects/Raider.png"
+ },
+ "gear_effects/effect_shadow_step": {
+  "name": "Prowler",
+  "cat": "gear_effects",
+  "id": "effect_shadow_step",
+  "file": "gear_effects/Prowler.png"
+ },
+ "gear_effects/effect_gambler": {
+  "name": "Assassin",
+  "cat": "gear_effects",
+  "id": "effect_gambler",
+  "file": "gear_effects/Assassin.png"
+ },
+ "gear_effects/effect_soul_gather": {
+  "name": "SoulGather_TalismanEffect",
+  "cat": "gear_effects",
+  "id": "effect_soul_gather",
+  "file": "gear_effects/SoulGather_TalismanEffect.png"
+ },
+ "gear_effects/effect_potion_cooldown": {
+  "name": "Potion Maker",
+  "cat": "gear_effects",
+  "id": "effect_potion_cooldown",
+  "file": "gear_effects/Potion_Maker.png"
+ },
+ "gear_effects/effect_emerald_increase": {
+  "name": "Prospector",
+  "cat": "gear_effects",
+  "id": "effect_emerald_increase",
+  "file": "gear_effects/Prospector.png"
+ },
+ "gear_effects/effect_drop_chance": {
+  "name": "DropChance_TalismanEffect",
+  "cat": "gear_effects",
+  "id": "effect_drop_chance",
+  "file": "gear_effects/DropChance_TalismanEffect.png"
+ },
+ "gear_effects/effect_roll_cooldown": {
+  "name": "Acrobat",
+  "cat": "gear_effects",
+  "id": "effect_roll_cooldown",
+  "file": "gear_effects/Acrobat.png"
+ },
+ "gear_effects/effect_soul_max": {
+  "name": "Spiritual",
+  "cat": "gear_effects",
+  "id": "effect_soul_max",
+  "file": "gear_effects/Spiritual.png"
+ },
+ "gear_effects/effect_soul_gather_multiply": {
+  "name": "Reaper",
+  "cat": "gear_effects",
+  "id": "effect_soul_gather_multiply",
+  "file": "gear_effects/Reaper.png"
+ },
+ "gear_effects/effect_vivify": {
+  "name": "Ally",
+  "cat": "gear_effects",
+  "id": "effect_vivify",
+  "file": "gear_effects/Ally.png"
+ },
+ "gear_effects/effect_saboteur": {
+  "name": "Tainted",
+  "cat": "gear_effects",
+  "id": "effect_saboteur",
+  "file": "gear_effects/Tainted.png"
+ },
+ "gear_effects/effect_shadow_walk": {
+  "name": "Stealth",
+  "cat": "gear_effects",
+  "id": "effect_shadow_walk",
+  "file": "gear_effects/Stealth.png"
+ },
+ "gear_effects/effect_lucky": {
+  "name": "Luck",
+  "cat": "gear_effects",
+  "id": "effect_lucky",
+  "file": "gear_effects/Luck.png"
+ },
+ "gear_effects/effect_arrow_burst": {
+  "name": "Bowyer",
+  "cat": "gear_effects",
+  "id": "effect_arrow_burst",
+  "file": "gear_effects/Bowyer.png"
+ },
+ "gear_effects/effect_ammo_capacity": {
+  "name": "Quiver",
+  "cat": "gear_effects",
+  "id": "effect_ammo_capacity",
+  "file": "gear_effects/Quiver.png"
+ },
+ "gear_effects/effect_friends_forever": {
+  "name": "Veterinarian",
+  "cat": "gear_effects",
+  "id": "effect_friends_forever",
+  "file": "gear_effects/Veterinarian.png"
+ },
+ "gear_effects/effect_status_buff": {
+  "name": "Boost",
+  "cat": "gear_effects",
+  "id": "effect_status_buff",
+  "file": "gear_effects/Boost.png"
+ },
+ "gear_effects/effect_experience_increase": {
+  "name": "Prodigy",
+  "cat": "gear_effects",
+  "id": "effect_experience_increase",
+  "file": "gear_effects/Prodigy.png"
+ },
+ "gear_effects/effect_speed_increment": {
+  "name": "Speed Increment",
+  "cat": "gear_effects",
+  "id": "effect_speed_increment",
+  "file": "gear_effects/Speed_Increment.png"
+ },
+ "gear_effects/effect_firing_emerald": {
+  "name": "Slinger of Bling",
+  "cat": "gear_effects",
+  "id": "effect_firing_emerald",
+  "file": "gear_effects/Slinger_of_Bling.png"
+ },
+ "melee_weapons/melee_war_hammer": {
+  "name": "War Hammer",
+  "cat": "melee_weapons",
+  "id": "melee_war_hammer",
+  "file": "melee_weapons/War_Hammer.png"
+ },
+ "melee_weapons/melee_war_hammer_unique1": {
+  "name": "Heartbreaker",
+  "cat": "melee_weapons",
+  "id": "melee_war_hammer_unique1",
+  "file": "melee_weapons/Heartbreaker.png"
+ },
+ "melee_weapons/melee_giant_club_unique1": {
+  "name": "Redstone Wrecker",
+  "cat": "melee_weapons",
+  "id": "melee_giant_club_unique1",
+  "file": "melee_weapons/Redstone_Wrecker.png"
+ },
+ "melee_weapons/melee_claymore": {
+  "name": "Claymore",
+  "cat": "melee_weapons",
+  "id": "melee_claymore",
+  "file": "melee_weapons/Claymore.png"
+ },
+ "melee_weapons/melee_greatsword": {
+  "name": "Greatsword",
+  "cat": "melee_weapons",
+  "id": "melee_greatsword",
+  "file": "melee_weapons/Greatsword.png"
+ },
+ "melee_weapons/melee_glaive": {
+  "name": "Glaive",
+  "cat": "melee_weapons",
+  "id": "melee_glaive",
+  "file": "melee_weapons/Glaive.png"
+ },
+ "melee_weapons/melee_battlestaff": {
+  "name": "Battlestaff",
+  "cat": "melee_weapons",
+  "id": "melee_battlestaff",
+  "file": "melee_weapons/Battlestaff.png"
+ },
+ "melee_weapons/melee_giant_club": {
+  "name": "Clobberer",
+  "cat": "melee_weapons",
+  "id": "melee_giant_club",
+  "file": "melee_weapons/Clobberer.png"
+ },
+ "melee_weapons/melee_curved_greatsword": {
+  "name": "Cookiecutter",
+  "cat": "melee_weapons",
+  "id": "melee_curved_greatsword",
+  "file": "melee_weapons/Cookiecutter.png"
+ },
+ "melee_weapons/melee_giant_mallet": {
+  "name": "Mob Mallet",
+  "cat": "melee_weapons",
+  "id": "melee_giant_mallet",
+  "file": "melee_weapons/Mob_Mallet.png"
+ },
+ "melee_weapons/melee_shovel": {
+  "name": "Shovel",
+  "cat": "melee_weapons",
+  "id": "melee_shovel",
+  "file": "melee_weapons/Shovel.png"
+ },
+ "melee_weapons/melee_moonsword": {
+  "name": "Tidal Sickle",
+  "cat": "melee_weapons",
+  "id": "melee_moonsword",
+  "file": "melee_weapons/Tidal_Sickle.png"
+ },
+ "melee_weapons/melee_great_axe": {
+  "name": "Greataxe",
+  "cat": "melee_weapons",
+  "id": "melee_great_axe",
+  "file": "melee_weapons/Greataxe.png"
+ },
+ "melee_weapons/melee_claymore_unique1": {
+  "name": "Slaymore",
+  "cat": "melee_weapons",
+  "id": "melee_claymore_unique1",
+  "file": "melee_weapons/Slaymore.png"
+ },
+ "melee_weapons/melee_greatsword_unique1": {
+  "name": "The Darkshard",
+  "cat": "melee_weapons",
+  "id": "melee_greatsword_unique1",
+  "file": "melee_weapons/The_Darkshard.png"
+ },
+ "melee_weapons/melee_glaive_unique1": {
+  "name": "Golden Glaive",
+  "cat": "melee_weapons",
+  "id": "melee_glaive_unique1",
+  "file": "melee_weapons/Golden_Glaive.png"
+ },
+ "melee_weapons/melee_battlestaff_unique1": {
+  "name": "Elemental Staff",
+  "cat": "melee_weapons",
+  "id": "melee_battlestaff_unique1",
+  "file": "melee_weapons/Elemental_Staff.png"
+ },
+ "melee_weapons/melee_curved_greatsword_unique1": {
+  "name": "Lullaby Blade",
+  "cat": "melee_weapons",
+  "id": "melee_curved_greatsword_unique1",
+  "file": "melee_weapons/Lullaby_Blade.png"
+ },
+ "melee_weapons/melee_giant_mallet_unique1": {
+  "name": "Monster Masher",
+  "cat": "melee_weapons",
+  "id": "melee_giant_mallet_unique1",
+  "file": "melee_weapons/Monster_Masher.png"
+ },
+ "melee_weapons/melee_shovel_unique1": {
+  "name": "Diamond Shovel",
+  "cat": "melee_weapons",
+  "id": "melee_shovel_unique1",
+  "file": "melee_weapons/Diamond_Shovel.png"
+ },
+ "melee_weapons/melee_moonsword_unique1": {
+  "name": "Lunar Sickle",
+  "cat": "melee_weapons",
+  "id": "melee_moonsword_unique1",
+  "file": "melee_weapons/Lunar_Sickle.png"
+ },
+ "melee_weapons/melee_great_axe_unique1": {
+  "name": "Awesomeaxe",
+  "cat": "melee_weapons",
+  "id": "melee_great_axe_unique1",
+  "file": "melee_weapons/Awesomeaxe.png"
+ },
+ "melee_weapons/melee_pike": {
+  "name": "Pike",
+  "cat": "melee_weapons",
+  "id": "melee_pike",
+  "file": "melee_weapons/Pike.png"
+ },
+ "melee_weapons/melee_sword": {
+  "name": "Sword",
+  "cat": "melee_weapons",
+  "id": "melee_sword",
+  "file": "melee_weapons/Sword.png"
+ },
+ "melee_weapons/melee_gauntlet": {
+  "name": "Gauntlets",
+  "cat": "melee_weapons",
+  "id": "melee_gauntlet",
+  "file": "melee_weapons/Gauntlets.png"
+ },
+ "melee_weapons/melee_axe": {
+  "name": "Axe",
+  "cat": "melee_weapons",
+  "id": "melee_axe",
+  "file": "melee_weapons/Axe.png"
+ },
+ "melee_weapons/melee_short_spear": {
+  "name": "Short Spear",
+  "cat": "melee_weapons",
+  "id": "melee_short_spear",
+  "file": "melee_weapons/Short_Spear.png"
+ },
+ "melee_weapons/melee_pickaxe": {
+  "name": "Pickaxe",
+  "cat": "melee_weapons",
+  "id": "melee_pickaxe",
+  "file": "melee_weapons/Pickaxe.png"
+ },
+ "melee_weapons/melee_pike_unique1": {
+  "name": "Stormcaller",
+  "cat": "melee_weapons",
+  "id": "melee_pike_unique1",
+  "file": "melee_weapons/Stormcaller.png"
+ },
+ "melee_weapons/melee_sword_unique1": {
+  "name": "The Burning Blade",
+  "cat": "melee_weapons",
+  "id": "melee_sword_unique1",
+  "file": "melee_weapons/The_Burning_Blade.png"
+ },
+ "melee_weapons/melee_gauntlet_unique1": {
+  "name": "Prime Enchanter's Gauntlets",
+  "cat": "melee_weapons",
+  "id": "melee_gauntlet_unique1",
+  "file": "melee_weapons/Prime_Enchanter_s_Gauntlets.png"
+ },
+ "melee_weapons/melee_axe_unique1": {
+  "name": "Hunter's Hatchet",
+  "cat": "melee_weapons",
+  "id": "melee_axe_unique1",
+  "file": "melee_weapons/Hunter_s_Hatchet.png"
+ },
+ "melee_weapons/melee_short_spear_unique1": {
+  "name": "Spectral Spear",
+  "cat": "melee_weapons",
+  "id": "melee_short_spear_unique1",
+  "file": "melee_weapons/Spectral_Spear.png"
+ },
+ "melee_weapons/melee_pickaxe_unique1": {
+  "name": "The Prospector's Pick",
+  "cat": "melee_weapons",
+  "id": "melee_pickaxe_unique1",
+  "file": "melee_weapons/The_Prospector_s_Pick.png"
+ },
+ "melee_weapons/melee_cleaver": {
+  "name": "Meat Cleaver",
+  "cat": "melee_weapons",
+  "id": "melee_cleaver",
+  "file": "melee_weapons/Meat_Cleaver.png"
+ },
+ "melee_weapons/melee_scythe": {
+  "name": "Scythe",
+  "cat": "melee_weapons",
+  "id": "melee_scythe",
+  "file": "melee_weapons/Scythe.png"
+ },
+ "melee_weapons/melee_straight_sword": {
+  "name": "Longsword",
+  "cat": "melee_weapons",
+  "id": "melee_straight_sword",
+  "file": "melee_weapons/Longsword.png"
+ },
+ "melee_weapons/melee_curved_longsword": {
+  "name": "Riftslasher",
+  "cat": "melee_weapons",
+  "id": "melee_curved_longsword",
+  "file": "melee_weapons/Riftslasher.png"
+ },
+ "melee_weapons/melee_mace": {
+  "name": "Mace",
+  "cat": "melee_weapons",
+  "id": "melee_mace",
+  "file": "melee_weapons/Mace.png"
+ },
+ "melee_weapons/melee_sabre": {
+  "name": "Sabre",
+  "cat": "melee_weapons",
+  "id": "melee_sabre",
+  "file": "melee_weapons/Sabre.png"
+ },
+ "melee_weapons/melee_hammer": {
+  "name": "Battle Hammer",
+  "cat": "melee_weapons",
+  "id": "melee_hammer",
+  "file": "melee_weapons/Battle_Hammer.png"
+ },
+ "melee_weapons/melee_cleaver_unique1": {
+  "name": "Cacaphonous Cleaver",
+  "cat": "melee_weapons",
+  "id": "melee_cleaver_unique1",
+  "file": "melee_weapons/Cacaphonous_Cleaver.png"
+ },
+ "melee_weapons/melee_scythe_unique1": {
+  "name": "Soul Reaper",
+  "cat": "melee_weapons",
+  "id": "melee_scythe_unique1",
+  "file": "melee_weapons/Soul_Reaper.png"
+ },
+ "melee_weapons/melee_straight_sword_unique1": {
+  "name": "Frostbiter",
+  "cat": "melee_weapons",
+  "id": "melee_straight_sword_unique1",
+  "file": "melee_weapons/Frostbiter.png"
+ },
+ "melee_weapons/melee_curved_longsword_unique1": {
+  "name": "Pride of the Plains",
+  "cat": "melee_weapons",
+  "id": "melee_curved_longsword_unique1",
+  "file": "melee_weapons/Pride_of_the_Plains.png"
+ },
+ "melee_weapons/melee_mace_unique1": {
+  "name": "Carapace Mace",
+  "cat": "melee_weapons",
+  "id": "melee_mace_unique1",
+  "file": "melee_weapons/Carapace_Mace.png"
+ },
+ "melee_weapons/melee_sabre_unique1": {
+  "name": "Rascal's Razor",
+  "cat": "melee_weapons",
+  "id": "melee_sabre_unique1",
+  "file": "melee_weapons/Rascal_s_Razor.png"
+ },
+ "melee_weapons/melee_hammer_unique1": {
+  "name": "Emerald Hammer",
+  "cat": "melee_weapons",
+  "id": "melee_hammer_unique1",
+  "file": "melee_weapons/Emerald_Hammer.png"
+ },
+ "melee_weapons/melee_daggers": {
+  "name": "Double Daggers",
+  "cat": "melee_weapons",
+  "id": "melee_daggers",
+  "file": "melee_weapons/Double_Daggers.png"
+ },
+ "melee_weapons/melee_rapier": {
+  "name": "Rapier",
+  "cat": "melee_weapons",
+  "id": "melee_rapier",
+  "file": "melee_weapons/Rapier.png"
+ },
+ "melee_weapons/melee_daggers_unique1": {
+  "name": "Venomous Fangs",
+  "cat": "melee_weapons",
+  "id": "melee_daggers_unique1",
+  "file": "melee_weapons/Venomous_Fangs.png"
+ },
+ "melee_weapons/melee_rapier_unique1": {
+  "name": "The Thousand Cuts",
+  "cat": "melee_weapons",
+  "id": "melee_rapier_unique1",
+  "file": "melee_weapons/The_Thousand_Cuts.png"
+ },
+ "melee_weapons/melee_claws": {
+  "name": "Wolf Claws",
+  "cat": "melee_weapons",
+  "id": "melee_claws",
+  "file": "melee_weapons/Wolf_Claws.png"
+ },
+ "melee_weapons/melee_sickles": {
+  "name": "Double Sickles",
+  "cat": "melee_weapons",
+  "id": "melee_sickles",
+  "file": "melee_weapons/Double_Sickles.png"
+ },
+ "melee_weapons/melee_dagger": {
+  "name": "Twilight Dagger",
+  "cat": "melee_weapons",
+  "id": "melee_dagger",
+  "file": "melee_weapons/Twilight_Dagger.png"
+ },
+ "melee_weapons/melee_claws_unique1": {
+  "name": "Sculker Claws",
+  "cat": "melee_weapons",
+  "id": "melee_claws_unique1",
+  "file": "melee_weapons/Sculker_Claws.png"
+ },
+ "melee_weapons/melee_sickles_unique1": {
+  "name": "Sift Sickles",
+  "cat": "melee_weapons",
+  "id": "melee_sickles_unique1",
+  "file": "melee_weapons/Sift_Sickles.png"
+ },
+ "melee_weapons/melee_dagger_unique1": {
+  "name": "Sculker's Bane",
+  "cat": "melee_weapons",
+  "id": "melee_dagger_unique1",
+  "file": "melee_weapons/Sculker_s_Bane.png"
+ },
+ "mobs/mob_baby_sentinel": {
+  "name": "Seedling",
+  "cat": "mobs",
+  "id": "mob_baby_sentinel",
+  "file": "mobs/Seedling.png"
+ },
+ "mobs/mob_baby_zombie": {
+  "name": "Baby Zombie",
+  "cat": "mobs",
+  "id": "mob_baby_zombie",
+  "file": "mobs/Baby_Zombie.png"
+ },
+ "mobs/mob_bloombud": {
+  "name": "Bloombud",
+  "cat": "mobs",
+  "id": "mob_bloombud",
+  "file": "mobs/Bloombud.png"
+ },
+ "mobs/mob_bonker": {
+  "name": "Hurler",
+  "cat": "mobs",
+  "id": "mob_bonker",
+  "file": "mobs/Hurler.png"
+ },
+ "mobs/mob_cave_spider": {
+  "name": "Cave Spider",
+  "cat": "mobs",
+  "id": "mob_cave_spider",
+  "file": "mobs/Cave_Spider.png"
+ },
+ "mobs/mob_chicken_jockey": {
+  "name": "Chicken Jockey",
+  "cat": "mobs",
+  "id": "mob_chicken_jockey",
+  "file": "mobs/Chicken_Jockey.png"
+ },
+ "mobs/mob_copper_cube": {
+  "name": "Copper Cube",
+  "cat": "mobs",
+  "id": "mob_copper_cube",
+  "file": "mobs/Copper_Cube.png"
+ },
+ "mobs/mob_creeper": {
+  "name": "Creeper",
+  "cat": "mobs",
+  "id": "mob_creeper",
+  "file": "mobs/Creeper.png"
+ },
+ "mobs/mob_crested_sentinel": {
+  "name": "Sentinel",
+  "cat": "mobs",
+  "id": "mob_crested_sentinel",
+  "file": "mobs/Sentinel.png"
+ },
+ "mobs/mob_deep_dark_golem": {
+  "name": "Flame Construct",
+  "cat": "mobs",
+  "id": "mob_deep_dark_golem",
+  "file": "mobs/Flame_Construct.png"
+ },
+ "mobs/mob_deep_dark_illager": {
+  "name": "Excavator",
+  "cat": "mobs",
+  "id": "mob_deep_dark_illager",
+  "file": "mobs/Excavator.png"
+ },
+ "mobs/mob_enchanter": {
+  "name": "Enchanter",
+  "cat": "mobs",
+  "id": "mob_enchanter",
+  "file": "mobs/Enchanter.png"
+ },
+ "mobs/mob_floaty_sentinel": {
+  "name": "Sprout",
+  "cat": "mobs",
+  "id": "mob_floaty_sentinel",
+  "file": "mobs/Sprout.png"
+ },
+ "mobs/mob_geomancer": {
+  "name": "Geomancer",
+  "cat": "mobs",
+  "id": "mob_geomancer",
+  "file": "mobs/Geomancer.png"
+ },
+ "mobs/mob_groobler_sentinel": {
+  "name": "Pollinator",
+  "cat": "mobs",
+  "id": "mob_groobler_sentinel",
+  "file": "mobs/Pollinator.png"
+ },
+ "mobs/mob_moss_cube": {
+  "name": "Moss Cube",
+  "cat": "mobs",
+  "id": "mob_moss_cube",
+  "file": "mobs/Moss_Cube.png"
+ },
+ "mobs/mob_pillager": {
+  "name": "Pillager",
+  "cat": "mobs",
+  "id": "mob_pillager",
+  "file": "mobs/Pillager.png"
+ },
+ "mobs/mob_pufflet": {
+  "name": "Fusefly",
+  "cat": "mobs",
+  "id": "mob_pufflet",
+  "file": "mobs/Fusefly.png"
+ },
+ "mobs/mob_ravager": {
+  "name": "Ravager",
+  "cat": "mobs",
+  "id": "mob_ravager",
+  "file": "mobs/Ravager.png"
+ },
+ "mobs/mob_red_stone_cube": {
+  "name": "Redstone Cube",
+  "cat": "mobs",
+  "id": "mob_red_stone_cube",
+  "file": "mobs/Redstone_Cube.png"
+ },
+ "mobs/mob_roamroot": {
+  "name": "Roamroot",
+  "cat": "mobs",
+  "id": "mob_roamroot",
+  "file": "mobs/Roamroot.png"
+ },
+ "mobs/mob_royal_guard": {
+  "name": "Royal Guard",
+  "cat": "mobs",
+  "id": "mob_royal_guard",
+  "file": "mobs/Royal_Guard.png"
+ },
+ "mobs/mob_scavenger_grappler": {
+  "name": "Hunter",
+  "cat": "mobs",
+  "id": "mob_scavenger_grappler",
+  "file": "mobs/Hunter.png"
+ },
+ "mobs/mob_scavenger_melee": {
+  "name": "Stalker",
+  "cat": "mobs",
+  "id": "mob_scavenger_melee",
+  "file": "mobs/Stalker.png"
+ },
+ "mobs/mob_scavenger_ranged": {
+  "name": "Scavenger",
+  "cat": "mobs",
+  "id": "mob_scavenger_ranged",
+  "file": "mobs/Scavenger.png"
+ },
+ "mobs/mob_scavenger_trapper": {
+  "name": "Trapper",
+  "cat": "mobs",
+  "id": "mob_scavenger_trapper",
+  "file": "mobs/Trapper.png"
+ },
+ "mobs/mob_sculk_cube": {
+  "name": "Sculk Cube",
+  "cat": "mobs",
+  "id": "mob_sculk_cube",
+  "file": "mobs/Sculk_Cube.png"
+ },
+ "mobs/mob_skeleton": {
+  "name": "Skeleton",
+  "cat": "mobs",
+  "id": "mob_skeleton",
+  "file": "mobs/Skeleton.png"
+ },
+ "mobs/mob_slime": {
+  "name": "Slime",
+  "cat": "mobs",
+  "id": "mob_slime",
+  "file": "mobs/Slime.png"
+ },
+ "mobs/mob_spider": {
+  "name": "Spider",
+  "cat": "mobs",
+  "id": "mob_spider",
+  "file": "mobs/Spider.png"
+ },
+ "mobs/mob_spider_jockey": {
+  "name": "Spider Jockey",
+  "cat": "mobs",
+  "id": "mob_spider_jockey",
+  "file": "mobs/Spider_Jockey.png"
+ },
+ "mobs/mob_vanguard": {
+  "name": "Vanguard",
+  "cat": "mobs",
+  "id": "mob_vanguard",
+  "file": "mobs/Vanguard.png"
+ },
+ "mobs/mob_vex": {
+  "name": "Vex",
+  "cat": "mobs",
+  "id": "mob_vex",
+  "file": "mobs/Vex.png"
+ },
+ "mobs/mob_vindicator": {
+  "name": "Vindicator",
+  "cat": "mobs",
+  "id": "mob_vindicator",
+  "file": "mobs/Vindicator.png"
+ },
+ "mobs/mob_wild_sentinel": {
+  "name": "Nester",
+  "cat": "mobs",
+  "id": "mob_wild_sentinel",
+  "file": "mobs/Nester.png"
+ },
+ "mobs/mob_zombie": {
+  "name": "Zombie",
+  "cat": "mobs",
+  "id": "mob_zombie",
+  "file": "mobs/Zombie.png"
+ },
+ "mobs/mob_maw": {
+  "name": "Twisted Warden",
+  "cat": "mobs",
+  "id": "mob_maw",
+  "file": "mobs/Twisted_Warden.png"
+ },
+ "mobs/mob_shade": {
+  "name": "Monarch",
+  "cat": "mobs",
+  "id": "mob_shade",
+  "file": "mobs/Monarch.png"
+ },
+ "mobs/mob_shade_clone": {
+  "name": "Monarch Echo",
+  "cat": "mobs",
+  "id": "mob_shade_clone",
+  "file": "mobs/Monarch_Echo.png"
+ },
+ "mobs/mob_creeper_charged": {
+  "name": "Charged Creeper",
+  "cat": "mobs",
+  "id": "mob_creeper_charged",
+  "file": "mobs/Charged_Creeper.png"
+ },
+ "mobs/mob_husk": {
+  "name": "Husk",
+  "cat": "mobs",
+  "id": "mob_husk",
+  "file": "mobs/Husk.png"
+ },
+ "mobs/mob_roamroot_soul_imbalance": {
+  "name": "Roamrot",
+  "cat": "mobs",
+  "id": "mob_roamroot_soul_imbalance",
+  "file": "mobs/Roamrot.png"
+ },
+ "mobs/mob_singing_bean_m": {
+  "name": "Tuner",
+  "cat": "mobs",
+  "id": "mob_singing_bean_m",
+  "file": "mobs/Tuner.png"
+ },
+ "mobs/mob_skeleton_charred": {
+  "name": "Scorched",
+  "cat": "mobs",
+  "id": "mob_skeleton_charred",
+  "file": "mobs/Scorched.png"
+ },
+ "mobs/mob_skeleton_mossy": {
+  "name": "Bogged",
+  "cat": "mobs",
+  "id": "mob_skeleton_mossy",
+  "file": "mobs/Bogged.png"
+ },
+ "mobs/mob_skeleton_stray": {
+  "name": "Stray",
+  "cat": "mobs",
+  "id": "mob_skeleton_stray",
+  "file": "mobs/Stray.png"
+ },
+ "mobs/mob_zombie_charred": {
+  "name": "Charred",
+  "cat": "mobs",
+  "id": "mob_zombie_charred",
+  "file": "mobs/Charred.png"
+ },
+ "mobs/mob_sw_mob_zombie_frozen": {
+  "name": "Frozen",
+  "cat": "mobs",
+  "id": "mob_sw_mob_zombie_frozen",
+  "file": "mobs/Frozen.png"
+ },
+ "mobs/mob_zombie_mossy": {
+  "name": "Mucked",
+  "cat": "mobs",
+  "id": "mob_zombie_mossy",
+  "file": "mobs/Mucked.png"
+ },
+ "mobs/mob_key_golem_gold": {
+  "name": "Key Golem",
+  "cat": "mobs",
+  "id": "mob_key_golem_gold",
+  "file": "mobs/Key_Golem.png"
+ },
+ "mobs/mob_bee": {
+  "name": "Bee",
+  "cat": "mobs",
+  "id": "mob_bee",
+  "file": "mobs/Bee.png"
+ },
+ "mobs/mob_piggy_bank": {
+  "name": "Piggy Bank",
+  "cat": "mobs",
+  "id": "mob_piggy_bank",
+  "file": "mobs/Piggy_Bank.png"
+ },
+ "mobs/mob_frog_variant1": {
+  "name": "Frog",
+  "cat": "mobs",
+  "id": "mob_frog_variant1",
+  "file": "mobs/Frog.png"
+ },
+ "mobs/mob_camo": {
+  "name": "Slabber",
+  "cat": "mobs",
+  "id": "mob_camo",
+  "file": "mobs/Slabber.png"
+ },
+ "mobs/mob_caretaker_golem": {
+  "name": "Echo Golem",
+  "cat": "mobs",
+  "id": "mob_caretaker_golem",
+  "file": "mobs/Echo_Golem.png"
+ },
+ "mobs/mob_cat": {
+  "name": "Cat",
+  "cat": "mobs",
+  "id": "mob_cat",
+  "file": "mobs/Cat.png"
+ },
+ "mobs/mob_chicken": {
+  "name": "Chicken",
+  "cat": "mobs",
+  "id": "mob_chicken",
+  "file": "mobs/Chicken.png"
+ },
+ "mobs/mob_chicken_baby": {
+  "name": "Baby Chicken",
+  "cat": "mobs",
+  "id": "mob_chicken_baby",
+  "file": "mobs/Baby_Chicken.png"
+ },
+ "mobs/mob_cow": {
+  "name": "Cow",
+  "cat": "mobs",
+  "id": "mob_cow",
+  "file": "mobs/Cow.png"
+ },
+ "mobs/mob_crawler_chest_finder": {
+  "name": "Lootkin",
+  "cat": "mobs",
+  "id": "mob_crawler_chest_finder",
+  "file": "mobs/Lootkin.png"
+ },
+ "mobs/mob_fox": {
+  "name": "Fox",
+  "cat": "mobs",
+  "id": "mob_fox",
+  "file": "mobs/Fox.png"
+ },
+ "mobs/mob_goat": {
+  "name": "Goat",
+  "cat": "mobs",
+  "id": "mob_goat",
+  "file": "mobs/Goat.png"
+ },
+ "mobs/mob_herd": {
+  "name": "Nuzzle",
+  "cat": "mobs",
+  "id": "mob_herd",
+  "file": "mobs/Nuzzle.png"
+ },
+ "mobs/mob_jelly_bunny": {
+  "name": "Blub",
+  "cat": "mobs",
+  "id": "mob_jelly_bunny",
+  "file": "mobs/Blub.png"
+ },
+ "mobs/mob_ocelot_cat": {
+  "name": "Ocelot",
+  "cat": "mobs",
+  "id": "mob_ocelot_cat",
+  "file": "mobs/Ocelot.png"
+ },
+ "mobs/mob_pig": {
+  "name": "Pig",
+  "cat": "mobs",
+  "id": "mob_pig",
+  "file": "mobs/Pig.png"
+ },
+ "mobs/mob_pig_baby": {
+  "name": "Baby Pig",
+  "cat": "mobs",
+  "id": "mob_pig_baby",
+  "file": "mobs/Baby_Pig.png"
+ },
+ "mobs/mob_pigeon": {
+  "name": "Pigeon",
+  "cat": "mobs",
+  "id": "mob_pigeon",
+  "file": "mobs/Pigeon.png"
+ },
+ "mobs/mob_rabbit": {
+  "name": "Rabbit",
+  "cat": "mobs",
+  "id": "mob_rabbit",
+  "file": "mobs/Rabbit.png"
+ },
+ "mobs/mob_salmon": {
+  "name": "Salmon",
+  "cat": "mobs",
+  "id": "mob_salmon",
+  "file": "mobs/Salmon.png"
+ },
+ "mobs/mob_sheep": {
+  "name": "Sheep",
+  "cat": "mobs",
+  "id": "mob_sheep",
+  "file": "mobs/Sheep.png"
+ },
+ "mobs/mob_singer": {
+  "name": "Singer",
+  "cat": "mobs",
+  "id": "mob_singer",
+  "file": "mobs/Singer.png"
+ },
+ "mobs/mob_snow_fox": {
+  "name": "Arctic Fox",
+  "cat": "mobs",
+  "id": "mob_snow_fox",
+  "file": "mobs/Arctic_Fox.png"
+ },
+ "mobs/mob_squid": {
+  "name": "Squid",
+  "cat": "mobs",
+  "id": "mob_squid",
+  "file": "mobs/Squid.png"
+ },
+ "mobs/mob_wisp": {
+  "name": "Wisp",
+  "cat": "mobs",
+  "id": "mob_wisp",
+  "file": "mobs/Wisp.png"
+ },
+ "mobs/mob_wolf_woods_baby": {
+  "name": "Baby Wolf",
+  "cat": "mobs",
+  "id": "mob_wolf_woods_baby",
+  "file": "mobs/Baby_Wolf.png"
+ },
+ "mobs/mob_driftweaver": {
+  "name": "Harmonizer",
+  "cat": "mobs",
+  "id": "mob_driftweaver",
+  "file": "mobs/Harmonizer.png"
+ },
+ "mobs/mob_enderman": {
+  "name": "Enderman",
+  "cat": "mobs",
+  "id": "mob_enderman",
+  "file": "mobs/Enderman.png"
+ },
+ "mobs/mob_evoker": {
+  "name": "Evoker",
+  "cat": "mobs",
+  "id": "mob_evoker",
+  "file": "mobs/Evoker.png"
+ },
+ "mobs/mob_warden": {
+  "name": "Warden",
+  "cat": "mobs",
+  "id": "mob_warden",
+  "file": "mobs/Warden.png"
+ },
+ "mobs/mob_wellspring_miniboss": {
+  "name": "Dartback",
+  "cat": "mobs",
+  "id": "mob_wellspring_miniboss",
+  "file": "mobs/Dartback.png"
+ },
+ "mobs/mob_witch": {
+  "name": "Witch",
+  "cat": "mobs",
+  "id": "mob_witch",
+  "file": "mobs/Witch.png"
+ },
+ "mobs/mob_witch_type3": {
+  "name": "Soul Corrupted Witch",
+  "cat": "mobs",
+  "id": "mob_witch_type3",
+  "file": "mobs/Soul_Corrupted_Witch.png"
+ },
+ "mobs/mob_driftweaver_soul_stated": {
+  "name": "Soul Corrupted Harmonizer",
+  "cat": "mobs",
+  "id": "mob_driftweaver_soul_stated",
+  "file": "mobs/Soul_Corrupted_Harmonizer.png"
+ },
+ "mobs/mob_enderman_soul_stated": {
+  "name": "Soul Corrupted Enderman",
+  "cat": "mobs",
+  "id": "mob_enderman_soul_stated",
+  "file": "mobs/Soul_Corrupted_Enderman.png"
+ },
+ "mobs/mob_evoker_soul_stated": {
+  "name": "Soul Corrupted Evoker",
+  "cat": "mobs",
+  "id": "mob_evoker_soul_stated",
+  "file": "mobs/Soul_Corrupted_Evoker.png"
+ },
+ "mobs/mob_warden_soul_stated": {
+  "name": "Soul Corrupted Warden",
+  "cat": "mobs",
+  "id": "mob_warden_soul_stated",
+  "file": "mobs/Soul_Corrupted_Warden.png"
+ },
+ "mobs/mob_wellspring_miniboss_soul_stated": {
+  "name": "Soul Corrupted Dartback",
+  "cat": "mobs",
+  "id": "mob_wellspring_miniboss_soul_stated",
+  "file": "mobs/Soul_Corrupted_Dartback.png"
+ },
+ "mobs/mob_frostbite_desert_boss": {
+  "name": "The Prime Enchanter",
+  "cat": "mobs",
+  "id": "mob_frostbite_desert_boss",
+  "file": "mobs/The_Prime_Enchanter.png"
+ },
+ "mobs/mob_monstrosity_copper": {
+  "name": "Copper Monstrosity",
+  "cat": "mobs",
+  "id": "mob_monstrosity_copper",
+  "file": "mobs/Copper_Monstrosity.png"
+ },
+ "mobs/mob_monstrosity_moss": {
+  "name": "Mosstrosity",
+  "cat": "mobs",
+  "id": "mob_monstrosity_moss",
+  "file": "mobs/Mosstrosity.png"
+ },
+ "mobs/mob_monstrosity_red_stone": {
+  "name": "Redstone Monstrosity",
+  "cat": "mobs",
+  "id": "mob_monstrosity_red_stone",
+  "file": "mobs/Redstone_Monstrosity.png"
+ },
+ "mobs/mob_monstrosity_sculk": {
+  "name": "Sculk Monstrosity",
+  "cat": "mobs",
+  "id": "mob_monstrosity_sculk",
+  "file": "mobs/Sculk_Monstrosity.png"
+ },
+ "mobs/mob_soul_construct": {
+  "name": "Monstrous Opus",
+  "cat": "mobs",
+  "id": "mob_soul_construct",
+  "file": "mobs/Monstrous_Opus.png"
+ },
+ "mobs/mob_supreme_evoker": {
+  "name": "The Supreme Evoker",
+  "cat": "mobs",
+  "id": "mob_supreme_evoker",
+  "file": "mobs/The_Supreme_Evoker.png"
+ },
+ "mobs/mob_baby_sentinel_soul_stated": {
+  "name": "Soul Corrupted Seedling",
+  "cat": "mobs",
+  "id": "mob_baby_sentinel_soul_stated",
+  "file": "mobs/Soul_Corrupted_Seedling.png"
+ },
+ "mobs/mob_baby_zombie_soul_stated": {
+  "name": "Soul Corrupted Baby Zombie",
+  "cat": "mobs",
+  "id": "mob_baby_zombie_soul_stated",
+  "file": "mobs/Soul_Corrupted_Baby_Zombie.png"
+ },
+ "mobs/mob_bloombud_soul_stated": {
+  "name": "Soul Corrupted Bloombud",
+  "cat": "mobs",
+  "id": "mob_bloombud_soul_stated",
+  "file": "mobs/Soul_Corrupted_Bloombud.png"
+ },
+ "mobs/mob_bonker_soul_stated": {
+  "name": "Soul Corrupted Hurler",
+  "cat": "mobs",
+  "id": "mob_bonker_soul_stated",
+  "file": "mobs/Soul_Corrupted_Hurler.png"
+ },
+ "mobs/mob_cave_spider_soul_stated": {
+  "name": "Soul Corrupted Cave Spider",
+  "cat": "mobs",
+  "id": "mob_cave_spider_soul_stated",
+  "file": "mobs/Soul_Corrupted_Cave_Spider.png"
+ },
+ "mobs/mob_chicken_jockey_soul_stated": {
+  "name": "Soul Corrupted Chicken Jockey",
+  "cat": "mobs",
+  "id": "mob_chicken_jockey_soul_stated",
+  "file": "mobs/Soul_Corrupted_Chicken_Jockey.png"
+ },
+ "mobs/mob_creeper_soul_stated": {
+  "name": "Soul Corrupted Creeper",
+  "cat": "mobs",
+  "id": "mob_creeper_soul_stated",
+  "file": "mobs/Soul_Corrupted_Creeper.png"
+ },
+ "mobs/mob_crested_sentinel_soul_stated": {
+  "name": "Soul Corrupted Sentinel",
+  "cat": "mobs",
+  "id": "mob_crested_sentinel_soul_stated",
+  "file": "mobs/Soul_Corrupted_Sentinel.png"
+ },
+ "mobs/mob_deep_dark_golem_soul_stated": {
+  "name": "Soul Corrupted Flame Construct",
+  "cat": "mobs",
+  "id": "mob_deep_dark_golem_soul_stated",
+  "file": "mobs/Soul_Corrupted_Flame_Construct.png"
+ },
+ "mobs/mob_deep_dark_illager_soul_stated": {
+  "name": "Soul Corrupted Excavator",
+  "cat": "mobs",
+  "id": "mob_deep_dark_illager_soul_stated",
+  "file": "mobs/Soul_Corrupted_Excavator.png"
+ },
+ "mobs/mob_enchanter_soul_stated": {
+  "name": "Soul Corrupted Enchanter",
+  "cat": "mobs",
+  "id": "mob_enchanter_soul_stated",
+  "file": "mobs/Soul_Corrupted_Enchanter.png"
+ },
+ "mobs/mob_floaty_sentinel_soul_stated": {
+  "name": "Soul Corrupted Sprout",
+  "cat": "mobs",
+  "id": "mob_floaty_sentinel_soul_stated",
+  "file": "mobs/Soul_Corrupted_Sprout.png"
+ },
+ "mobs/mob_geomancer_soul_stated": {
+  "name": "Soul Corrupted Geomancer",
+  "cat": "mobs",
+  "id": "mob_geomancer_soul_stated",
+  "file": "mobs/Soul_Corrupted_Geomancer.png"
+ },
+ "mobs/mob_scavenger_grappler_soul_stated": {
+  "name": "Soul Corrupted Hunter",
+  "cat": "mobs",
+  "id": "mob_scavenger_grappler_soul_stated",
+  "file": "mobs/Soul_Corrupted_Hunter.png"
+ },
+ "mobs/mob_groobler_sentinel_soul_stated": {
+  "name": "Soul Corrupted Pollinator",
+  "cat": "mobs",
+  "id": "mob_groobler_sentinel_soul_stated",
+  "file": "mobs/Soul_Corrupted_Pollinator.png"
+ },
+ "mobs/mob_husk_soul_stated": {
+  "name": "Soul Corrupted Husk",
+  "cat": "mobs",
+  "id": "mob_husk_soul_stated",
+  "file": "mobs/Soul_Corrupted_Husk.png"
+ },
+ "mobs/mob_scavenger_melee_soul_stated": {
+  "name": "Soul Corrupted Stalker",
+  "cat": "mobs",
+  "id": "mob_scavenger_melee_soul_stated",
+  "file": "mobs/Soul_Corrupted_Stalker.png"
+ },
+ "mobs/mob_pillager_soul_stated": {
+  "name": "Soul Corrupted Pillager",
+  "cat": "mobs",
+  "id": "mob_pillager_soul_stated",
+  "file": "mobs/Soul_Corrupted_Pillager.png"
+ },
+ "mobs/mob_pufflet_soul_stated": {
+  "name": "Soul Corrupted Fusefly",
+  "cat": "mobs",
+  "id": "mob_pufflet_soul_stated",
+  "file": "mobs/Soul_Corrupted_Fusefly.png"
+ },
+ "mobs/mob_scavenger_ranged_soul_stated": {
+  "name": "Soul Corrupted Scavenger",
+  "cat": "mobs",
+  "id": "mob_scavenger_ranged_soul_stated",
+  "file": "mobs/Soul_Corrupted_Scavenger.png"
+ },
+ "mobs/mob_ravager_soul_stated": {
+  "name": "Soul Corrupted Ravager",
+  "cat": "mobs",
+  "id": "mob_ravager_soul_stated",
+  "file": "mobs/Soul_Corrupted_Ravager.png"
+ },
+ "mobs/mob_roamroot_soul_stated": {
+  "name": "Soul Corrupted Roamroot",
+  "cat": "mobs",
+  "id": "mob_roamroot_soul_stated",
+  "file": "mobs/Soul_Corrupted_Roamroot.png"
+ },
+ "mobs/mob_royal_guard_soul_stated": {
+  "name": "Soul Corrupted Royal Guard",
+  "cat": "mobs",
+  "id": "mob_royal_guard_soul_stated",
+  "file": "mobs/Soul_Corrupted_Royal_Guard.png"
+ },
+ "mobs/mob_skeleton_soul_stated": {
+  "name": "Soul Corrupted Skeleton",
+  "cat": "mobs",
+  "id": "mob_skeleton_soul_stated",
+  "file": "mobs/Soul_Corrupted_Skeleton.png"
+ },
+ "mobs/mob_slime_soul_stated": {
+  "name": "Soul Corrupted Slime",
+  "cat": "mobs",
+  "id": "mob_slime_soul_stated",
+  "file": "mobs/Soul_Corrupted_Slime.png"
+ },
+ "mobs/mob_spider_soul_stated": {
+  "name": "Soul Corrupted Spider",
+  "cat": "mobs",
+  "id": "mob_spider_soul_stated",
+  "file": "mobs/Soul_Corrupted_Spider.png"
+ },
+ "mobs/mob_spider_jockey_soul_stated": {
+  "name": "Soul Corrupted Spider Jockey",
+  "cat": "mobs",
+  "id": "mob_spider_jockey_soul_stated",
+  "file": "mobs/Soul_Corrupted_Spider_Jockey.png"
+ },
+ "mobs/mob_scavenger_trapper_soul_stated": {
+  "name": "Soul Corrupted Trapper",
+  "cat": "mobs",
+  "id": "mob_scavenger_trapper_soul_stated",
+  "file": "mobs/Soul_Corrupted_Trapper.png"
+ },
+ "mobs/mob_vanguard_soul_stated": {
+  "name": "Soul Corrupted Vanguard",
+  "cat": "mobs",
+  "id": "mob_vanguard_soul_stated",
+  "file": "mobs/Soul_Corrupted_Vanguard.png"
+ },
+ "mobs/mob_vex_soul_stated": {
+  "name": "Soul Corrupted Vex",
+  "cat": "mobs",
+  "id": "mob_vex_soul_stated",
+  "file": "mobs/Soul_Corrupted_Vex.png"
+ },
+ "mobs/mob_vindicator_soul_stated": {
+  "name": "Soul Corrupted Vindicator",
+  "cat": "mobs",
+  "id": "mob_vindicator_soul_stated",
+  "file": "mobs/Soul_Corrupted_Vindicator.png"
+ },
+ "mobs/mob_wild_sentinel_soul_stated": {
+  "name": "Soul Corrupted Nester",
+  "cat": "mobs",
+  "id": "mob_wild_sentinel_soul_stated",
+  "file": "mobs/Soul_Corrupted_Nester.png"
+ },
+ "mobs/mob_zombie_soul_stated": {
+  "name": "Soul Corrupted Zombie",
+  "cat": "mobs",
+  "id": "mob_zombie_soul_stated",
+  "file": "mobs/Soul_Corrupted_Zombie.png"
+ },
+ "mobs/mob_iron_golem": {
+  "name": "Iron Golem",
+  "cat": "mobs",
+  "id": "mob_iron_golem",
+  "file": "mobs/Iron_Golem.png"
+ },
+ "mobs/mob_llama": {
+  "name": "Llama",
+  "cat": "mobs",
+  "id": "mob_llama",
+  "file": "mobs/Llama.png"
+ },
+ "mobs/mob_prickle": {
+  "name": "Prickle",
+  "cat": "mobs",
+  "id": "mob_prickle",
+  "file": "mobs/Prickle.png"
+ },
+ "mobs/mob_wobble": {
+  "name": "Wobble",
+  "cat": "mobs",
+  "id": "mob_wobble",
+  "file": "mobs/Wobble.png"
+ },
+ "mobs/mob_wolf": {
+  "name": "Wolf",
+  "cat": "mobs",
+  "id": "mob_wolf",
+  "file": "mobs/Wolf.png"
+ },
+ "ranged_weapons/ranged_bow": {
+  "name": "Bow",
+  "cat": "ranged_weapons",
+  "id": "ranged_bow",
+  "file": "ranged_weapons/Bow.png"
+ },
+ "ranged_weapons/ranged_shortbow": {
+  "name": "Shortbow",
+  "cat": "ranged_weapons",
+  "id": "ranged_shortbow",
+  "file": "ranged_weapons/Shortbow.png"
+ },
+ "ranged_weapons/ranged_trickbow": {
+  "name": "Trickbow",
+  "cat": "ranged_weapons",
+  "id": "ranged_trickbow",
+  "file": "ranged_weapons/Trickbow.png"
+ },
+ "ranged_weapons/ranged_longbow": {
+  "name": "Longbow",
+  "cat": "ranged_weapons",
+  "id": "ranged_longbow",
+  "file": "ranged_weapons/Longbow.png"
+ },
+ "ranged_weapons/ranged_power_bow": {
+  "name": "Powerbow",
+  "cat": "ranged_weapons",
+  "id": "ranged_power_bow",
+  "file": "ranged_weapons/Powerbow.png"
+ },
+ "ranged_weapons/ranged_bow_unique1": {
+  "name": "Ranger's Promise",
+  "cat": "ranged_weapons",
+  "id": "ranged_bow_unique1",
+  "file": "ranged_weapons/Ranger_s_Promise.png"
+ },
+ "ranged_weapons/ranged_shortbow_unique1": {
+  "name": "Shooting Star",
+  "cat": "ranged_weapons",
+  "id": "ranged_shortbow_unique1",
+  "file": "ranged_weapons/Shooting_Star.png"
+ },
+ "ranged_weapons/ranged_trickbow_unique1": {
+  "name": "Phantom Wing",
+  "cat": "ranged_weapons",
+  "id": "ranged_trickbow_unique1",
+  "file": "ranged_weapons/Phantom_Wing.png"
+ },
+ "ranged_weapons/ranged_longbow_unique1": {
+  "name": "Creaking's Reach",
+  "cat": "ranged_weapons",
+  "id": "ranged_longbow_unique1",
+  "file": "ranged_weapons/Creaking_s_Reach.png"
+ },
+ "ranged_weapons/ranged_power_bow_unique1": {
+  "name": "Paragon",
+  "cat": "ranged_weapons",
+  "id": "ranged_power_bow_unique1",
+  "file": "ranged_weapons/Paragon.png"
+ },
+ "ranged_weapons/ranged_great_bow": {
+  "name": "Greatbow",
+  "cat": "ranged_weapons",
+  "id": "ranged_great_bow",
+  "file": "ranged_weapons/Greatbow.png"
+ },
+ "ranged_weapons/ranged_great_bow_unique1": {
+  "name": "Humbler Heartstring",
+  "cat": "ranged_weapons",
+  "id": "ranged_great_bow_unique1",
+  "file": "ranged_weapons/Humbler_Heartstring.png"
+ },
+ "ranged_weapons/ranged_crossbow": {
+  "name": "Crossbow",
+  "cat": "ranged_weapons",
+  "id": "ranged_crossbow",
+  "file": "ranged_weapons/Crossbow.png"
+ },
+ "ranged_weapons/ranged_scatter_crossbow": {
+  "name": "Scatter Crossbow",
+  "cat": "ranged_weapons",
+  "id": "ranged_scatter_crossbow",
+  "file": "ranged_weapons/Scatter_Crossbow.png"
+ },
+ "ranged_weapons/ranged_heavy_crossbow": {
+  "name": "Heavy Crossbow",
+  "cat": "ranged_weapons",
+  "id": "ranged_heavy_crossbow",
+  "file": "ranged_weapons/Heavy_Crossbow.png"
+ },
+ "ranged_weapons/ranged_dual_crossbow": {
+  "name": "Dual Crossbows",
+  "cat": "ranged_weapons",
+  "id": "ranged_dual_crossbow",
+  "file": "ranged_weapons/Dual_Crossbows.png"
+ },
+ "ranged_weapons/ranged_rapid_crossbow": {
+  "name": "Rapid Crossbow",
+  "cat": "ranged_weapons",
+  "id": "ranged_rapid_crossbow",
+  "file": "ranged_weapons/Rapid_Crossbow.png"
+ },
+ "ranged_weapons/ranged_crossbow_unique1": {
+  "name": "The Shackler",
+  "cat": "ranged_weapons",
+  "id": "ranged_crossbow_unique1",
+  "file": "ranged_weapons/The_Shackler.png"
+ },
+ "ranged_weapons/ranged_scatter_crossbow_unique1": {
+  "name": "Harp Crossbow",
+  "cat": "ranged_weapons",
+  "id": "ranged_scatter_crossbow_unique1",
+  "file": "ranged_weapons/Harp_Crossbow.png"
+ },
+ "ranged_weapons/ranged_heavy_crossbow_unique1": {
+  "name": "The Close Ranger",
+  "cat": "ranged_weapons",
+  "id": "ranged_heavy_crossbow_unique1",
+  "file": "ranged_weapons/The_Close_Ranger.png"
+ },
+ "ranged_weapons/ranged_rapid_crossbow_unique1": {
+  "name": "The Cross Pollinator",
+  "cat": "ranged_weapons",
+  "id": "ranged_rapid_crossbow_unique1",
+  "file": "ranged_weapons/The_Cross_Pollinator.png"
+ },
+ "ranged_weapons/ranged_dual_crossbow_unique1": {
+  "name": "Double Crossers",
+  "cat": "ranged_weapons",
+  "id": "ranged_dual_crossbow_unique1",
+  "file": "ranged_weapons/Double_Crossers.png"
+ },
+ "soul_enchantments/soulench_poison": {
+  "name": "Toxic",
+  "cat": "soul_enchantments",
+  "id": "soulench_poison",
+  "file": "soul_enchantments/Toxic.png"
+ },
+ "soul_enchantments/soulench_ice": {
+  "name": "Freezing",
+  "cat": "soul_enchantments",
+  "id": "soulench_ice",
+  "file": "soul_enchantments/Freezing.png"
+ },
+ "soul_enchantments/soulench_lightning": {
+  "name": "Zapping",
+  "cat": "soul_enchantments",
+  "id": "soulench_lightning",
+  "file": "soul_enchantments/Zapping.png"
+ },
+ "soul_enchantments/soulench_fire": {
+  "name": "Burning",
+  "cat": "soul_enchantments",
+  "id": "soulench_fire",
+  "file": "soul_enchantments/Burning.png"
+ },
+ "soul_enchantments/soulench_melee": {
+  "name": "Slasher",
+  "cat": "soul_enchantments",
+  "id": "soulench_melee",
+  "file": "soul_enchantments/Slasher.png"
+ },
+ "soul_enchantments/soulench_ranged": {
+  "name": "Sniper",
+  "cat": "soul_enchantments",
+  "id": "soulench_ranged",
+  "file": "soul_enchantments/Sniper.png"
+ },
+ "soul_enchantments/soulench_speed": {
+  "name": "Swiftness",
+  "cat": "soul_enchantments",
+  "id": "soulench_speed",
+  "file": "soul_enchantments/Swiftness.png"
+ },
+ "soul_enchantments/soulench_health": {
+  "name": "Persistence",
+  "cat": "soul_enchantments",
+  "id": "soulench_health",
+  "file": "soul_enchantments/Persistence.png"
+ },
+ "soul_enchantments/soulench_soul_orbs": {
+  "name": "Orb Caster",
+  "cat": "soul_enchantments",
+  "id": "soulench_soul_orbs",
+  "file": "soul_enchantments/Orb_Caster.png"
+ },
+ "soul_enchantments/soulench_soul_leech": {
+  "name": "Life Leech",
+  "cat": "soul_enchantments",
+  "id": "soulench_soul_leech",
+  "file": "soul_enchantments/Life_Leech.png"
+ },
+ "soul_enchantments/soulench_soul_ripple": {
+  "name": "Soul Wave",
+  "cat": "soul_enchantments",
+  "id": "soulench_soul_ripple",
+  "file": "soul_enchantments/Soul_Wave.png"
+ },
+ "soul_enchantments/soulench_soul_suppression": {
+  "name": "Bubble Shield",
+  "cat": "soul_enchantments",
+  "id": "soulench_soul_suppression",
+  "file": "soul_enchantments/Bubble_Shield.png"
+ },
+ "status_effects/status_burning": {
+  "name": "Burned",
+  "cat": "status_effects",
+  "id": "status_burning",
+  "file": "status_effects/Burned.png"
+ },
+ "status_effects/status_poisoned": {
+  "name": "Poisoned",
+  "cat": "status_effects",
+  "id": "status_poisoned",
+  "file": "status_effects/Poisoned.png"
+ },
+ "status_effects/status_webbed": {
+  "name": "Webbed",
+  "cat": "status_effects",
+  "id": "status_webbed",
+  "file": "status_effects/Webbed.png"
+ },
+ "status_effects/status_slowed": {
+  "name": "Slowed",
+  "cat": "status_effects",
+  "id": "status_slowed",
+  "file": "status_effects/Slowed.png"
+ },
+ "status_effects/status_soul_weariness": {
+  "name": "Soulsick",
+  "cat": "status_effects",
+  "id": "status_soul_weariness",
+  "file": "status_effects/Soulsick.png"
+ },
+ "status_effects/status_gloaming": {
+  "name": "Sealed",
+  "cat": "status_effects",
+  "id": "status_gloaming",
+  "file": "status_effects/Sealed.png"
+ },
+ "status_effects/status_freezing": {
+  "name": "Frozen",
+  "cat": "status_effects",
+  "id": "status_freezing",
+  "file": "status_effects/Frozen.png"
+ },
+ "status_effects/status_conductive": {
+  "name": "Zapped",
+  "cat": "status_effects",
+  "id": "status_conductive",
+  "file": "status_effects/Zapped.png"
+ },
+ "status_effects/status_vined": {
+  "name": "Vined",
+  "cat": "status_effects",
+  "id": "status_vined",
+  "file": "status_effects/Vined.png"
+ },
+ "status_effects/status_weakness": {
+  "name": "Weakened",
+  "cat": "status_effects",
+  "id": "status_weakness",
+  "file": "status_effects/Weakened.png"
+ },
+ "status_effects/status_chained": {
+  "name": "Chained",
+  "cat": "status_effects",
+  "id": "status_chained",
+  "file": "status_effects/Chained.png"
+ },
+ "status_effects/status_honeyed": {
+  "name": "Honeyed",
+  "cat": "status_effects",
+  "id": "status_honeyed",
+  "file": "status_effects/Honeyed.png"
+ },
+ "status_effects/status_resistance": {
+  "name": "Fortifying",
+  "cat": "status_effects",
+  "id": "status_resistance",
+  "file": "status_effects/Fortifying.png"
+ },
+ "status_effects/status_regeneration": {
+  "name": "Regenerating",
+  "cat": "status_effects",
+  "id": "status_regeneration",
+  "file": "status_effects/Regenerating.png"
+ },
+ "status_effects/status_invulnerable": {
+  "name": "Invulnerable",
+  "cat": "status_effects",
+  "id": "status_invulnerable",
+  "file": "status_effects/Invulnerable.png"
+ },
+ "status_effects/status_shadow_form": {
+  "name": "Shadowcloaking",
+  "cat": "status_effects",
+  "id": "status_shadow_form",
+  "file": "status_effects/Shadowcloaking.png"
+ },
+ "status_effects/status_arcane": {
+  "name": "Artificing",
+  "cat": "status_effects",
+  "id": "status_arcane",
+  "file": "status_effects/Artificing.png"
+ },
+ "status_effects/status_swiftness": {
+  "name": "Hurrying",
+  "cat": "status_effects",
+  "id": "status_swiftness",
+  "file": "status_effects/Hurrying.png"
+ },
+ "status_effects/status_unstoppable": {
+  "name": "Stampeding",
+  "cat": "status_effects",
+  "id": "status_unstoppable",
+  "file": "status_effects/Stampeding.png"
+ },
+ "status_effects/status_strength": {
+  "name": "Strengthened",
+  "cat": "status_effects",
+  "id": "status_strength",
+  "file": "status_effects/Strengthened.png"
+ },
+ "status_effects/status_acceleration": {
+  "name": "Flurrying",
+  "cat": "status_effects",
+  "id": "status_acceleration",
+  "file": "status_effects/Flurrying.png"
+ },
+ "status_effects/status_deathcap_mushroom": {
+  "name": "Deathcap Mushroom",
+  "cat": "status_effects",
+  "id": "status_deathcap_mushroom",
+  "file": "status_effects/Deathcap_Mushroom.png"
+ },
+ "status_effects/status_grindstone": {
+  "name": "Grindstone",
+  "cat": "status_effects",
+  "id": "status_grindstone",
+  "file": "status_effects/Grindstone.png"
+ },
+ "status_effects/status_powershaker": {
+  "name": "Powershaker",
+  "cat": "status_effects",
+  "id": "status_powershaker",
+  "file": "status_effects/Powershaker.png"
+ },
+ "status_effects/status_fire_bracelet": {
+  "name": "Blaze Bangle",
+  "cat": "status_effects",
+  "id": "status_fire_bracelet",
+  "file": "status_effects/Blaze_Bangle.png"
+ },
+ "status_effects/status_frost_bracelet": {
+  "name": "Blizzard Bangle",
+  "cat": "status_effects",
+  "id": "status_frost_bracelet",
+  "file": "status_effects/Blizzard_Bangle.png"
+ },
+ "status_effects/status_poison_bracelet": {
+  "name": "Blight Bangle",
+  "cat": "status_effects",
+  "id": "status_poison_bracelet",
+  "file": "status_effects/Blight_Bangle.png"
+ },
+ "status_effects/status_conductive_bracelet": {
+  "name": "Electric Bangle",
+  "cat": "status_effects",
+  "id": "status_conductive_bracelet",
+  "file": "status_effects/Electric_Bangle.png"
+ },
+ "status_effects/status_critical_chance_up": {
+  "name": "Critical Precision",
+  "cat": "status_effects",
+  "id": "status_critical_chance_up",
+  "file": "status_effects/Critical_Precision.png"
+ },
+ "status_effects/status_critical_damage_up": {
+  "name": "Critical Strength",
+  "cat": "status_effects",
+  "id": "status_critical_damage_up",
+  "file": "status_effects/Critical_Strength.png"
+ },
+ "status_effects/status_deflection": {
+  "name": "Deflection",
+  "cat": "status_effects",
+  "id": "status_deflection",
+  "file": "status_effects/Deflection.png"
+ },
+ "talismans/talisman_ranged_buff_talisman": {
+  "name": "Amethyst Lens",
+  "cat": "talismans",
+  "id": "talisman_ranged_buff_talisman",
+  "file": "talismans/Amethyst_Lens.png"
+ },
+ "talismans/talisman_health_boost_talisman": {
+  "name": "Sigil of Beeswax",
+  "cat": "talismans",
+  "id": "talisman_health_boost_talisman",
+  "file": "talismans/Sigil_of_Beeswax.png"
+ },
+ "talismans/talisman_plummeting_talisman": {
+  "name": "Ocelot's Paw",
+  "cat": "talismans",
+  "id": "talisman_plummeting_talisman",
+  "file": "talismans/Ocelot_s_Paw.png"
+ },
+ "talismans/talisman_brawling_talisman": {
+  "name": "Fist of Iron",
+  "cat": "talismans",
+  "id": "talisman_brawling_talisman",
+  "file": "talismans/Fist_of_Iron.png"
+ },
+ "talismans/talisman_iron_golem_talisman": {
+  "name": "Golem Kit",
+  "cat": "talismans",
+  "id": "talisman_iron_golem_talisman",
+  "file": "talismans/Golem_Kit.png"
+ },
+ "talismans/talisman_llama_talisman": {
+  "name": "Wonderful Wheat",
+  "cat": "talismans",
+  "id": "talisman_llama_talisman",
+  "file": "talismans/Wonderful_Wheat.png"
+ },
+ "talismans/talisman_wolf_talisman": {
+  "name": "Tasty Bone",
+  "cat": "talismans",
+  "id": "talisman_wolf_talisman",
+  "file": "talismans/Tasty_Bone.png"
+ },
+ "talismans/talisman_soul_gather_talisman": {
+  "name": "Twisted Tooth",
+  "cat": "talismans",
+  "id": "talisman_soul_gather_talisman",
+  "file": "talismans/Twisted_Tooth.png"
+ },
+ "talismans/talisman_potion_cooldown_talisman": {
+  "name": "Glowstone Flask",
+  "cat": "talismans",
+  "id": "talisman_potion_cooldown_talisman",
+  "file": "talismans/Glowstone_Flask.png"
+ },
+ "talismans/talisman_healing_talisman": {
+  "name": "Healing Heart",
+  "cat": "talismans",
+  "id": "talisman_healing_talisman",
+  "file": "talismans/Healing_Heart.png"
+ },
+ "talismans/talisman_speed_increment_talisman": {
+  "name": "Medallion of Momentum",
+  "cat": "talismans",
+  "id": "talisman_speed_increment_talisman",
+  "file": "talismans/Medallion_of_Momentum.png"
+ },
+ "talismans/talisman_double_drop_talisman": {
+  "name": "Lucky Clover",
+  "cat": "talismans",
+  "id": "talisman_double_drop_talisman",
+  "file": "talismans/Lucky_Clover.png"
+ },
+ "talismans/talisman_emerald_increase": {
+  "name": "Emerald of Good Fortune",
+  "cat": "talismans",
+  "id": "talisman_emerald_increase",
+  "file": "talismans/Emerald_of_Good_Fortune.png"
+ },
+ "talismans/talisman_drop_chance_talisman": {
+  "name": "Looter's Charm",
+  "cat": "talismans",
+  "id": "talisman_drop_chance_talisman",
+  "file": "talismans/Looter_s_Charm.png"
+ },
+ "talismans/talisman_artifact_cooldown_talisman": {
+  "name": "Essence of Efficiency",
+  "cat": "talismans",
+  "id": "talisman_artifact_cooldown_talisman",
+  "file": "talismans/Essence_of_Efficiency.png"
+ },
+ "talismans/talisman_rolling_cooldown_talisman": {
+  "name": "Armadillo Amulet",
+  "cat": "talismans",
+  "id": "talisman_rolling_cooldown_talisman",
+  "file": "talismans/Armadillo_Amulet.png"
+ },
+ "talismans/talisman_soul_capacity_talisman": {
+  "name": "Soul Chip",
+  "cat": "talismans",
+  "id": "talisman_soul_capacity_talisman",
+  "file": "talismans/Soul_Chip.png"
+ },
+ "talismans/talisman_ammo_capacity_talisman": {
+  "name": "Twig of Dark Oak",
+  "cat": "talismans",
+  "id": "talisman_ammo_capacity_talisman",
+  "file": "talismans/Twig_of_Dark_Oak.png"
+ },
+ "talismans/talisman_status_buff_talisman": {
+  "name": "Sculk Badge",
+  "cat": "talismans",
+  "id": "talisman_status_buff_talisman",
+  "file": "talismans/Sculk_Badge.png"
+ },
+ "talismans/talisman_experience_increase_talisman": {
+  "name": "The Eye of Experience",
+  "cat": "talismans",
+  "id": "talisman_experience_increase_talisman",
+  "file": "talismans/The_Eye_of_Experience.png"
+ },
+ "talismans/talisman_healthy_strike_talisman": {
+  "name": "Tendrils of the Sprout",
+  "cat": "talismans",
+  "id": "talisman_healthy_strike_talisman",
+  "file": "talismans/Tendrils_of_the_Sprout.png"
+ },
+ "talismans/talisman_prickle_talisman": {
+  "name": "Prickle's Mark",
+  "cat": "talismans",
+  "id": "talisman_prickle_talisman",
+  "file": "talismans/Prickle_s_Mark.png"
+ },
+ "talismans/talisman_wobble_talisman": {
+  "name": "Wobblestone",
+  "cat": "talismans",
+  "id": "talisman_wobble_talisman",
+  "file": "talismans/Wobblestone.png"
+ },
+ "talismans/talisman_firing_emerald_talisman": {
+  "name": "Thrifty Pendant",
+  "cat": "talismans",
+  "id": "talisman_firing_emerald_talisman",
+  "file": "talismans/Thrifty_Pendant.png"
+ }
+}
