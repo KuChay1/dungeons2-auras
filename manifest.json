@@ -1,9 +1,9 @@
 {
- "version": "1.2",
- "build": 2,
+ "version": "1.3",
+ "build": 3,
  "launcher_min": 1,
- "published": "2026-10-15 19:38",
- "notes": "watchdog, start-with-game, master switch, bottom-up debuffs, tenths timers, layouts, artifact audit + bug fixes",
+ "published": "2026-10-15 19:52",
+ "notes": "update",
  "files": {
   "d2_auras.py": {
    "sha256": "19bc81bce9ed97f4d12d621b9a9a27161edb058581dcb4494246fb92d0482871",
