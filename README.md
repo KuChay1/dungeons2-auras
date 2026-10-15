@@ -2,10 +2,13 @@
 
 A WeakAuras-style overlay for Minecraft Dungeons II: artifact and potion cooldowns, buff and debuff timers, and health and soul bars.
 
-## Install
-1. Download `Dungeons2Auras.exe` from the Releases page.
-2. Run it while the game is open. It updates itself every time it starts.
-3. Press **F8** in game to move things around and save layouts. Press **Ctrl+Shift+F8** to quit.
+## Download
+
+**[⬇ Download Dungeons2Auras.exe](https://github.com/KuChay1/dungeons2-auras/raw/main/Dungeons2Auras.exe)**
+
+1. Run the downloaded file once. It installs itself and puts a **Dungeons II Auras** icon on your desktop.
+2. Start the overlay from that icon whenever you play. It updates itself every time it starts.
+3. In game, press **F8** to arrange everything and save layouts. Press **Ctrl+Shift+F8** to close the overlay.
 
 Windows may warn that the exe is unrecognised, because it isn't code-signed. Click *More info → Run anyway*.
 
