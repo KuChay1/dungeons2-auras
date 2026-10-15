@@ -6,6 +6,4 @@ Download: https://github.com/KuChay1/dungeons2-auras/raw/main/Dungeons2Auras.exe
 
 Run it once and it adds an icon to your desktop. Use that to start it, it updates itself on launch.
 
-F8 to move stuff around, Ctrl+Shift+F8 to close.
-
-If Windows blocks it, click More info then Run anyway.
+F8 for settings.
