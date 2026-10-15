@@ -31,13 +31,32 @@ k32.Module32FirstW.argtypes = [wt.HANDLE, ctypes.POINTER(MODULEENTRY32W)]
 k32.Module32NextW.argtypes = [wt.HANDLE, ctypes.POINTER(MODULEENTRY32W)]
 
 
+class PROCESSENTRY32W(ctypes.Structure):
+    _fields_ = [("dwSize", wt.DWORD), ("cntUsage", wt.DWORD), ("th32ProcessID", wt.DWORD),
+                ("th32DefaultHeapID", ctypes.c_void_p), ("th32ModuleID", wt.DWORD), ("cntThreads", wt.DWORD),
+                ("th32ParentProcessID", wt.DWORD), ("pcPriClassBase", ctypes.c_long), ("dwFlags", wt.DWORD),
+                ("szExeFile", ctypes.c_wchar * 260)]
+
+
+k32.Process32FirstW.argtypes = [wt.HANDLE, ctypes.POINTER(PROCESSENTRY32W)]
+k32.Process32NextW.argtypes = [wt.HANDLE, ctypes.POINTER(PROCESSENTRY32W)]
+
+
 def find_pid(name=GAME_EXE):
-    out = subprocess.run(["tasklist", "/FI", f"IMAGENAME eq {name}", "/FO", "CSV", "/NH"],
-                         capture_output=True, text=True, creationflags=0x08000000).stdout
-    for line in out.splitlines():
-        parts = [p.strip('"') for p in line.split('","')]
-        if parts and parts[0].lower() == name.lower():
-            return int(parts[1])
+    """Process list straight from Windows (no tasklist process every few seconds while idle)."""
+    snap = k32.CreateToolhelp32Snapshot(0x2, 0)  # TH32CS_SNAPPROCESS
+    if not snap or snap == wt.HANDLE(-1).value:
+        return None
+    pe = PROCESSENTRY32W()
+    pe.dwSize = ctypes.sizeof(pe)
+    try:
+        ok = k32.Process32FirstW(snap, ctypes.byref(pe))
+        while ok:
+            if pe.szExeFile.lower() == name.lower():
+                return pe.th32ProcessID
+            ok = k32.Process32NextW(snap, ctypes.byref(pe))
+    finally:
+        k32.CloseHandle(snap)
     return None
 
 

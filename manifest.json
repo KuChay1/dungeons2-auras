@@ -1,17 +1,17 @@
 {
- "version": "1.1",
- "build": 1,
+ "version": "1.2",
+ "build": 2,
  "launcher_min": 1,
- "published": "2026-10-12 18:47",
- "notes": "first release",
+ "published": "2026-10-15 19:38",
+ "notes": "watchdog, start-with-game, master switch, bottom-up debuffs, tenths timers, layouts, artifact audit + bug fixes",
  "files": {
   "d2_auras.py": {
-   "sha256": "921648dc0f8b8d5d1bfa1293f5b6632b03c3f8f7d565bab9a286e7ffdd63df18",
-   "size": 124992
+   "sha256": "19bc81bce9ed97f4d12d621b9a9a27161edb058581dcb4494246fb92d0482871",
+   "size": 131673
   },
   "d2_mem.py": {
-   "sha256": "b9ac558f9691800dd798f9e3b9cdd26db10764c91671ec2759c06ec65dca8f06",
-   "size": 18408
+   "sha256": "7ad72a16a474a845d5a6007b76111a5916747d73b53fa5cb1a157768ec61d63b",
+   "size": 19201
   },
   "digits.npy": {
    "sha256": "596415d22de6925bf0956509b1178f3068910746529bcf223576e26a39ff3228",

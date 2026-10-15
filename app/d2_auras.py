@@ -93,9 +93,10 @@ DEFAULTS = {
     "buff_durations": None,     # measured real buff lengths on this character (only ever lengthen the wiki value)
     "hide_game_buffs": False,   # blur-cover over the game's buff row (looks bad; a real in-game mod is the proper fix)
     "artifact_buffs": {},       # learned: which buff each artifact gives (shown on its square)
-    "panels": None,             # per panel {"x", "y", "dir": "x"|"y", "show"}; F8 to move / right-click to flip
+    "panels": None,             # per panel {"x", "y", "dir": "x"|"y"|"up", "show"}; F8 to move / right-click to flip
     "buff_order": [],           # buff priority (F8: drag buffs to reorder)
     "buff_group": {},           # buff -> panel overrides (F8: drag a buff onto another panel)
+    "enabled": True,            # master switch (F8 menu, top right)
 }
 
 # --------------------------------------------------------------------------
@@ -1717,7 +1718,8 @@ class Renderer:
     def panel_buffs(self, name, buffs, t, edit, order):
         """One buff panel. Returns (image, cells) with cells = [(buff name, (x0, y0, x1, y1))]."""
         cfg, m, sp, bs = self.cfg, self.MARGIN, self.cfg["spacing"], self.bsize
-        vertical = cfg["panels"][name]["dir"] == "y"
+        vertical = cfg["panels"][name]["dir"] in ("y", "up")
+        upward = cfg["panels"][name]["dir"] == "up"  # column that fills from the bottom up
         rank = {n: i for i, n in enumerate(order)}
         items = sorted(buffs, key=lambda ba: (rank.get(ba[0].name, 999), ba[0].order))
         names_live = {b.name for b, _ in items}
@@ -1727,7 +1729,9 @@ class Renderer:
                 if n not in names_live and n in STATUS_ICONS:
                     entries.append((n, 0.4))
             entries.sort(key=lambda e: rank.get(e[0].name if isinstance(e[0], Buff) else e[0], 999))
-        n = max(1, len(entries) if edit else cfg["max_buffs"])
+        # same box in play and in F8 (one slot per buff this panel can hold), so a bottom-up
+        # column starts exactly at the bottom of the box you see while arranging
+        n = max(1, len(entries), len({x for x in order if x in STATUS_ICONS} | names_live))
         cell = bs + sp + (bs // 8 if not vertical else bs // 6)
         W = (cell * n - sp if not vertical else bs) + 2 * m
         H = (bs + bs // 6 + 6 if not vertical else cell * n - sp) + 2 * m
@@ -1739,7 +1743,8 @@ class Renderer:
         self._panel_t[name] = t
         live_ids = set()
         for i, (b, alpha) in enumerate(entries):
-            tx, ty = (m + i * cell, m) if not vertical else (m, m + i * cell)
+            slot = (n - 1 - i) if upward else i
+            tx, ty = (m + i * cell, m) if not vertical else (m, m + slot * cell)
             if isinstance(b, Buff):
                 key = id(b)
                 live_ids.add(key)
@@ -1763,7 +1768,8 @@ class Renderer:
 
     def panel_cooldowns(self, trackers, t, edit):
         m, s, sp = self.MARGIN, self.size, self.cfg["spacing"] + 4
-        vertical = self.cfg["panels"]["cooldowns"]["dir"] == "y"
+        vertical = self.cfg["panels"]["cooldowns"]["dir"] in ("y", "up")
+        upward = self.cfg["panels"]["cooldowns"]["dir"] == "up"
         n = len(trackers)
         W = ((s + sp) * n - sp if not vertical else s) + 2 * m
         H = (s if not vertical else (s + sp) * n - sp) + 2 * m
@@ -1773,7 +1779,7 @@ class Renderer:
         for i, tr in enumerate(trackers):
             a = self.aura(tr, t, edit)
             if a is not None:
-                x, y = (i * (s + sp), 0) if not vertical else (0, i * (s + sp))
+                x, y = (i * (s + sp), 0) if not vertical else (0, ((n - 1 - i) if upward else i) * (s + sp))
                 out.alpha_composite(a, (x, y))
         return out
 
@@ -1798,7 +1804,7 @@ class Renderer:
     PANEL_TITLES = {"attack": "Attack buffs", "defense": "Defense buffs", "debuffs": "Debuffs",
                     "cooldowns": "Cooldowns", "health": "Health", "souls": "Souls"}
 
-    def menu_image(self, panels, snap, hover, grid=0, test=False, live=False, lay=None):
+    def menu_image(self, panels, snap, hover, grid=0, test=False, live=False, lay=None, enabled=True):
         """Edit-mode options window. Returns (image, [(button id, rect)])."""
         f_title, f_row = load_font(17), load_font(15)
         W, rh, top = 440, 34, 40
@@ -1809,7 +1815,7 @@ class Renderer:
         d.rectangle((0, 0, W - 1, H - 1), outline=(90, 95, 110, 255), width=2)
         d.rectangle((2, 2, W - 3, top - 6), fill=(34, 38, 48, 255))
         d.text((14, (top - 4) // 2), "Auras layout", font=f_title, fill=(235, 235, 240, 255), anchor="lm")
-        buttons = [(("drag",), (0, 0, W, top - 4))]
+        buttons = [(("drag",), (0, 0, W - 120, top - 4))]
 
         def button(bid, rect, label, on=None, accent=(70, 150, 255)):
             x0, y0, x1, y1 = rect
@@ -1821,6 +1827,9 @@ class Renderer:
             d.text(((x0 + x1) / 2, (y0 + y1) / 2), label, font=f_row, fill=(245, 245, 250, 255), anchor="mm")
             buttons.append((bid, rect))
 
+        # master switch, top right: the whole overlay on/off
+        button(("enabled",), (W - 112, 6, W - 10, top - 10), "Overlay: On" if enabled else "Overlay: Off",
+               on=enabled, accent=(60, 150, 90))
         for i, k in enumerate(order):
             pc = panels[k]
             y = top + i * rh
@@ -1830,8 +1839,8 @@ class Renderer:
             shown = pc.get("show", True)
             button(("show", k), (176, y + 4, 246, y + 30), "Shown" if shown else "Hidden", on=shown,
                    accent=(60, 150, 90))
-            vertical = pc.get("dir", "x") == "y"
-            button(("dir", k), (254, y + 4, 316, y + 30), "Column" if vertical else "Row")
+            dlabel = {"x": "Row", "y": "Down ↓", "up": "Up ↑"}.get(pc.get("dir", "x"), "Row")
+            button(("dir", k), (254, y + 4, 316, y + 30), dlabel)
             button(("size-", k), (324, y + 4, 352, y + 30), "-")
             d.text((377, y + 17), f"{int(round(pc.get('scale', 1.0) * 100))}%", font=f_row,
                    fill=(225, 225, 232, 255), anchor="mm")
@@ -1960,6 +1969,11 @@ def save_config(cfg):
     os.replace(tmp, CONFIG_PATH)
 
 
+def next_dir(d):
+    """F8 direction button / right-click: Row -> Column down -> Column up -> Row."""
+    return {"x": "y", "y": "up"}.get(d, "x")
+
+
 LAYOUTS_PATH = os.path.join(HERE, "layouts.json")
 LAYOUT_SLOTS = ["1", "2", "3", "4"]
 
@@ -2013,7 +2027,123 @@ def state_line(trackers, buffs, vitals):
     return "  ".join(parts)
 
 
+def start_with_game():
+    """Steam launch option mode: `... d2_auras.py --with-game %command%`.
+    Starts the game (everything after --with-game), returns True if this overlay should run and
+    close again when the game closes. If an overlay is already running, only the game starts."""
+    if "--with-game" not in sys.argv:
+        return False
+    i = sys.argv.index("--with-game")
+    game_cmd = sys.argv[i + 1:]
+    del sys.argv[i:]
+    if game_cmd:
+        import subprocess
+        subprocess.Popen(game_cmd, cwd=os.path.dirname(game_cmd[0]) or None)
+    return True
+
+
+HEARTBEAT = os.path.join(HERE, "heartbeat")
+QUIT_CODE = 3  # overlay exit code for "the player quit it" (Ctrl+Shift+F8): don't restart
+
+
+def write_heartbeat():
+    try:
+        with open(HEARTBEAT, "w") as f:
+            f.write(str(time.time()))
+    except OSError:
+        pass
+
+
+def log_event(text):
+    try:
+        with open(os.path.join(HERE, "watchdog.log"), "a", encoding="utf-8") as f:
+            f.write(time.strftime("%Y-%m-%d %H:%M:%S ") + text + chr(10))
+    except OSError:
+        pass
+
+
+def child_command():
+    if getattr(sys, "frozen", False):  # the shared exe: it runs the overlay itself with --child
+        return [sys.executable, "--child"]
+    exe = sys.executable
+    if exe.lower().endswith("python.exe") and not DEBUG:
+        exe = exe[:-10] + "pythonw.exe"
+    return [exe, os.path.abspath(__file__), "--child"] + (["--debug"] if DEBUG else [])
+
+
+def supervise():
+    """Watchdog (no windows of its own). Runs the overlay as a child process and brings it back
+    within a few seconds if it ever exits or freezes. With --with-game it also starts the game and
+    closes together with it."""
+    import subprocess
+    with_game = start_with_game()
+    kernel32.CreateMutexW(None, False, "Dungeons2Auras_overlay")  # one overlay at a time
+    if kernel32.GetLastError() == 183:  # ERROR_ALREADY_EXISTS
+        return
+    # --wait-for-game (Windows startup): sleep until the game runs, show the overlay only then
+    wait_mode = "--wait-for-game" in sys.argv
+    log_event(f"watchdog start (with_game={with_game}, wait_for_game={wait_mode})")
+    child, starts = None, []
+    began = time.time()
+    last_game = 0.0 if "--wait-for-game" in sys.argv else began
+    seen_game = False
+    while True:
+        now = time.time()
+        game_up = d2_mem is not None and bool(d2_mem.find_pid())
+        if game_up:
+            last_game, seen_game = now, True
+        if with_game and now - last_game > (6.0 if seen_game else 120.0):
+            log_event("game closed: stopping")
+            if child and child.poll() is None:
+                child.terminate()
+            return
+        if wait_mode and now - last_game > 6.0:
+            if child is not None and child.poll() is None:
+                log_event("game closed: overlay stopped, waiting for the game")
+                child.terminate()
+            child = None
+            time.sleep(2.0)
+            continue
+        if child is not None:
+            code = child.poll()
+            if code is None:
+                try:
+                    with open(HEARTBEAT) as f:
+                        beat = float(f.read() or 0)
+                except (OSError, ValueError):
+                    beat = 0.0
+                if now - max(beat, child_started) > 20.0:
+                    log_event("overlay frozen for 20 s: restarting it (see hang.log)")
+                    child.kill()
+                    child.wait()
+                    child = None
+            elif code == QUIT_CODE:
+                log_event("player quit (Ctrl+Shift+F8)")
+                if not wait_mode:
+                    return
+                while d2_mem.find_pid():  # stays off until the game is started again
+                    time.sleep(2.0)
+                last_game = 0.0
+                child = None
+                continue
+            else:
+                log_event(f"overlay exited (code {code}): restarting")
+                child = None
+        if child is None:
+            starts = [x for x in starts if now - x < 60] + [now]
+            if len(starts) > 5:  # crashing over and over: don't spin, try again in a bit
+                log_event("restarting too often: waiting 30 s")
+                time.sleep(30)
+                starts = []
+            child_started = time.time()
+            child = subprocess.Popen(child_command(), cwd=HERE)
+        time.sleep(1.0)
+
+
 def main():
+    if "--child" not in sys.argv:
+        return supervise()
+    import faulthandler
     cfg = load_config()
     save_config(cfg)
     reader = ScreenReader(cfg.get("hud_scale") or 1.0)
@@ -2041,7 +2171,7 @@ def main():
     cdw = cell * len(trackers)
     bcell = renderer.bsize + cfg["spacing"] + renderer.bsize // 8
     defaults = {
-        "debuffs": {"x": ax + cdw // 2 + 30, "y": ay - 2 * bcell, "dir": "y"},
+        "debuffs": {"x": ax + cdw // 2 + 30, "y": ay - 5 * bcell, "dir": "up"},
         "attack": {"x": ax - 3 * bcell - 6, "y": ay - bcell - 10, "dir": "x"},
         "defense": {"x": ax + 6, "y": ay - bcell - 10, "dir": "x"},
         "cooldowns": {"x": ax - cdw // 2, "y": ay, "dir": "x"},
@@ -2070,6 +2200,10 @@ def main():
     if not cfg.get("_debuffs_column_v1"):  # one-time: debuffs stack downward
         panels_cfg["debuffs"]["dir"] = "y"
         cfg["_debuffs_column_v1"] = True
+    if not cfg.get("_debuffs_up_v1"):  # one-time: debuffs fill from the bottom up
+        if panels_cfg["debuffs"].get("dir") == "y":
+            panels_cfg["debuffs"]["dir"] = "up"
+        cfg["_debuffs_up_v1"] = True
     save_config(cfg)
     grid_win = LayeredWindow(lambda dx, dy: None, native_drag=False)
     grid_shown = None
@@ -2167,6 +2301,8 @@ def main():
     img = None
     fade, last_t = 0.0, time.perf_counter()
     missed = 99
+    hb_t, user_quit = 0.0, False
+    hang_file = open(os.path.join(HERE, "hang.log"), "a", encoding="utf-8")
     print(f"Dungeons II Auras running ({reader.W}x{reader.H}). F8 = edit layout, Ctrl+Shift+F8 = quit.")
 
     while True:
@@ -2176,8 +2312,15 @@ def main():
                 w.pump()
 
             f8 = bool(user32.GetAsyncKeyState(VK_F8) & 0x8001)  # held, or tapped since the last check
+            if t - hb_t > 1.0:
+                # heartbeat for the watchdog + re-arm the freeze log (dumps where we're stuck if a
+                # frame ever takes more than 12 s)
+                hb_t = t
+                write_heartbeat()
+                faulthandler.dump_traceback_later(12, repeat=False, file=hang_file)
             if f8 and not f8_prev:
                 if key_down(VK_CONTROL) and key_down(VK_SHIFT):
+                    user_quit = True
                     break
                 unlocked = not unlocked
                 for w in windows.values():
@@ -2328,10 +2471,12 @@ def main():
                         elif kind == "show":
                             panels_cfg[bid[1]]["show"] = not panels_cfg[bid[1]].get("show", True)
                         elif kind == "dir":
-                            panels_cfg[bid[1]]["dir"] = "y" if panels_cfg[bid[1]].get("dir", "x") == "x" else "x"
+                            panels_cfg[bid[1]]["dir"] = next_dir(panels_cfg[bid[1]].get("dir", "x"))
                         elif kind in ("size-", "size+"):
                             pc = panels_cfg[bid[1]]
                             pc["scale"] = round(min(2.0, max(0.5, pc.get("scale", 1.0) + (0.1 if kind == "size+" else -0.1))), 2)
+                        elif kind == "enabled":
+                            cfg["enabled"] = not cfg.get("enabled", True)
                         elif kind == "snap":
                             cfg["snap"] = not cfg["snap"]
                         elif kind == "test":
@@ -2425,13 +2570,14 @@ def main():
                 if rmb and not rmb_prev:
                     k = panel_at(cx, cy)
                     if k is not None:
-                        panels_cfg[k]["dir"] = "y" if panels_cfg[k]["dir"] == "x" else "x"
+                        panels_cfg[k]["dir"] = next_dir(panels_cfg[k]["dir"])
                         save_config(cfg)
                 lmb_prev, rmb_prev = lmb, rmb
                 mimg, menu_buttons = renderer.menu_image(
                     panels_cfg, cfg["snap"], menu_hover, cfg.get("grid") or 0, test_mode, exact.fresh(t),
                     {"filled": set(layouts), "save": layout_save_mode, "current": layout_current,
-                     "flash": layout_flash[0] if t - layout_flash[1] < 0.6 else None})
+                     "flash": layout_flash[0] if t - layout_flash[1] < 0.6 else None},
+                    cfg.get("enabled", True))
                 if cfg.get("grid") and grid_shown != cfg["grid"]:
                     grid_win.update(grid_image(cfg["grid"]), 0, 0)  # full-screen image: only push on change
                     grid_shown = cfg["grid"]
@@ -2441,6 +2587,8 @@ def main():
                 menu_win.show(True)
                 menu_win.pump()
 
+            if not cfg.get("enabled", True) and not unlocked:
+                show = False  # master switch off: nothing on screen while playing (F8 still opens)
             if show:
                 fade += (t - last_t) / 0.15  # quick fade in
             else:
@@ -2501,6 +2649,8 @@ def main():
             except OSError:
                 pass
             time.sleep(0.1)
+    faulthandler.cancel_dump_traceback_later()
+    sys.exit(QUIT_CODE if user_quit else 0)
 
 
 def selftest(folder, pad=0):
