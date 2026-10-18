@@ -1,13 +1,13 @@
 {
- "version": "1.5",
- "build": 5,
+ "version": "1.6",
+ "build": 6,
  "launcher_min": 1,
- "published": "2026-10-18 19:51",
- "notes": "souls fix",
+ "published": "2026-10-18 19:52",
+ "notes": "souls rounding",
  "files": {
   "d2_auras.py": {
-   "sha256": "23795982a443f90db9261af6e2b59bd0f7d96b3270d855cf410b5ba08e979d28",
-   "size": 132404
+   "sha256": "14afa1ffeb4e3cf6e5c18a75694b03cc0f58e7d00fc816eaf603ea6a3ae96f86",
+   "size": 129748
   },
   "d2_mem.py": {
    "sha256": "9c63628bf1448e4578e66f26245d21fcd2bf6748969a7689c4ef9cc87229064c",

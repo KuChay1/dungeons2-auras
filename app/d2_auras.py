@@ -2398,7 +2398,7 @@ def main():
                 if at.get("HealthMax"):
                     vitals.health = max(0.0, min(1.0, at["Health"] / at["HealthMax"]))
                 if at.get("SoulsMax"):
-                    vitals.souls = int(at["Souls"])
+                    vitals.souls = int(math.ceil(at["Souls"] - 0.01))  # the game rounds up
                     vitals.soul_frac = max(0.0, min(1.0, at["Souls"] / at["SoulsMax"]))
                 # potion: charges drop when you drink, then recharge over BaseCooldown x multiplier
                 ch, chmax = at.get("HealthPotionCharges"), at.get("HealthPotionChargesMax")
