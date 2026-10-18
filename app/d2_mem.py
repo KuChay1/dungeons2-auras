@@ -435,6 +435,8 @@ class BuffReader:
             if self.asc is None or not self._still_valid():
                 self._def_names.clear()
                 self._find_player()
+            else:
+                self._attrs = None  # attribute sets can be re-created (zone change): look them up again
         if self.asc is None or self.world is None:
             return None
         wt = g.f64(self.world + WORLD_TIME_SECONDS)

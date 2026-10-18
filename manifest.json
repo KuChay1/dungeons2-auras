@@ -1,17 +1,17 @@
 {
- "version": "1.4",
- "build": 4,
+ "version": "1.5",
+ "build": 5,
  "launcher_min": 1,
- "published": "2026-10-18 19:03",
- "notes": "fix stale game data after zone changes",
+ "published": "2026-10-18 19:51",
+ "notes": "souls fix",
  "files": {
   "d2_auras.py": {
    "sha256": "23795982a443f90db9261af6e2b59bd0f7d96b3270d855cf410b5ba08e979d28",
    "size": 132404
   },
   "d2_mem.py": {
-   "sha256": "9f59da2ad1b9efe654f2f711b757dce88467f5b56ec4ecca694a2fde588ead0c",
-   "size": 19444
+   "sha256": "9c63628bf1448e4578e66f26245d21fcd2bf6748969a7689c4ef9cc87229064c",
+   "size": 19569
   },
   "digits.npy": {
    "sha256": "596415d22de6925bf0956509b1178f3068910746529bcf223576e26a39ff3228",
