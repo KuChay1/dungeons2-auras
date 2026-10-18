@@ -921,14 +921,17 @@ class ExactSource:
                 continue
             if res is None:
                 self.ok = False
-                # game closed or relaunched: drop the old process and attach to the new one
-                # (tasklist is slow to start: only ask about a new process every few seconds)
+                # game closed or relaunched: drop the old process and attach to the new one;
+                # no data for 15 s while the game runs: start over with a fresh reader
                 now = time.perf_counter()
-                relaunch = False
+                if getattr(self, "_bad_since", None) is None:
+                    self._bad_since = now
+                relaunch = now - self._bad_since > 15.0
                 if now - getattr(self, "_pid_check", 0.0) > 5.0:
                     self._pid_check = now
-                    relaunch = d2_mem.find_pid() != self.reader.g.pid
+                    relaunch = relaunch or d2_mem.find_pid() != self.reader.g.pid
                 if not self.reader.alive() or relaunch:
+                    self._bad_since = None
                     try:
                         self.reader.g.close()
                     except Exception:
@@ -936,8 +939,10 @@ class ExactSource:
                     self.reader = None
                 time.sleep(0.5)
                 continue
+            self._bad_since = None
             buffs, cds, attrs, equipped = res
-            self.equipped = equipped
+            if equipped:  # a momentary empty read must not wipe the artifacts
+                self.equipped = equipped
             out = {}
             for defname, rem, dur, _st in buffs:
                 name = mem_status_name(defname)
@@ -1441,8 +1446,8 @@ class Renderer:
             src = POTION_ICON
         elif tr.art and tr.art in ARTIFACT_ICONS:
             src = ARTIFACT_ICONS[tr.art]
-        elif tr.icon is not None:
-            src = tr.icon
+        elif tr.icon is not None and tr.spec["key"] == "potion":
+            src = tr.icon  # (artifacts never use a screen capture: blank until the game says which)
         if src is None:
             return self.icon_img(self.placeholder(""), size, grey)
         tile = Image.new("RGBA", (size, size), (0, 0, 0, 255))
@@ -2302,6 +2307,7 @@ def main():
     fade, last_t = 0.0, time.perf_counter()
     missed = 99
     hb_t, user_quit = 0.0, False
+    exact_seen = False
     hang_file = open(os.path.join(HERE, "hang.log"), "a", encoding="utf-8")
     print(f"Dungeons II Auras running ({reader.W}x{reader.H}). F8 = edit layout, Ctrl+Shift+F8 = quit.")
 
@@ -2348,7 +2354,9 @@ def main():
                             specs = slot_specs(reader.hud)
                             for tr in trackers:
                                 tr.spec, tr.icon, tr.samples, tr.on_cd = specs[tr.spec["key"]], None, [], False
-                                tr.hud, tr.art = reader.hud, None
+                                tr.hud = reader.hud
+                                if not getattr(tr, "art_from_game", False):
+                                    tr.art = None  # the game data keeps telling us what's equipped
                             big, crop = reader.grab()
                 if hotbar_visible(crop):
                     last_seen = t
@@ -2358,7 +2366,8 @@ def main():
                             bufftr.note_use(tr.art, t)
                             if bufftr.link_for(tr.art):
                                 bufftr.trigger(bufftr.link_for(tr.art), t)  # artifact used: its buff starts now
-                    vitals.feed(crop, t)
+                    if not exact_seen:  # screen-read health/souls only until the game data is up
+                        vitals.feed(crop, t)
                     if cfg["show_buffs"] and not exact.fresh(t) and not test_mode:
                         bufftr.feed(big, t)  # fallback: read the game's buff icons off the screen
                 # brief unreadable moments (flashes, effects over the hotbar) must not blink the overlay
@@ -2370,6 +2379,7 @@ def main():
                 bufftr.apply_exact(tester.entries(t), t, learn=False)
                 show = show or unlocked or True
             elif exact.fresh(t):
+                exact_seen = True
                 et, ebuffs, ecds = exact.latest
                 bufftr.apply_exact([(n, max(0.0, r - (t - et)) if r >= 0 else r, d) for n, r, d in ebuffs], t)
                 seen_cd_tags.update(ecds)

@@ -290,6 +290,12 @@ class BuffReader:
 
     def _find_player(self):
         r, g = self.r, self.g
+        # level loads free and reuse memory: forget everything cached about classes and objects
+        r._cls_names.clear()
+        r._is_a.clear()
+        r._props.clear()
+        self._def_names.clear()
+        self._asc_props = None
         self.pc = self.pawn = self.asc = self.world = self.imc = None
         self._attrs = None
         objs = list(r.objects())
