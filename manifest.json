@@ -1,13 +1,13 @@
 {
- "version": "1.6",
- "build": 6,
+ "version": "1.7",
+ "build": 7,
  "launcher_min": 1,
- "published": "2026-10-18 19:52",
- "notes": "souls rounding",
+ "published": "2026-10-18 20:07",
+ "notes": "reader in its own process",
  "files": {
   "d2_auras.py": {
-   "sha256": "14afa1ffeb4e3cf6e5c18a75694b03cc0f58e7d00fc816eaf603ea6a3ae96f86",
-   "size": 129748
+   "sha256": "4a127f879c1aa66dbdb35ec3949f64fa071a0c79c28f723702cb8a60935a84c6",
+   "size": 134481
   },
   "d2_mem.py": {
    "sha256": "9c63628bf1448e4578e66f26245d21fcd2bf6748969a7689c4ef9cc87229064c",

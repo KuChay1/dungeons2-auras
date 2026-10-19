@@ -885,11 +885,69 @@ def mem_status_name(defname):
     return MEM_STATUS.get(base)
 
 
+def reader_main(port):
+    """The game-memory reader, in its own process (started by ExactSource with --reader PORT).
+    Running it separately means the overlay's drawing can never starve it: it sends one line of
+    JSON per poll to the overlay over a local socket and exits when the overlay goes away."""
+    import socket
+    sock = socket.create_connection(("127.0.0.1", port), timeout=10)
+    sock.settimeout(None)
+
+    def send(msg):
+        sock.sendall((json.dumps(msg) + chr(10)).encode())  # overlay gone -> error -> we exit
+
+    reader, bad_since, pid_check = None, None, 0.0
+    while True:
+        if reader is None:
+            try:
+                reader = d2_mem.BuffReader() if d2_mem else None
+            except Exception:
+                reader = None
+            if reader is None:
+                send({"ok": False})
+                time.sleep(2.0)
+                continue
+        try:
+            res = reader.poll(time.perf_counter())
+        except Exception:
+            try:
+                reader.g.close()
+            except Exception:
+                pass
+            reader = None
+            send({"ok": False})
+            time.sleep(0.5)
+            continue
+        if res is None:
+            # game closed or relaunched: attach to the new one; no data for 15 s while the
+            # game runs: start over with a fresh reader
+            now = time.perf_counter()
+            bad_since = bad_since or now
+            relaunch = now - bad_since > 15.0
+            if now - pid_check > 5.0:
+                pid_check = now
+                relaunch = relaunch or d2_mem.find_pid() != reader.g.pid
+            if not reader.alive() or relaunch:
+                bad_since = None
+                try:
+                    reader.g.close()
+                except Exception:
+                    pass
+                reader = None
+            send({"ok": False})
+            time.sleep(0.5)
+            continue
+        bad_since = None
+        buffs, cds, attrs, equipped = res
+        send({"ok": True, "t": time.time(), "buffs": buffs, "cds": cds, "attrs": attrs, "eq": equipped})
+        time.sleep(1 / 15)
+
+
 class ExactSource:
-    """Background thread reading the game's own buff and cooldown timers (read-only)."""
+    """The game's own buff/cooldown timers, health, souls and equipped artifacts, from the reader
+    process (reader_main). Restarts that process if it ever stops."""
 
     def __init__(self):
-        self.reader = None
         self.latest = None   # (time, buffs [(name, remaining, duration)], cooldowns {slot: (rem, dur)})
         self.attrs = {}      # Health, HealthMax, Souls, SoulsMax, HealthPotionCharges...
         self.equipped = {}   # equipment slot tag -> item tag
@@ -898,65 +956,65 @@ class ExactSource:
         threading.Thread(target=self._run, daemon=True).start()
 
     def _run(self):
+        import socket
+        import subprocess
+        srv = socket.socket()
+        srv.bind(("127.0.0.1", 0))
+        srv.listen(1)
+        port = srv.getsockname()[1]
         while not self._stop:
-            if self.reader is None:
-                try:
-                    self.reader = d2_mem.BuffReader() if d2_mem else None
-                except Exception:
-                    self.reader = None
-                if self.reader is None:
-                    self.ok = False
-                    time.sleep(3.0)
-                    continue
+            cmd = [c for c in child_command() if c != "--debug"] + ["--reader", str(port)]
+            proc = subprocess.Popen(cmd, cwd=HERE, creationflags=0x08000000)
+            srv.settimeout(60)
             try:
-                res = self.reader.poll(time.perf_counter())
-            except Exception:
-                try:
-                    self.reader.g.close()
-                except Exception:
-                    pass
-                self.reader = None
-                self.ok = False
-                time.sleep(0.5)
+                conn, _ = srv.accept()
+            except OSError:
+                proc.kill()
+                time.sleep(2.0)
                 continue
-            if res is None:
-                self.ok = False
-                # game closed or relaunched: drop the old process and attach to the new one;
-                # no data for 15 s while the game runs: start over with a fresh reader
-                now = time.perf_counter()
-                if getattr(self, "_bad_since", None) is None:
-                    self._bad_since = now
-                relaunch = now - self._bad_since > 15.0
-                if now - getattr(self, "_pid_check", 0.0) > 5.0:
-                    self._pid_check = now
-                    relaunch = relaunch or d2_mem.find_pid() != self.reader.g.pid
-                if not self.reader.alive() or relaunch:
-                    self._bad_since = None
-                    try:
-                        self.reader.g.close()
-                    except Exception:
-                        pass
-                    self.reader = None
-                time.sleep(0.5)
+            conn.settimeout(10)  # the reader sends several times a second; silence = stuck
+            buf = b""
+            try:
+                while not self._stop:
+                    chunk = conn.recv(1 << 16)
+                    if not chunk:
+                        break
+                    buf += chunk
+                    *lines, buf = buf.split(bytes([10]))
+                    if lines:
+                        self._handle(json.loads(lines[-1]))
+            except (OSError, ValueError):
+                pass
+            self.ok = False
+            try:
+                conn.close()
+            except OSError:
+                pass
+            if proc.poll() is None:
+                proc.kill()
+            time.sleep(1.0)
+
+    def _handle(self, msg):
+        if not msg.get("ok"):
+            self.ok = False
+            return
+        if msg["eq"]:  # a momentary empty read must not wipe the artifacts
+            self.equipped = msg["eq"]
+        out = {}
+        for defname, rem, dur, _st in msg["buffs"]:
+            name = mem_status_name(defname)
+            if not name or name not in STATUS_ICONS:
                 continue
-            self._bad_since = None
-            buffs, cds, attrs, equipped = res
-            if equipped:  # a momentary empty read must not wipe the artifacts
-                self.equipped = equipped
-            out = {}
-            for defname, rem, dur, _st in buffs:
-                name = mem_status_name(defname)
-                if not name or name not in STATUS_ICONS:
-                    continue
-                # no fixed duration = lasts while something keeps it up (e.g. standing in a Totem of
-                # Regeneration's area); the game shows these too, so show them without a countdown
-                rem = min(rem, dur) if dur > 0 else -1.0
-                if name not in out or rem > out[name][0] or (rem < 0 <= out[name][0]):
-                    out[name] = (rem, dur)
-            self.latest = (time.perf_counter(), [(n, r, d) for n, (r, d) in out.items()], cds)
-            self.attrs = attrs
-            self.ok = True
-            time.sleep(1 / 15)
+            # no fixed duration = lasts while something keeps it up (e.g. standing in a Totem of
+            # Regeneration's area); the game shows these too, so show them without a countdown
+            rem = min(rem, dur) if dur > 0 else -1.0
+            if name not in out or rem > out[name][0] or (rem < 0 <= out[name][0]):
+                out[name] = (rem, dur)
+        age = max(0.0, time.time() - msg["t"])
+        cds = {k: tuple(v) for k, v in msg["cds"].items()}
+        self.latest = (time.perf_counter() - age, [(n, r, d) for n, (r, d) in out.items()], cds)
+        self.attrs = msg["attrs"]
+        self.ok = True
 
     def fresh(self, t):
         return self.ok and self.latest is not None and t - self.latest[0] < 1.0
@@ -2146,6 +2204,8 @@ def supervise():
 
 
 def main():
+    if "--reader" in sys.argv:
+        return reader_main(int(sys.argv[sys.argv.index("--reader") + 1]))
     if "--child" not in sys.argv:
         return supervise()
     import faulthandler
